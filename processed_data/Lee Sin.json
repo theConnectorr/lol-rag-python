@@ -1,0 +1,205 @@
+{
+  "infobox": {
+    "Title": [
+      "Lee Sin"
+    ],
+    "Alias(es)": [
+      "The Blind Monk"
+    ],
+    "Species": [
+      "Human"
+    ],
+    "Pronoun": [
+      "He/Him"
+    ],
+    "Age": [
+      "Current36 – 41 years old Timeline Born956 AN – 961 AN Edit"
+    ],
+    "Weapon": [
+      "Dragon Stance"
+    ],
+    "Status": [
+      "Alive"
+    ],
+    "Place of origin": [
+      "Ionia (Modern Times)"
+    ],
+    "Current residence": [
+      "Shojin Monastery",
+      "Ionia"
+    ],
+    "Occupation": [
+      "Monk",
+      "Monastery Guardian"
+    ],
+    "Region": [
+      "Ionia"
+    ],
+    "Faction": [
+      "Shojin Order"
+    ],
+    "Korean name": [
+      "리 신"
+    ],
+    "Chinese name": [
+      "李青"
+    ],
+    "Japanese name": [
+      "リー・シン"
+    ],
+    "Russian name": [
+      "Ли Син"
+    ],
+    "Greek name": [
+      "Λι Σιν"
+    ],
+    "Related character": [
+      "Karma",
+      "Rakan",
+      "Xayah",
+      "Udyr"
+    ]
+  },
+  "mainContent": [
+    {
+      "number": "1",
+      "title": "Background",
+      "link": "#Background",
+      "children": [],
+      "textContent": "(TBA)"
+    },
+    {
+      "number": "2",
+      "title": "Appearance",
+      "link": "#Appearance",
+      "children": [],
+      "textContent": "Lee Sin is a tan-skinned man with a muscular, well-trained physique. His black hair is shaved with the exception of one long braid on the back of his head. His facial hair is little more than some light stubble. He has some black tattoos across his body, thick and angular lines. He typically wears traditional warrior-monk attire, going shirtless with baggy pants and wrappings on his hands and feet. The clothes are black and red and with white and gold accents. Most notably, he wears a red blindfold with a round blue gem set into the front."
+    },
+    {
+      "number": "3",
+      "title": "Personality",
+      "link": "#Personality",
+      "children": [],
+      "textContent": "(TBA)"
+    },
+    {
+      "number": "4",
+      "title": "Abilities",
+      "link": "#Abilities",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "5",
+      "title": "Relations",
+      "link": "#Relations",
+      "children": [
+        {
+          "number": "5.1",
+          "title": "Udyr",
+          "link": "#Udyr",
+          "children": [],
+          "textContent": "Lee Sin is a friend of Udyr who he met in the Freljord. With his help Lee Sin was able to repel Noxian invaders from his homeland, while Udyr was able to find peace and calmness with the help of the monks."
+        },
+        {
+          "number": "5.2",
+          "title": "Disciples",
+          "link": "#Disciples",
+          "children": [],
+          "textContent": "While Lee Sin has relations with all of the Shojin Order Dragon disciples, he has some deeper relations with 2 Ying Yue."
+        },
+        {
+          "number": "5.3",
+          "title": "Order of Shadow",
+          "link": "#Order_of_Shadow",
+          "children": [],
+          "textContent": "Lee Sin has fought members of the Order of Shadow, presumably because they defy the sacred balance of Ionia."
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Read More",
+      "link": "#Read_More",
+      "children": [
+        {
+          "number": "6.1",
+          "title": "Biography",
+          "link": "#Biography",
+          "children": [],
+          "textContent": ""
+        },
+        {
+          "number": "6.2",
+          "title": "Starring Champion",
+          "link": "#Starring_Champion",
+          "children": [],
+          "textContent": ""
+        },
+        {
+          "number": "6.3",
+          "title": "Mentioned Champion",
+          "link": "#Mentioned_Champion",
+          "children": [],
+          "textContent": ""
+        },
+        {
+          "number": "6.4",
+          "title": "Alternate Universes",
+          "link": "#Alternate_Universes",
+          "children": [],
+          "textContent": ""
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Trivia",
+      "link": "#Trivia",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "8",
+      "title": "Change log",
+      "link": "#Change_log",
+      "children": [],
+      "textContent": "The following change log is for the Character blurb found at the top of the article:\n\nFor historical versions of other stories, please see each story's respective change log."
+    },
+    {
+      "number": "9",
+      "title": "References",
+      "link": "#References",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "10",
+      "title": "See also",
+      "link": "#See_also",
+      "children": [],
+      "textContent": ""
+    }
+  ],
+  "gliner_entities": {
+    "Champion": [
+      "Lee Sin",
+      "Udyr"
+    ],
+    "Region": [
+      "Ionia",
+      "Freljord"
+    ],
+    "Weapon": [],
+    "Title": [
+      "Character blurb"
+    ],
+    "Organization": [
+      "Shojin Order",
+      "monks",
+      "Noxian invaders",
+      "Order of Shadow"
+    ],
+    "Family": []
+  }
+}

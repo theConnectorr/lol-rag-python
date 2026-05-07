@@ -1,0 +1,126 @@
+{
+  "infobox": {
+    "Title": [
+      "Rift Herald"
+    ],
+    "Nickname": [
+      "Shelly",
+      "Shirley"
+    ],
+    "Alias(es)": [
+      "Void Scuttler",
+      "The Big One"
+    ],
+    "Species": [
+      "Voidborn"
+    ],
+    "Pronoun": [
+      "She/Her"
+    ],
+    "Age": [
+      "Unknown Edit"
+    ],
+    "Place of origin": [
+      "Void"
+    ],
+    "Current residence": [
+      "Runeterra"
+    ],
+    "Region": [
+      "Void"
+    ],
+    "Faction": [
+      "Void"
+    ]
+  },
+  "mainContent": [
+    {
+      "number": "1",
+      "title": "Background",
+      "link": "#Background",
+      "children": [],
+      "textContent": "As a voidborn, it is made to adapt to its surroundings, consuming any life and adding its essence into its form. The Rift Herald at one point consumed a Scuttle Crab, taking some of the crabs physical features. It is unclear if there are more than one examples of a rift herald on Runeterra Prime, as such it should be considered as an endling sub-species of voidborn."
+    },
+    {
+      "number": "2",
+      "title": "Appearance",
+      "link": "#Appearance",
+      "children": [],
+      "textContent": "The Rift Herald takes on some of the Scuttle Crab's physical features such as the back shell, mandible face area, as well as an affinity to watery areas. Unlike a scuttle crab, it is bipedal, with sharp claws for arms and a long barbed tail. Its body emanates a purple glow common among voidborn."
+    },
+    {
+      "number": "3",
+      "title": "Personality",
+      "link": "#Personality",
+      "children": [],
+      "textContent": "(TBA)"
+    },
+    {
+      "number": "4",
+      "title": "Abilities",
+      "link": "#Abilities",
+      "children": [],
+      "textContent": "(TBA)"
+    },
+    {
+      "number": "5",
+      "title": "Relations",
+      "link": "#Relations",
+      "children": [],
+      "textContent": "The Rift Herald has no known relations with the Runeterra Prime universe."
+    },
+    {
+      "number": "6",
+      "title": "Read More",
+      "link": "#Read_More",
+      "children": [
+        {
+          "number": "6.1",
+          "title": "Starring Champion",
+          "link": "#Starring_Champion",
+          "children": [],
+          "textContent": ""
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Trivia",
+      "link": "#Trivia",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "8",
+      "title": "Media",
+      "link": "#Media",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "9",
+      "title": "See also",
+      "link": "#See_also",
+      "children": [],
+      "textContent": ""
+    }
+  ],
+  "gliner_entities": {
+    "Champion": [],
+    "Region": [
+      "Runeterra Prime",
+      "watery areas"
+    ],
+    "Weapon": [
+      "Scuttle Crab"
+    ],
+    "Title": [
+      "Rift Herald",
+      "rift herald"
+    ],
+    "Organization": [
+      "The Rift Herald"
+    ],
+    "Family": []
+  }
+}

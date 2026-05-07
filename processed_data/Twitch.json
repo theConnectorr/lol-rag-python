@@ -1,0 +1,179 @@
+{
+  "infobox": {
+    "Title": [
+      "Twitch"
+    ],
+    "Alias(es)": [
+      "The Plague Rat"
+    ],
+    "Species": [
+      "Plague Rat"
+    ],
+    "Pronoun": [
+      "He/Him"
+    ],
+    "Age": [
+      "Current3 – 11 years old Timeline Born986 AN – 994 AN Edit"
+    ],
+    "Weapon": [
+      "Chemtech Crossbow",
+      "Venom Casks"
+    ],
+    "Status": [
+      "Alive"
+    ],
+    "Place of origin": [
+      "Zaun"
+    ],
+    "Current residence": [
+      "Zaun"
+    ],
+    "Occupation": [
+      "Scavenger"
+    ],
+    "Region": [
+      "Zaun"
+    ],
+    "Korean name": [
+      "트위치"
+    ],
+    "Chinese name": [
+      "图奇"
+    ],
+    "Japanese name": [
+      "トゥイッチ"
+    ],
+    "Russian name": [
+      "Твич"
+    ],
+    "Greek name": [
+      "Τουίτς"
+    ],
+    "Related character": [
+      "Singed",
+      "Zac"
+    ]
+  },
+  "mainContent": [
+    {
+      "number": "1",
+      "title": "Background",
+      "link": "#Background",
+      "children": [],
+      "textContent": "Twitch was born a plague rat in Zaun, though not much else is known about his past. Over time, he would become a collector of garbage in the sewers, which he considered to be priceless treasures. In a H.I.V.E. incident report, investigators recorded an encounter with Twitch in an industrial facility, where he attacked several scientists and killed several members of the response team. The team recovered a number of items belonging to Twitch, which consisted entirely of garbage. Since then, the rat has become one of many local bogeymen rumored about in the area."
+    },
+    {
+      "number": "2",
+      "title": "Appearance",
+      "link": "#Appearance",
+      "children": [],
+      "textContent": "Twitch is a disheveled anthropomorphic rat with faded, moss-green fur, a hunched posture, and a prehensile tail. His jagged claws and buck teeth are a dirty, washed-out yellow. He has pink eyes as well as pink skin visible on his nose and the inside of his ears.\n\nHis attire is ragged and torn, most notably a green overcoat with the sleeves ripped off. It has a faded gold trim, twin tails, and a wide, flared collar. He has numerous straps and pouches carrying flasks of green poison and other miscellanea. He also wears a cracked pair of goggles. There are rusted metal plates armoring his right arm where he carries his crossbow. The makeshift mechanical crossbow is fastened with a chamber that loads his bolts with green chemicals."
+    },
+    {
+      "number": "3",
+      "title": "Personality",
+      "link": "#Personality",
+      "children": [],
+      "textContent": "Twitch considers himself a \"connoisseur of the finer things\", by which he means garbage and filth thrown into the Sump by Piltover. He behaves pretentiously around others and doesn't believe in \"sharing\", combining a collector's spirit with unabashedly disgusting habits. He has an unpredictable, sneaky, and mischievous side, taking pleasure in scaring people and harming scuttle crabs with his vile sewer concoctions. He doesn't seem to have any regard for human life, being responsible for a number of industrial homicides in the Sump works with no clear motive."
+    },
+    {
+      "number": "4",
+      "title": "Abilities",
+      "link": "#Abilities",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "5",
+      "title": "Relations",
+      "link": "#Relations",
+      "children": [
+        {
+          "number": "5.1",
+          "title": "Piltover",
+          "link": "#Piltover",
+          "children": [],
+          "textContent": "Twitch doesn't respect Piltover, referring to them as \"Topside fools\" for throwing away what he considers priceless treasures."
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Read More",
+      "link": "#Read_More",
+      "children": [
+        {
+          "number": "6.1",
+          "title": "Biography",
+          "link": "#Biography",
+          "children": [],
+          "textContent": ""
+        },
+        {
+          "number": "6.2",
+          "title": "Starring Champion",
+          "link": "#Starring_Champion",
+          "children": [],
+          "textContent": ""
+        },
+        {
+          "number": "6.3",
+          "title": "Alternate Universes",
+          "link": "#Alternate_Universes",
+          "children": [],
+          "textContent": ""
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Trivia",
+      "link": "#Trivia",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "8",
+      "title": "Change log",
+      "link": "#Change_log",
+      "children": [],
+      "textContent": "The following change log is for the Character blurb found at the top of the article:\n\nFor historical versions of other stories, please see each story's respective change log."
+    },
+    {
+      "number": "9",
+      "title": "References",
+      "link": "#References",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "10",
+      "title": "See also",
+      "link": "#See_also",
+      "children": [],
+      "textContent": ""
+    }
+  ],
+  "gliner_entities": {
+    "Champion": [],
+    "Region": [
+      "Zaun"
+    ],
+    "Weapon": [
+      "crossbow",
+      "makeshift mechanical crossbow"
+    ],
+    "Title": [
+      "Character blurb",
+      "connoisseur of the finer things"
+    ],
+    "Organization": [
+      "H.I.V.E.",
+      "investigators",
+      "response team",
+      "Piltover",
+      "Topside fools"
+    ],
+    "Family": []
+  }
+}

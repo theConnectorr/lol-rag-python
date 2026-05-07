@@ -1,0 +1,234 @@
+{
+  "infobox": {
+    "Title": [
+      "Tristana"
+    ],
+    "Alias(es)": [
+      "The Yordle Gunner"
+    ],
+    "Species": [
+      "Yordle"
+    ],
+    "Pronoun": [
+      "She/Her"
+    ],
+    "Age": [
+      "Unknown Edit"
+    ],
+    "Weapon": [
+      "Boomer",
+      "Explosive Charge"
+    ],
+    "Status": [
+      "Alive"
+    ],
+    "Place of origin": [
+      "Bandle City"
+    ],
+    "Current residence": [
+      "Bandle City"
+    ],
+    "Occupation": [
+      "Guardian of the Bandlewoods",
+      "Member of the Bandle Gunners"
+    ],
+    "Region": [
+      "Bandle City"
+    ],
+    "Korean name": [
+      "트리스타나"
+    ],
+    "Chinese name": [
+      "崔丝塔娜"
+    ],
+    "Japanese name": [
+      "トリスターナ"
+    ],
+    "Russian name": [
+      "Тристана"
+    ],
+    "Greek name": [
+      "Τριστάνα"
+    ],
+    "Related character": [
+      "Yuumi",
+      "Teemo",
+      "Rumble",
+      "Kled",
+      "Poppy",
+      "Lulu",
+      "Corki",
+      "Draven",
+      "Graves",
+      "Twisted Fate"
+    ]
+  },
+  "mainContent": [
+    {
+      "number": "1",
+      "title": "Background",
+      "link": "#Background",
+      "children": [
+        {
+          "number": "1.1",
+          "title": "Early life",
+          "link": "#Early_life",
+          "children": [],
+          "textContent": "(TBA)"
+        },
+        {
+          "number": "1.2",
+          "title": "Meeting Lulu",
+          "link": "#Meeting_Lulu",
+          "children": [],
+          "textContent": "(TBA)"
+        },
+        {
+          "number": "1.3",
+          "title": "Saving Teemo",
+          "link": "#Saving_Teemo",
+          "children": [],
+          "textContent": "(TBA)"
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Appearance",
+      "link": "#Appearance",
+      "children": [],
+      "textContent": "(TBA)"
+    },
+    {
+      "number": "3",
+      "title": "Personality",
+      "link": "#Personality",
+      "children": [],
+      "textContent": "Tristana has a very rowdy and impulsive personality. She's very excitable (especially when it comes to fighting) and more often than not tends to act without much forethought, in spite of how much she truly means well. One of Tristana's most defining traits is her ambition towards becoming a hero and creating her own adventure, being the reason why she became the feisty and strong-willed powerhouse she is today in the first place. Tristana is also incredibly selfless in spite of how scatterbrained and wacky she is otherwise, as she has protected Bandle City's gateways from mortals of Runeterra to the point of inspiring other yordles to protect the city as well."
+    },
+    {
+      "number": "4",
+      "title": "Abilities",
+      "link": "#Abilities",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "5",
+      "title": "Relations",
+      "link": "#Relations",
+      "children": [
+        {
+          "number": "5.1",
+          "title": "Other Yordles",
+          "link": "#Other_Yordles",
+          "children": [],
+          "textContent": "Tristana, Teemo, Lulu and Corki are friends. Tristana finds Lulu to be quite a handful and a bothersome yordle, but appreciates her willingness to help. Rumble has an obvious crush on Tristana, having named his mech 'Tristy' after her."
+        },
+        {
+          "number": "5.2",
+          "title": "Draven",
+          "link": "#Draven",
+          "children": [],
+          "textContent": "Draven had encountered both Lulu and Tristana, fought and fled from them during his return trip from Basilich to Noxus Prime."
+        },
+        {
+          "number": "5.3",
+          "title": "Graves",
+          "link": "#Graves",
+          "children": [],
+          "textContent": "Graves captured Teemo for the bounty on yordles while Twisted Fate refuses because \"messing with Yordles brings a whole heap of trouble.\" Corki, Lulu and Tristana fought Graves when trying to save Teemo, which ended up in Graves being turned into a frog and the Yordles escaping."
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Read More",
+      "link": "#Read_More",
+      "children": [
+        {
+          "number": "6.1",
+          "title": "Biography",
+          "link": "#Biography",
+          "children": [],
+          "textContent": ""
+        },
+        {
+          "number": "6.2",
+          "title": "Starring Champion",
+          "link": "#Starring_Champion",
+          "children": [],
+          "textContent": ""
+        },
+        {
+          "number": "6.3",
+          "title": "Mentioned Champion",
+          "link": "#Mentioned_Champion",
+          "children": [],
+          "textContent": ""
+        },
+        {
+          "number": "6.4",
+          "title": "Alternate Universes",
+          "link": "#Alternate_Universes",
+          "children": [],
+          "textContent": ""
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Trivia",
+      "link": "#Trivia",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "8",
+      "title": "Change log",
+      "link": "#Change_log",
+      "children": [],
+      "textContent": "The following change log is for the Character blurb found at the top of the article:\n\nFor historical versions of other stories, please see each story's respective change log."
+    },
+    {
+      "number": "9",
+      "title": "References",
+      "link": "#References",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "10",
+      "title": "See also",
+      "link": "#See_also",
+      "children": [],
+      "textContent": ""
+    }
+  ],
+  "gliner_entities": {
+    "Champion": [
+      "Draven",
+      "Corki",
+      "Graves",
+      "Tristana"
+    ],
+    "Region": [
+      "Basilich",
+      "Runeterra",
+      "Noxus Prime"
+    ],
+    "Weapon": [
+      "Tristy"
+    ],
+    "Title": [
+      "Character blurb",
+      "hero"
+    ],
+    "Organization": [],
+    "Family": [
+      "Lulu",
+      "Yordles",
+      "Tristana"
+    ]
+  }
+}

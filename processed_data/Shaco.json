@@ -1,0 +1,183 @@
+{
+  "infobox": {
+    "Title": [
+      "Shaco"
+    ],
+    "Alias(es)": [
+      "The Demon Jester"
+    ],
+    "Species": [
+      "Unknown"
+    ],
+    "Pronoun": [
+      "He/Him"
+    ],
+    "Age": [
+      "Unknown Edit"
+    ],
+    "Weapon": [
+      "Poisoned Dual Shivs",
+      "Jacks in the Boxes",
+      "Hallucination"
+    ],
+    "Status": [
+      "Alive"
+    ],
+    "Place of origin": [
+      "Unknown"
+    ],
+    "Current residence": [
+      "Unknown (No Fixed Abode)"
+    ],
+    "Occupation": [
+      "Homicidal Jester",
+      "Toy"
+    ],
+    "Region": [
+      "Runeterra"
+    ],
+    "Korean name": [
+      "샤코"
+    ],
+    "Chinese name": [
+      "萨科"
+    ],
+    "Japanese name": [
+      "シャコ"
+    ],
+    "Russian name": [
+      "Шако"
+    ],
+    "Greek name": [
+      "Σάκο"
+    ],
+    "Related character": [
+      "Fiddlesticks",
+      "Nocturne"
+    ]
+  },
+  "mainContent": [
+    {
+      "number": "1",
+      "title": "Background",
+      "link": "#Background",
+      "children": [
+        {
+          "number": "1.1",
+          "title": "Early Life",
+          "link": "#Early_Life",
+          "children": [],
+          "textContent": "Shaco was once a toy made for a young prince."
+        },
+        {
+          "number": "1.2",
+          "title": "Corruption and Sentience",
+          "link": "#Corruption_and_Sentience",
+          "children": [],
+          "textContent": "At some point, the prince that owned Shaco died, and through dark magic and corruption caused by the death of his owner, Shaco gained sentience. Soon, he started killing people and delighting in their pain. Shaco became a highly sought after fugitive by authorities due to his high number of crimes, and he is now a widely known criminal with no one knowing his origins or the motives behind his crimes."
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Appearance",
+      "link": "#Appearance",
+      "children": [],
+      "textContent": "Shaco dons the outfit of a jester with checkered pants, gold buttons, and spiked shoulderplates. He has pale skin, a disproportionately wide smile, and eyes with no pupils."
+    },
+    {
+      "number": "3",
+      "title": "Personality",
+      "link": "#Personality",
+      "children": [],
+      "textContent": "Shaco is an insane individual, committing atrocities just because he feels like it. He delights in others' pain and often finds what he does funny. There is no real motive to his crimes, although it is possible that he only does these things to entertain himself."
+    },
+    {
+      "number": "4",
+      "title": "Abilities",
+      "link": "#Abilities",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "5",
+      "title": "Relations",
+      "link": "#Relations",
+      "children": [],
+      "textContent": "Shaco has no known relations with any existing or known characters."
+    },
+    {
+      "number": "6",
+      "title": "Read More",
+      "link": "#Read_More",
+      "children": [
+        {
+          "number": "6.1",
+          "title": "Biography",
+          "link": "#Biography",
+          "children": [],
+          "textContent": ""
+        },
+        {
+          "number": "6.2",
+          "title": "Starring Champion",
+          "link": "#Starring_Champion",
+          "children": [],
+          "textContent": ""
+        },
+        {
+          "number": "6.3",
+          "title": "Alternate Universes",
+          "link": "#Alternate_Universes",
+          "children": [],
+          "textContent": ""
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Trivia",
+      "link": "#Trivia",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "8",
+      "title": "Change log",
+      "link": "#Change_log",
+      "children": [],
+      "textContent": "The following change log is for the Character blurb found at the top of the article:\n\nFor historical versions of other stories, please see each story's respective change log."
+    },
+    {
+      "number": "9",
+      "title": "References",
+      "link": "#References",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "10",
+      "title": "See also",
+      "link": "#See_also",
+      "children": [],
+      "textContent": ""
+    }
+  ],
+  "gliner_entities": {
+    "Champion": [],
+    "Region": [],
+    "Weapon": [
+      "spiked shoulderplates"
+    ],
+    "Title": [
+      "young prince",
+      "jester",
+      "fugitive",
+      "Character blurb"
+    ],
+    "Organization": [
+      "authorities"
+    ],
+    "Family": []
+  }
+}

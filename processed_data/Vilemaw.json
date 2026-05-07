@@ -1,0 +1,144 @@
+{
+  "infobox": {
+    "Title": [
+      "Vilemaw"
+    ],
+    "Nickname": [
+      "Spider God"
+    ],
+    "Species": [
+      "Spider"
+    ],
+    "Pronoun": [
+      "He/Him"
+    ],
+    "Age": [
+      "Unknown Edit"
+    ],
+    "Status": [
+      "Alive"
+    ],
+    "Place of origin": [
+      "Blessed Isles (Twisted Treeline)"
+    ],
+    "Current residence": [
+      "Shadow Isles (Twisted Treeline)"
+    ],
+    "Region": [
+      "Shadow Isles"
+    ],
+    "Faction": [
+      "Shadow Isles"
+    ],
+    "Related character": [
+      "Elise"
+    ]
+  },
+  "mainContent": [
+    {
+      "number": "1",
+      "title": "Background",
+      "link": "#Background",
+      "children": [],
+      "textContent": "This unearthly horror is a monstrous creature that looms in the darkest pits beneath the Shadow Isles. The true origin of Vilemaw is completely unknown, save for the assumption that the voracious spider god is an otherworldly life-form not originally from the Shadow Isles."
+    },
+    {
+      "number": "2",
+      "title": "Appearance",
+      "link": "#Appearance",
+      "children": [],
+      "textContent": "Resembling a spider whose grotesque mass is furred and scabbed with wet, mutant growths. Adorned with venomous fangs and colossal legs used to heave its corrupt body."
+    },
+    {
+      "number": "3",
+      "title": "Personality",
+      "link": "#Personality",
+      "children": [],
+      "textContent": "(TBA)"
+    },
+    {
+      "number": "4",
+      "title": "Abilities",
+      "link": "#Abilities",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "5",
+      "title": "Relations",
+      "link": "#Relations",
+      "children": [
+        {
+          "number": "5.1",
+          "title": "Elise",
+          "link": "#Elise",
+          "children": [],
+          "textContent": "Elise worships and aids Vilemaw."
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Read More",
+      "link": "#Read_More",
+      "children": [
+        {
+          "number": "6.1",
+          "title": "Starring Champion",
+          "link": "#Starring_Champion",
+          "children": [],
+          "textContent": ""
+        },
+        {
+          "number": "6.2",
+          "title": "Mentioned Champion",
+          "link": "#Mentioned_Champion",
+          "children": [],
+          "textContent": ""
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Trivia",
+      "link": "#Trivia",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "8",
+      "title": "Media",
+      "link": "#Media",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "9",
+      "title": "References",
+      "link": "#References",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "10",
+      "title": "See also",
+      "link": "#See_also",
+      "children": [],
+      "textContent": ""
+    }
+  ],
+  "gliner_entities": {
+    "Champion": [],
+    "Region": [
+      "Shadow Isles"
+    ],
+    "Weapon": [
+      "venomous fangs"
+    ],
+    "Title": [],
+    "Organization": [
+      "Vilemaw"
+    ],
+    "Family": []
+  }
+}

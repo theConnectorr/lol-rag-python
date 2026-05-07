@@ -1,0 +1,183 @@
+{
+  "infobox": {
+    "Title": [
+      "Maokai"
+    ],
+    "Alias(es)": [
+      "The Twisted Treant"
+    ],
+    "Species": [
+      "Treant"
+    ],
+    "Pronoun": [
+      "He/Him"
+    ],
+    "Age": [
+      "CurrentAt least 9996 years old Timeline BornEarlier than 9000 BN Edit"
+    ],
+    "Weapon": [
+      "Nature Magic"
+    ],
+    "Place of origin": [
+      "Blessed Isles"
+    ],
+    "Current residence": [
+      "Shadow Isles"
+    ],
+    "Family": [
+      "Saplings ('Children')"
+    ],
+    "Occupation": [
+      "Blessed Isles' Guardian",
+      "Undead Slayer"
+    ],
+    "Region": [
+      "Shadow Isles",
+      "Blessed Isles"
+    ],
+    "Korean name": [
+      "마오카이"
+    ],
+    "Chinese name": [
+      "茂凯"
+    ],
+    "Japanese name": [
+      "マオカイ"
+    ],
+    "Russian name": [
+      "Маокай"
+    ],
+    "Greek name": [
+      "Μαοκάι"
+    ],
+    "Related character": [
+      "Zyra",
+      "Yorick",
+      "Ahri",
+      "Braum",
+      "Yasuo",
+      "Illaoi",
+      "Miss Fortune",
+      "Pyke"
+    ]
+  },
+  "mainContent": [
+    {
+      "number": "1",
+      "title": "Background",
+      "link": "#Background",
+      "children": [
+        {
+          "number": "1.1",
+          "title": "The Ruination",
+          "link": "#The_Ruination",
+          "children": [],
+          "textContent": "When the Ruination broke out and the black fog began to cover the blessed islands, Maokai quickly tried to save all the sacred water he could by accumulating it in his roots and tried to quickly flee the islands but only managed to escape to the coast where he built a settlement."
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Appearance",
+      "link": "#Appearance",
+      "children": [],
+      "textContent": "(TBA)"
+    },
+    {
+      "number": "3",
+      "title": "Personality",
+      "link": "#Personality",
+      "children": [],
+      "textContent": "(TBA)"
+    },
+    {
+      "number": "4",
+      "title": "Abilities",
+      "link": "#Abilities",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "5",
+      "title": "Relations",
+      "link": "#Relations",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "6",
+      "title": "Read More",
+      "link": "#Read_More",
+      "children": [
+        {
+          "number": "6.1",
+          "title": "Biography",
+          "link": "#Biography",
+          "children": [],
+          "textContent": ""
+        },
+        {
+          "number": "6.2",
+          "title": "Starring Champion",
+          "link": "#Starring_Champion",
+          "children": [],
+          "textContent": ""
+        },
+        {
+          "number": "6.3",
+          "title": "Mentioned Champion",
+          "link": "#Mentioned_Champion",
+          "children": [],
+          "textContent": ""
+        },
+        {
+          "number": "6.4",
+          "title": "Alternate Universes",
+          "link": "#Alternate_Universes",
+          "children": [],
+          "textContent": ""
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Trivia",
+      "link": "#Trivia",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "8",
+      "title": "Change log",
+      "link": "#Change_log",
+      "children": [],
+      "textContent": "The following change log is for the Character blurb found at the top of the article:\n\nFor historical versions of other stories, please see each story's respective change log."
+    },
+    {
+      "number": "9",
+      "title": "References",
+      "link": "#References",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "10",
+      "title": "See also",
+      "link": "#See_also",
+      "children": [],
+      "textContent": ""
+    }
+  ],
+  "gliner_entities": {
+    "Champion": [],
+    "Region": [
+      "coast"
+    ],
+    "Weapon": [],
+    "Title": [
+      "Character blurb"
+    ],
+    "Organization": [],
+    "Family": []
+  }
+}

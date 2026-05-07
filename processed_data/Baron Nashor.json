@@ -1,0 +1,149 @@
+{
+  "infobox": {
+    "Title": [
+      "Baron Nashor"
+    ],
+    "Nickname": [
+      "Baron",
+      "Lord Baron"
+    ],
+    "Alias(es)": [
+      "The Hydra",
+      "10 The Scourge"
+    ],
+    "Species": [
+      "Voidborn"
+    ],
+    "Pronoun": [
+      "He/Him"
+    ],
+    "Age": [
+      "Unknown Edit ."
+    ],
+    "Place of origin": [
+      "Void"
+    ],
+    "Current residence": [
+      "Runeterra"
+    ],
+    "Region": [
+      "Void"
+    ],
+    "Faction": [
+      "Void"
+    ]
+  },
+  "mainContent": [
+    {
+      "number": "1",
+      "title": "Background",
+      "link": "#Background",
+      "children": [],
+      "textContent": "While not much is known about the Baron's origins, just like any other Voidborn, it takes on a similar shape to what it consumes. Baron Nashor has likely consumed a serpent akin to a Grellfeen or a Sea Serpent."
+    },
+    {
+      "number": "2",
+      "title": "Appearance",
+      "link": "#Appearance",
+      "children": [],
+      "textContent": "This one of a kind creature has a similar shape and behavior to a serpent like a Grellfeen or a Sea Serpent. What differentiates him from a regular serpent is his numerous arachnid appendages, as well as two additional mouths protruding from his upper neck. The creature has 12 eyes (some of them injured due to past battles), a mouth with sharp teeth that can gape open wide for larger prey, and horned like crests on the top of the head. The colors of the creatures exoskeleton go from dark purple to light teal."
+    },
+    {
+      "number": "3",
+      "title": "Personality",
+      "link": "#Personality",
+      "children": [],
+      "textContent": "Baron Nashor is a monstrous and animalistic creature who is hostile to other life forms. As he is not known to speak, little is known about his actual personality. Legends of 10 The Scourge describe him as a patient and power-hungry being who will one day seek the world's annihilation."
+    },
+    {
+      "number": "4",
+      "title": "Abilities",
+      "link": "#Abilities",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "5",
+      "title": "Relations",
+      "link": "#Relations",
+      "children": [
+        {
+          "number": "5.1",
+          "title": "Runeterra",
+          "link": "#Runeterra",
+          "children": [],
+          "textContent": "This creature is well known to the cultures of Runeterra, so much so that it has its own constellation in the celestial realms. Legends say that the Baron itself ascended by sheer force of will, while others say that a celestial dragon created the constellation to one day target against Runeterra itself out of revenge."
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Read More",
+      "link": "#Read_More",
+      "children": [
+        {
+          "number": "6.1",
+          "title": "Starring Champion",
+          "link": "#Starring_Champion",
+          "children": [],
+          "textContent": ""
+        },
+        {
+          "number": "6.2",
+          "title": "Alternate Universes",
+          "link": "#Alternate_Universes",
+          "children": [],
+          "textContent": ""
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Trivia",
+      "link": "#Trivia",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "8",
+      "title": "Media",
+      "link": "#Media",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "9",
+      "title": "References",
+      "link": "#References",
+      "children": [],
+      "textContent": ""
+    },
+    {
+      "number": "10",
+      "title": "See also",
+      "link": "#See_also",
+      "children": [],
+      "textContent": ""
+    }
+  ],
+  "gliner_entities": {
+    "Champion": [
+      "Baron Nashor"
+    ],
+    "Region": [
+      "Runeterra"
+    ],
+    "Weapon": [
+      "Grellfeen",
+      "Sea Serpent"
+    ],
+    "Title": [
+      "Baron",
+      "Baron Nashor"
+    ],
+    "Organization": [
+      "The Scourge"
+    ],
+    "Family": []
+  }
+}
