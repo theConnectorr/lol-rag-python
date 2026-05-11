@@ -10,9 +10,12 @@ from src.core.plugins import (
 from src.retrievers.postgres_vector_retriever import PostgresVectorRetriever
 from src.retrievers.neo4j_graph_retriever import Neo4jGraphRetriever
 from src.retrievers.hybrid_rrf_retriever import HybridRRFRetriever
+from src.core.logger import setup_logger
+
+logger = setup_logger(__name__)
 
 # ==========================================
-# CẤU HÌNH MÀU SẮC TERMINAL (ANSI COLORS)
+# TERMINAL COLOR CONFIGURATION (ANSI COLORS)
 # ==========================================
 class Colors:
     HEADER = '\033[95m'
@@ -25,19 +28,24 @@ class Colors:
     BOLD = '\033[1m'
 
 # ==========================================
-# KHỞI TẠO HỆ THỐNG
+# SYSTEM INITIALIZATION
 # ==========================================
 def initialize_engine():
-    print(f"{Colors.CYAN}⏳ Đang khởi động RAG Engine (Model: {config.LLM_MODEL})...{Colors.ENDC}")
-    
+    logger.info(f"Starting RAG Engine (Model: {config.LLM_MODEL})...")
+    print(f"{Colors.CYAN}⏳ Starting RAG Engine (Model: {config.LLM_MODEL})...{Colors.ENDC}")
+
     try:
-        # Nếu bạn đã bơm dữ liệu vào Postgres/Neo4j bằng Python rồi thì mở comment 2 dòng dưới:
-        vector_retriever = PostgresVectorRetriever(config.POSTGRES_URI, config.POSTGRES_COLLECTION)
-        graph_retriever = Neo4jGraphRetriever(config.NEO4J_URI, config.NEO4J_USER, config.NEO4J_PASSWORD)
-        
-        # TẠM THỜI DÙNG DUMMY RETRIEVER NẾU CHƯA CÓ DATA MỚI
-        # vector_retriever = DummyVectorRetriever()
-        # graph_retriever = DummyVectorRetriever()
+        # If you have already ingested data into Postgres/Neo4j using Python, uncomment these lines:
+        vector_retriever = PostgresVectorRetriever(
+            config.POSTGRES_URI, 
+            config.POSTGRES_COLLECTION
+        )
+
+        graph_retriever = Neo4jGraphRetriever(
+            config.NEO4J_URI, 
+            config.NEO4J_USER, 
+            config.NEO4J_PASSWORD
+        )
 
         engine = RAGEngine(
             router=KeywordRouter(),
@@ -52,62 +60,66 @@ def initialize_engine():
                 temperature=config.LLM_TEMPERATURE
             )
         )
-        print(f"{Colors.GREEN}✅ Khởi động thành công! Đã kết nối LLM & Cơ sở dữ liệu.{Colors.ENDC}\n")
+
+        logger.info("Startup successful! Connected to LLM & Databases.")
+        print(f"{Colors.GREEN}✅ Startup successful! Connected to LLM & Databases.{Colors.ENDC}\n")
         return engine
     except Exception as e:
-        print(f"{Colors.RED}❌ Lỗi khởi tạo: {e}{Colors.ENDC}")
+        logger.error(f"Initialization error: {e}", exc_info=True)
+        print(f"{Colors.RED}❌ Initialization error: {e}{Colors.ENDC}")
         exit(1)
 
 # ==========================================
-# VÒNG LẶP CHAT (INTERACTIVE LOOP)
+# INTERACTIVE CHAT LOOP
 # ==========================================
 def main():
     engine = initialize_engine()
-    
+
     print(f"{Colors.HEADER}{Colors.BOLD}===================================================={Colors.ENDC}")
     print(f"{Colors.HEADER}{Colors.BOLD}🗡️  LEAGUE OF LEGENDS - HYBRID RAG CHATBOT  🗡️{Colors.ENDC}")
     print(f"{Colors.HEADER}{Colors.BOLD}===================================================={Colors.ENDC}")
-    print(f"Gõ {Colors.RED}'quit'{Colors.ENDC} hoặc {Colors.RED}'exit'{Colors.ENDC} để thoát.\n")
+    print(f"Type {Colors.RED}'quit'{Colors.ENDC} or {Colors.RED}'exit'{Colors.ENDC} to exit.\n")
 
     while True:
         try:
-            # 1. Nhận câu hỏi từ user
-            user_input = input(f"{Colors.GREEN}{Colors.BOLD}👤 Bạn: {Colors.ENDC}")
-            
+            # 1. Get user input
+            user_input = input(f"{Colors.GREEN}{Colors.BOLD}👤 You: {Colors.ENDC}")
+
             if user_input.lower() in ['quit', 'exit']:
-                print(f"\n{Colors.CYAN}👋 Tạm biệt! Hẹn gặp lại trên Summoner's Rift.{Colors.ENDC}")
+                print(f"\n{Colors.CYAN}👋 Goodbye! See you on Summoner's Rift.{Colors.ENDC}")
                 break
-                
+
             if not user_input.strip():
                 continue
 
-            # 2. Xử lý qua RAGEngine
+            # 2. Process through RAGEngine
             start_time = time.time()
-            print(f"{Colors.YELLOW}🧠 Hệ thống đang suy nghĩ...{Colors.ENDC}")
-            
+            print(f"{Colors.YELLOW}🧠 System is thinking...{Colors.ENDC}")
+
             result = engine.answer_question(user_input)
-            
+
             latency = time.time() - start_time
 
-            # 3. In Metadata (Dấu vết hoạt động)
-            print(f"{Colors.CYAN}   ↳ 🔀 Định tuyến (Intent): {Colors.BOLD}{result['intent']}{Colors.ENDC}")
-            print(f"{Colors.CYAN}   ↳ 📚 Phích cắm (Retriever): {result['active_route']}{Colors.ENDC}")
-            print(f"{Colors.CYAN}   ↳ ⏱️ Thời gian phản hồi: {latency:.2f} giây{Colors.ENDC}")
-            
-            # Trích xuất 150 ký tự đầu của Context để debug
-            context_preview = result['context'].replace('\n', ' ')[:150] + "..."
-            print(f"{Colors.CYAN}   ↳ 📝 Ngữ cảnh tìm được: {context_preview}{Colors.ENDC}\n")
+            # 3. Print Metadata (Traceability)
+            print(f"{Colors.CYAN}   ↳ 🔀 Routing (Intent): {Colors.BOLD}{result['intent']}{Colors.ENDC}")
+            print(f"{Colors.CYAN}   ↳ 📚 Retriever: {result['active_route']}{Colors.ENDC}")
+            print(f"{Colors.CYAN}   ↳ ⏱️ Response Time: {latency:.2f} seconds{Colors.ENDC}")
 
-            # 4. In câu trả lời cuối cùng
+            # Extract first 150 characters of Context for debug
+            context_preview = result['context'].replace('\n', ' ')[:150] + "..."
+            print(f"{Colors.CYAN}   ↳ 📝 Found Context: {context_preview}{Colors.ENDC}\n")
+
+            # 4. Print final answer
             print(f"{Colors.HEADER}{Colors.BOLD}🤖 RAG Bot: {Colors.ENDC}{result['answer']}")
             print(f"\n{Colors.BLUE}----------------------------------------------------{Colors.ENDC}\n")
 
         except KeyboardInterrupt:
-            # Xử lý khi user bấm Ctrl+C
-            print(f"\n\n{Colors.CYAN}👋 Tạm biệt!{Colors.ENDC}")
+            # Handle Ctrl+C
+            print(f"\n\n{Colors.CYAN}👋 Goodbye!{Colors.ENDC}")
             break
         except Exception as e:
-            print(f"{Colors.RED}\n❌ Đã xảy ra lỗi: {e}{Colors.ENDC}\n")
+            logger.error(f"Error during chat loop: {e}", exc_info=True)
+            print(f"{Colors.RED}\n❌ An error occurred: {e}{Colors.ENDC}\n")
 
 if __name__ == "__main__":
     main()
