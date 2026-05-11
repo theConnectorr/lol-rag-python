@@ -1,26 +1,26 @@
 from abc import ABC, abstractmethod
 
 class IRetriever(ABC):
-    """Ổ cắm cho mọi thuật toán Truy xuất dữ liệu (Vector, Graph, BM25)"""
+    """Interface for all data retrieval algorithms (Vector, Graph, BM25)"""
     @abstractmethod
-    def retrieve(self, query: str) -> str:
+    def retrieve(self, query: str) -> list[str]:
         pass
 
 class IPromptBuilder(ABC):
-    """Ổ cắm cho mọi kỹ thuật Prompting (Zero-shot, Few-shot, CoT)"""
+    """Interface for all prompting techniques (Zero-shot, Few-shot, CoT)"""
     @abstractmethod
     def build(self, query: str, context: str) -> str:
         pass
 
 class IModelGenerator(ABC):
-    """Ổ cắm cho mọi Mô hình Sinh văn bản (Gemma, Llama, Gemini API)"""
+    """Interface for all text generation models (Gemma, Llama, Gemini API)"""
     @abstractmethod
     def generate(self, prompt: str) -> str:
         pass
 
 class IRouter(ABC):
-    """Ổ cắm cho Bộ phân tích Truy vấn (Query Router)"""
+    """Interface for Query Analysis (Query Router)"""
     @abstractmethod
     def route(self, query: str) -> str:
-        """Trả về nhãn luồng: 'Vector', 'Graph', hoặc 'Hybrid'"""
+        """Returns the flow label: 'Vector', 'Graph', or 'Hybrid'"""
         pass

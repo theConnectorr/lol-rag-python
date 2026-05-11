@@ -15,30 +15,33 @@ from src.core.plugins import (
     StandardPrompt,
     LocalLLMGenerator
 )
+from src.core.logger import setup_logger
+
+logger = setup_logger(__name__)
 
 # ==========================================
-# 1. CẤU HÌNH GIÁM KHẢO (JUDGE LLM)
+# 1. JUDGE LLM CONFIGURATION
 # ==========================================
 judge_llm = ChatOllama(model=config.LLM_MODEL, temperature=0) 
 
 JUDGE_PROMPT = PromptTemplate.from_template("""
-Bạn là một giám khảo chuyên gia. Hãy so sánh CÂU TRẢ LỜI THỰC TẾ với CÂU TRẢ LỜI MẪU (Ground Truth).
-Chấm điểm từ 0 đến 10 dựa trên:
-- Độ chính xác thông tin (Trọng số cao nhất).
-- Sự đầy đủ so với ý chính của mẫu.
+You are an expert judge. Compare the ACTUAL ANSWER with the GROUND TRUTH.
+Score from 0 to 10 based on:
+- Information accuracy (Highest weight).
+- Completeness compared to the main points of the ground truth.
 
-Chỉ trả về duy nhất một con số từ 0 đến 10. Không giải thích.
+Only return a single number from 0 to 10. Do not explain.
 
---- CÂU TRẢ LỜI MẪU ---
+--- GROUND TRUTH ---
 {ground_truth}
 
---- CÂU TRẢ LỜI THỰC TẾ ---
+--- ACTUAL ANSWER ---
 {actual_answer}
 
-Điểm số:""")
+Score:""")
 
 # ==========================================
-# 2. KHỞI TẠO HỆ THỐNG
+# 2. SYSTEM INITIALIZATION
 # ==========================================
 vector_retriever = PostgresVectorRetriever(
     connection_string=config.POSTGRES_URI,
@@ -68,22 +71,22 @@ engine = RAGEngine(
     )
 )
 
-print(f"✅ Đã khởi tạo thành công RAGEngine với LLM: {config.LLM_MODEL}")
+logger.info(f"RAGEngine successfully initialized with LLM: {config.LLM_MODEL}")
 
 def run_benchmark(csv_path):
     if not os.path.exists(csv_path):
-        print(f"❌ Lỗi: Không tìm thấy file benchmark tại {csv_path}")
+        logger.error(f"Error: Benchmark file not found at {csv_path}")
         return
 
-    print(f"📊 Đang tải tập test từ: {csv_path}")
+    logger.info(f"Loading test set from: {csv_path}")
     df = pd.read_csv(csv_path)
     
-    # Giới hạn số câu để test nhanh
+    # Limit number of queries for fast testing
     # df = df.sample(min(20, len(df))) 
 
     results = []
     
-    print(f"🔎 Bắt đầu đánh giá {len(df)} câu hỏi...")
+    logger.info(f"Starting evaluation of {len(df)} questions...")
     
     for _, row in tqdm(df.iterrows(), total=len(df)):
         try:
@@ -91,18 +94,18 @@ def run_benchmark(csv_path):
             
             result = engine.answer_question(row['query'])
 
-            # A. Đo lường Routing
+            # A. Measure Routing
             actual_intent = result['intent']
             routing_is_correct = 1 if actual_intent.lower() == row['expected_intent'].lower() else 0
             
-            # B. Đo lường Retrieval
+            # B. Measure Retrieval
             context = result["context"]
             retrieval_is_hit = 1 if str(row['expected_context']).lower() in context.lower() else 0
             
-            # C. Đo lường Generation
+            # C. Measure Generation
             actual_answer = result["answer"]
             
-            # D. LLM-as-a-Judge chấm điểm
+            # D. LLM-as-a-Judge scoring
             prompt = JUDGE_PROMPT.format(
                 ground_truth=row['ground_truth_answer'],
                 actual_answer=actual_answer
@@ -123,14 +126,14 @@ def run_benchmark(csv_path):
                 "latency": latency
             })
         except Exception as e:
-            print(f"⚠️ Lỗi khi xử lý câu hỏi '{row['query']}': {e}")
+            logger.error(f"Error while processing question '{row['query']}': {e}")
             continue
 
     # ==========================================
-    # 4. TỔNG HỢP VÀ XUẤT BÁO CÁO
+    # 4. SUMMARY AND REPORT EXPORT
     # ==========================================
     if not results:
-        print("❌ Không có kết quả nào được tạo ra.")
+        logger.error("No results generated.")
         return
 
     res_df = pd.DataFrame(results)
@@ -144,17 +147,17 @@ def run_benchmark(csv_path):
     }
     
     print("\n" + "="*40)
-    print("🏆 BÁO CÁO HIỆU NĂNG HỆ THỐNG RAG")
+    print("🏆 RAG SYSTEM PERFORMANCE REPORT")
     print("="*40)
     for metric, value in report.items():
         print(f"{metric:30}: {value:.2f}")
     print("="*40)
     
     res_df.to_csv("evaluation_results.csv", index=False)
-    print("✅ Đã lưu kết quả chi tiết vào evaluation_results.csv")
+    logger.info("Detailed results saved to evaluation_results.csv")
 
 if __name__ == "__main__":
-    # Tự động tìm file benchmark ở root hoặc folder tests
+    # Automatically find benchmark file in root or tests folder
     csv_file = "benchmark_dataset_2000.csv"
     if not os.path.exists(csv_file):
         csv_file = "tests/benchmark_dataset_2000.csv"

@@ -1,6 +1,6 @@
 # src/core/text_utils.py
 def flatten_toc(items, current_section=""):
-    """Hàm đệ quy làm phẳng mục lục (TOC)"""
+    """Recursive function to flatten the Table of Contents (TOC)"""
     flat_list = []
     for item in items:
         section_name = item.get("title", "")

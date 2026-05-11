@@ -1,11 +1,11 @@
 import os
 from dotenv import load_dotenv
 
-# Tự động tìm và load file .env ở thư mục gốc
+# Automatically find and load .env file from the root directory
 load_dotenv()
 
 class Settings:
-    """Class chứa toàn bộ cấu hình của hệ thống"""
+    """Class containing all system configurations"""
     
     # --- Neo4j Settings ---
     NEO4J_URI = os.getenv("NEO4J_URI", "bolt://localhost:7687")
@@ -22,5 +22,5 @@ class Settings:
     LLM_MODEL = os.getenv("LLM_MODEL", "gemma3:1b")
     LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.1"))
 
-# Khởi tạo một object (Singleton) để dùng chung cho toàn dự án
+# Initialize a singleton object to be used across the project
 config = Settings()
