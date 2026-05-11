@@ -50,11 +50,6 @@ class KeywordRouter(IRouter):
 
         # # 1. GRAPH INTENT (Queries about entities, clear relationships, listings - Bilingual)
         # graph_keywords = [
-        #     # Vietnamese
-        #     "liệt kê", "bao nhiêu", "tất cả", "vũ khí", "vùng đất", 
-        #     "quê hương", "ai là", "mẹ của", "cha của", "anh trai", 
-        #     "em gái", "gia tộc", "vật dụng", "đến từ", "thuộc về",
-        #     # English
         #     "list", "how many", "all", "weapon", "region", 
         #     "homeland", "who is", "mother", "father", "brother", 
         #     "sister", "family", "item", "where is", "belong to", "wield"
@@ -64,10 +59,6 @@ class KeywordRouter(IRouter):
 
         # # 2. HYBRID INTENT (Cross-inference, relationship analysis + context - Bilingual)
         # hybrid_keywords = [
-        #     # Vietnamese
-        #     "tại sao", "mối quan hệ", "vai trò", "ảnh hưởng thế nào", 
-        #     "đóng vai trò gì", "so sánh", "nguyên nhân",
-        #     # English
         #     "why", "relationship", "role", "affect", "effect", 
         #     "compare", "reason", "connection", "interact", "between"
         # ]
@@ -76,10 +67,6 @@ class KeywordRouter(IRouter):
 
         # # 3. VECTOR INTENT (Psychology, history, past, description - Bilingual)
         # vector_keywords = [
-        #     # Vietnamese
-        #     "quá khứ", "tính cách", "sự kiện", "kể về", "tóm tắt", 
-        #     "trải qua", "lịch sử", "cảm thấy", "tiểu sử",
-        #     # English
         #     "past", "personality", "event", "tell me about", "summary", 
         #     "history", "feel", "lore", "background", "story", "describe"
         # ]
