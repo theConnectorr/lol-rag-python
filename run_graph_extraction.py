@@ -2,14 +2,17 @@ import os
 import json
 import subprocess
 import time
+from src.core.logger import setup_logger
+
+logger = setup_logger(__name__)
 
 DATA_DIR = "processed_data/"
 SKILL_FILE = ".gemini/skills/graph-extractor/SKILL.md"
 
 def load_skill_prompt():
     with open(SKILL_FILE, "r", encoding="utf-8") as f:
-        # Bỏ qua phần YAML frontmatter (từ --- đến ---) khi đưa vào prompt 
-        # để LLM tập trung 100% vào Instructions
+        # Skip YAML frontmatter (between --- and ---) when injecting into prompt
+        # to let LLM focus 100% on Instructions
         content = f.read()
         if content.startswith("---"):
             parts = content.split("---", 2)
@@ -27,7 +30,7 @@ def extract_json_from_text(text):
     return text.strip()
 
 def main():
-    print("🚀 Khởi động luồng trích xuất Knowledge Graph với chuẩn Agent Skills...")
+    logger.info("Starting Knowledge Graph extraction flow with standard Agent Skills...")
     skill_context = load_skill_prompt()
     
     files = [f for f in os.listdir(DATA_DIR) if f.endswith('.json')]
@@ -41,14 +44,14 @@ def main():
             champ_data = json.load(f)
             
         if "knowledge_graph" in champ_data and champ_data["knowledge_graph"]:
-            print(f"⏩ Bỏ qua {champ_id} (Đã có Knowledge Graph).")
+            logger.info(f"⏩ Skipping {champ_id} (Knowledge Graph already exists).")
             continue
             
-        print(f"\n⏳ [{idx+1}/{total_champions}] Phân tích Graph cho {champ_id}...")
+        logger.info(f"⏳ [{idx+1}/{total_champions}] Analyzing Graph for {champ_id}...")
         
         lore_snippet = str(champ_data.get("mainContent", ""))[:2500] 
         
-        # Gọi thẳng tên skill trong prompt để nhấn mạnh
+        # Explicitly mention the skill name in prompt for emphasis
         full_prompt = f"""
 {skill_context}
 
@@ -79,16 +82,16 @@ Begin JSON extraction strictly:
             with open(filepath, "w", encoding="utf-8") as f:
                 json.dump(champ_data, f, ensure_ascii=False, indent=2)
                 
-            print(f"✅ Xong {champ_id}. Đã trích xuất được {len(graph_data.get('nodes', []))} nodes và {len(graph_data.get('edges', []))} edges.")
+            logger.info(f"✅ Finished {champ_id}. Extracted {len(graph_data.get('nodes', []))} nodes and {len(graph_data.get('edges', []))} edges.")
             
         except subprocess.CalledProcessError as e:
-            print(f"❌ Lỗi CLI khi chạy {champ_id}:\n{e.stderr}")
+            logger.error(f"❌ CLI error while processing {champ_id}:\n{e.stderr}")
         except json.JSONDecodeError as e:
-            print(f"❌ Lỗi parse JSON từ kết quả của {champ_id}:\nOutput thô: {clean_json_str}")
+            logger.error(f"❌ Error parsing JSON from {champ_id} results:\nRaw output: {clean_json_str}")
             
         time.sleep(1)
 
-    print("\n🎉 Hoàn tất quá trình xây dựng Graph!")
+    logger.info("Graph construction process complete!")
 
 if __name__ == "__main__":
     main()

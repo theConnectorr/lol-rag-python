@@ -1,55 +1,58 @@
 from gliner import GLiNER
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+from src.core.logger import setup_logger
 
-print("⏳ Đang tải mô hình GLiNER và REBEL vào RAM...")
-# 1. Khởi tạo GLiNER
+logger = setup_logger(__name__)
+
+logger.info("Loading GLiNER and REBEL models into RAM...")
+# 1. Initialize GLiNER
 gliner_model = GLiNER.from_pretrained("urchade/gliner_medium-v2.1")
 
-# 2. Khởi tạo REBEL (Cách Tường minh - Không xài Pipeline)
+# 2. Initialize REBEL (Explicitly - No Pipeline)
 tokenizer = AutoTokenizer.from_pretrained("Babelscape/rebel-large")
 model = AutoModelForSeq2SeqLM.from_pretrained("Babelscape/rebel-large")
 
 def extract_triplets(text):
-    # Bước 1: Cho GLiNER quét qua để định hình thực thể
+    # Step 1: Let GLiNER scan for entity shaping
     labels = ["Champion", "Region", "Weapon", "Title", "Organization", "Family"]
     entities = gliner_model.predict_entities(text, labels, threshold=0.5)
-    
-    print("\n🔍 GLiNER tìm thấy các Nút (Nodes):")
-    for ent in entities:
-        print(f" - [{ent['label']}] {ent['text']}")
 
-    # Bước 2: Đưa nguyên đoạn text vào REBEL
-    print("\n🔗 REBEL đang nhổ Quan hệ (Edges)...")
-    
-    # Đóng gói text thành tensor cho PyTorch
+    logger.info("GLiNER found Nodes:")
+    for ent in entities:
+        logger.info(f" - [{ent['label']}] {ent['text']}")
+
+    # Step 2: Feed the entire text into REBEL
+    logger.info("REBEL is extracting Edges...")
+
+    # Package text into PyTorch tensors
     inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=256)
-    
-    # Cấu hình sinh text (Tối ưu cho REBEL)
+
+    # Text generation configuration (Optimized for REBEL)
     gen_kwargs = {
         "max_length": 256,
         "length_penalty": 0,
         "num_beams": 3,
         "num_return_sequences": 1,
     }
-    
-    # Thực thi model
+
+    # Execute model
     generated_tokens = model.generate(
         **inputs,
         **gen_kwargs,
     )
-    
-    # Dịch kết quả từ dạng số (tensors) về lại chữ (text)
-    # Lưu ý: skip_special_tokens=False là CỰC KỲ QUAN TRỌNG để giữ lại các tag <triplet>, <subj>, <obj>
+
+    # Decode results from tensors back to text
+    # Note: skip_special_tokens=False is CRITICALLY IMPORTANT to keep <triplet>, <subj>, <obj> tags
     extracted_text = tokenizer.batch_decode(generated_tokens, skip_special_tokens=False)
-    
-    # Phân tích text trả về thành JSON
+
+    # Parse returned text into JSON
     extracted_triplets = extract_relations_from_rebel_output(extracted_text[0])
-    
+
     for triplet in extracted_triplets:
-        print(f" 🎯 {triplet['head']} --[{triplet['type']}]--> {triplet['tail']}")
+        logger.info(f" 🎯 {triplet['head']} --[{triplet['type']}]--> {triplet['tail']}")
 
 def extract_relations_from_rebel_output(text):
-    # Hàm helper kinh điển của cộng đồng dùng REBEL để bóc tách output
+    # Classic helper function used by the community for REBEL output parsing
     relations = []
     relation, subject, object_ = '', '', ''
     text = text.strip()
@@ -78,6 +81,6 @@ def extract_relations_from_rebel_output(text):
         relations.append({'head': subject.strip(), 'type': relation.strip(),'tail': object_.strip()})
     return relations
 
-# TEXT TEST THỬ NGHIỆM
+# TEST TEXT
 test_text = "Garen Crownguard is a proud soldier of Demacia. He wields a massive broadsword called Sunfire and is the brother of Lux."
 extract_triplets(test_text)
