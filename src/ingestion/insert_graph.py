@@ -2,6 +2,9 @@ import os
 import json
 from neo4j import GraphDatabase
 from src.core.config import config
+from src.core.logger import setup_logger
+
+logger = setup_logger(__name__)
 
 DATA_DIR = "processed_data/"
 ALIAS_FILE = "alias_mapping.json"
@@ -11,24 +14,24 @@ def load_alias_mapping():
         with open(ALIAS_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
-        print("⚠️ Không tìm thấy alias_mapping.json. Dữ liệu có thể bị phân mảnh.")
+        logger.warning(f"{ALIAS_FILE} not found. Data might be fragmented.")
         return {}
 
 def main():
     alias_map = load_alias_mapping()
     files = [f for f in os.listdir(DATA_DIR) if f.endswith(".json")]
 
-    # Kết nối Neo4j
+    # Connect to Neo4j
     driver = GraphDatabase.driver(
         config.NEO4J_URI, 
         auth=(config.NEO4J_USER, config.NEO4J_PASSWORD)
     )
 
-    print("🚀 Bắt đầu xây dựng Đồ thị Tri thức (Knowledge Graph) trên Neo4j...")
+    logger.info("Starting Knowledge Graph construction on Neo4j...")
 
     try:
         with driver.session() as session:
-            # Bỏ comment dòng dưới nếu bạn muốn XÓA SẠCH đồ thị cũ trước khi insert
+            # Uncomment the line below if you want to WIPE the existing graph before insertion
             # session.run("MATCH (n) DETACH DELETE n")
 
             for filename in files:
@@ -38,16 +41,16 @@ def main():
                     file_data = json.load(f)
                     
                 infobox = file_data.get("infobox", {})
-                print(f"[GRAPH] Đang xử lý: {champion_id}...")
+                logger.info(f"[GRAPH] Processing: {champion_id}...")
 
-                # BƯỚC A: TẠO NODE TƯỚNG (Quy chuẩn bằng Alias Map)
+                # STEP A: CREATE CHAMPION NODE (Standardized using Alias Map)
                 champ_name = alias_map.get(champion_id.lower(), champion_id)
                 session.run(
                     "MERGE (c:Champion {name: $name})", 
                     name=champ_name
                 )
 
-                # BƯỚC B: VÙNG ĐẤT
+                # STEP B: REGIONS
                 regions = infobox.get("Place of origin", infobox.get("Region(s)", []))
                 for region in regions:
                     if region:
@@ -57,7 +60,7 @@ def main():
                             MERGE (c)-[:BELONGS_TO]->(r)
                         """, champName=champ_name, regionName=region.strip())
 
-                # BƯỚC C: VŨ KHÍ
+                # STEP C: WEAPONS
                 weapons = infobox.get("Weapon(s)", infobox.get("Weapon", []))
                 for weapon in weapons:
                     if weapon:
@@ -67,11 +70,11 @@ def main():
                             MERGE (c)-[:WIELDS]->(w)
                         """, champName=champ_name, weaponName=weapon.strip())
 
-                # BƯỚC D: QUAN HỆ TƯỚNG
+                # STEP D: CHAMPION RELATIONSHIPS
                 related_chars = infobox.get("Related character", [])
                 for raw_name in related_chars:
                     if raw_name:
-                        # Dò từ điển để quy chuẩn Node
+                        # Standardize target Node using alias map
                         normalized_target = alias_map.get(raw_name.lower().strip(), raw_name.strip())
                         session.run("""
                             MATCH (c:Champion {name: $sourceName})
@@ -79,7 +82,7 @@ def main():
                             MERGE (c)-[:RELATED_TO]->(t)
                         """, sourceName=champ_name, targetName=normalized_target)
 
-                # BƯỚC E: GLiNER ENTITIES (New Step)
+                # STEP E: GLiNER ENTITIES
                 gliner_entities = file_data.get("gliner_entities", {})
                 
                 # 1. Organization
@@ -106,10 +109,10 @@ def main():
                         MERGE (c)-[:HAS_FAMILY_MEMBER]->(f)
                     """, champName=champ_name, familyName=family)
 
-        print("\n✅ Đã chèn xong toàn bộ Dữ liệu vào Đồ thị!")
+        logger.info("Knowledge Graph ingestion complete!")
 
     except Exception as e:
-        print(f"❌ Lỗi khi thao tác với Neo4j: {e}")
+        logger.error(f"Error while interacting with Neo4j: {e}", exc_info=True)
     finally:
         driver.close()
 
