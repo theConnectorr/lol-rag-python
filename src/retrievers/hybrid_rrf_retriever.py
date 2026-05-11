@@ -1,23 +1,27 @@
 from src.core.interfaces import IRetriever
+from src.core.logger import setup_logger
+
+logger = setup_logger(__name__)
 
 class HybridRRFRetriever(IRetriever):
     """
-    Hiện tại đóng vai trò là Hybrid Concatenator (Gộp kết quả).
-    Trong tương lai sẽ nâng cấp lên RRF chuẩn khi các Retriever trả về List[Document].
+    Currently acting as a Hybrid Concatenator (Merging results).
+    In the future, will be upgraded to standard RRF when Retrievers return List[Document].
     """
     def __init__(self, vector_retriever: IRetriever, graph_retriever: IRetriever):
         self.vector_retriever = vector_retriever
         self.graph_retriever = graph_retriever
 
-    def retrieve(self, query: str) -> str:
-        # 1. Lấy kết quả từ Vector
+    def retrieve(self, query: str) -> list[str]:
+        # 1. Get results from Vector
+        logger.debug(f"Hybrid retrieval: fetching vector results for query: {query}")
         vector_context = self.vector_retriever.retrieve(query)
 
-        # 2. Lấy kết quả từ Graph
+        # 2. Get results from Graph
+        logger.debug(f"Hybrid retrieval: fetching graph results for query: {query}")
         graph_context = self.graph_retriever.retrieve(query)
 
-        # 3. Kết hợp lại
-        combined_context = f"--- KẾT QUẢ TỪ VECTOR DB ---\n{vector_context}\n\n"
-        combined_context += f"--- KẾT QUẢ TỪ ĐỒ THỊ (NEO4J) ---\n{graph_context}"
-
-        return combined_context
+        # 3. Combine them
+        logger.info(f"Hybrid retrieval complete: {len(vector_context)} vector chunks, {len(graph_context)} graph chunks.")
+        
+        return vector_context + graph_context
