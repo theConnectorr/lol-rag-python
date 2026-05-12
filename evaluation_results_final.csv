@@ -1,0 +1,2046 @@
+query,expected_intent,actual_intent,routing_score,precision@3,recall@3,f1@3,gen_score,latency
+What weapons does Aatrox wield?,Graph,Vector,0,0.0,0.0,0.0,1,5.84
+In which ancient land did Aatrox originate?,Graph,Vector,0,0.0,0.0,0.0,0,6.7
+List some characters related to Aatrox.,Graph,Vector,0,0.0,0.0,0.0,0,2.33
+What is Aatrox's faction and occupation?,Graph,Vector,0,0.0,0.0,0.0,7,6.66
+Describe Aatrox's early life as an Ascended being.,Vector,Vector,1,0.0,0.0,0.0,1,14.39
+What motivated the Icathian Uprising against the emperor?,Vector,Vector,1,0.0,0.0,0.0,10,7.43
+What role did Aatrox play during the Icathian Uprising?,Vector,Vector,1,0.0,0.0,0.0,1,6.31
+What kind of entities did Aatrox combat as an Ascended hero?,Vector,Vector,1,0.0,0.0,0.0,5,4.76
+"Considering Aatrox's origin in ancient Shurima, describe his role in fighting the Icathian rebellion.",Hybrid,Vector,0,0.0,0.0,0.0,10,16.82
+"What is Aatrox's connection to other Darkin like Rhaast, and how does this relate to their shared history as ancient Shuriman warriors?",Hybrid,Vector,0,0.0,0.0,0.0,8,18.98
+Who is Aatrox's brother and what did he do to the emperor?,Adversarial,Vector,0,0.0,0.0,0.0,0,6.33
+Describe Aatrox's role in fighting against the betrayers of ancient Shurima.,Adversarial,Vector,0,0.0,0.0,0.0,5,31.52
+What are Ahri's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,0,4.29
+From which region does Ahri originate?,Graph,Vector,0,0.0,0.0,0.0,10,7.89
+Who was Ahri's lover before her transformation?,Graph,Vector,0,0.0,0.0,0.0,10,6.24
+Which other Vastayan champion is closely associated with Ahri?,Graph,Vector,0,0.0,0.0,0.0,10,2.27
+Describe Ahri's emotional state after the loss of her lover.,Vector,Vector,1,0.0,0.0,0.0,3,8.61
+What specific actions did Ahri take in the Garden of Forgetting?,Vector,Vector,1,0.0,0.0,0.0,0,6.16
+What was Ahri's nature as a predator before she sought to forget her past?,Vector,Vector,1,0.0,0.0,0.0,0,11.18
+What was Ahri's primary motivation when she met the Witch Gardener?,Vector,Vector,1,0.0,0.0,0.0,10,5.66
+How did Ahri's grief in Ionia lead her to seek the aid of the Witch Gardener?,Hybrid,Vector,0,0.0,0.0,0.0,5,6.16
+"Considering Ahri's nature as a soul devourer and her Ionian origin, what internal conflict did she face?",Hybrid,Vector,0,0.0,0.0,0.0,10,10.0
+Who is Ahri's brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.49
+Is Ahri a traitor to Ionia?,Adversarial,Vector,0,0.0,0.0,0.0,10,2.97
+What weapons does Akali use?,Graph,Vector,0,0.0,0.0,0.0,10,3.75
+In which region is Akali primarily active?,Graph,Vector,0,0.0,0.0,0.0,10,4.56
+Who are Akali's parents?,Graph,Vector,0,0.0,0.0,0.0,10,6.3
+Name key Kinkou Order members Akali is associated with.,Graph,Vector,0,0.0,0.0,0.0,10,3.27
+Describe Akali's personality as a rogue assassin.,Vector,Vector,1,0.0,0.0,0.0,10,17.78
+What significant event during Akali's childhood influenced her path with the Kinkou Order?,Vector,Vector,1,0.0,0.0,0.0,10,9.38
+How did Akali become proficient with shuriken techniques?,Vector,Vector,1,0.0,0.0,0.0,0,4.57
+What does Akali believe is her ultimate calling?,Vector,Vector,1,0.0,0.0,0.0,10,8.99
+"How did the internal conflict within Ionia, specifically Zed's coup, shape Akali's current role as a Kinkou leader?",Hybrid,Vector,0,0.0,0.0,0.0,10,16.16
+Explain the influence of Master Kennen on Akali's development as an assassin within Ionia.,Hybrid,Vector,0,0.0,0.0,0.0,5,12.98
+What is Akali's relationship with her older brother?,Adversarial,Vector,0,0.0,0.0,0.0,10,2.95
+Describe the primary traitor who attacked the Kinkou Order and Master Kusho.,Adversarial,Vector,0,0.33,0.33,0.33,2,3.13
+What are Akshan's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,0,4.44
+Where is Akshan from?,Graph,Vector,0,0.0,0.0,0.0,10,5.44
+What faction does Akshan belong to?,Graph,Vector,0,0.0,0.0,0.0,4,2.87
+Who was Akshan's mentor?,Graph,Vector,0,0.0,0.0,0.0,10,3.6
+Why did Akshan intervene in injustices on the streets as a child?,Vector,Vector,1,0.0,0.0,0.0,10,6.96
+What happened to Akshan after he intervened against the warlords?,Vector,Vector,1,0.0,0.0,0.0,10,3.33
+Who saved Akshan when he was left for dead?,Vector,Vector,1,0.0,0.0,0.0,0,2.4
+What did Shadya see in Akshan?,Vector,Vector,1,0.0,0.0,0.0,10,4.8
+How did Akshan's upbringing in the oppressive city of Marwi influence his decision to join the Sentinels of Light?,Hybrid,Vector,0,0.0,0.0,0.0,9,8.59
+"What was the significance of Shadya's mentorship for Akshan, considering his rough start on the streets of Marwi?",Hybrid,Vector,0,0.0,0.0,0.0,9,9.86
+Who were the betrayers who left Akshan for dead?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,10,4.49
+What is the name of Akshan's older brother?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,3.91
+What weapons does Alistar use?,Graph,Vector,0,0.0,0.0,0.0,0,3.53
+In which region is Alistar originally from?,Graph,Vector,0,0.0,0.0,0.0,0,3.3
+Who are some characters related to Alistar?,Graph,Vector,0,0.0,0.0,0.0,0,1.74
+What factions does Alistar belong to?,Graph,Vector,0,0.0,0.0,0.0,5,5.43
+What are Alistar's general feelings towards Noxians based on his early life?,Vector,Vector,1,0.0,0.0,0.0,10,8.95
+"What significant event happened when the Noxian empire first approached the Great Barrier, according to Alistar's perspective?",Vector,Vector,1,0.0,0.0,0.0,10,5.15
+Describe Alistar's initial reaction to the Noxian emissary's request for support.,Vector,Vector,1,0.0,0.0,0.0,9,8.94
+What made Alistar distrust the Noxians?,Vector,Vector,1,0.0,0.0,0.0,0,4.77
+How did Alistar's skepticism about Noxians influence his clan's involvement with the city of Basilich?,Hybrid,Vector,0,0.0,0.0,0.0,5,7.91
+"Considering Alistar's distrust of Noxians, what role did House Tewain play in the events surrounding the Great Barrier?",Hybrid,Vector,0,0.0,0.0,0.0,5,7.39
+What does Alistar think of his older brother?,Adversarial,Vector,0,0.0,0.0,0.0,10,6.83
+Was the emissary of Noxus identified as a betrayer by Alistar's clan?,Adversarial,Vector,0,0.0,0.0,0.0,2,7.88
+What region is Alune from?,Graph,Vector,0,0.0,0.0,0.0,0,2.73
+Who is Alune's twin brother?,Graph,Vector,0,0.0,0.0,0.0,10,3.32
+What is Alune's primary occupation?,Graph,Vector,0,0.0,0.0,0.0,3,5.21
+"Which faction does Alune belong to, besides the Lunari?",Graph,Vector,0,0.0,0.0,0.0,0,2.57
+What significant event marked Alune's birth?,Vector,Vector,1,0.0,0.0,0.0,10,4.78
+How did Alune's magical abilities manifest?,Vector,Vector,1,0.0,0.0,0.0,0,4.78
+What was the historical conflict between the Lunari and the Solari?,Vector,Vector,1,0.0,0.0,0.0,0,6.46
+Describe the core beliefs of the Lunari faith.,Vector,Vector,1,0.0,0.0,0.0,9,20.53
+How did Alune's magical gift from the spirit moon influence her role within the Lunari's struggle against the Solari in Targon?,Hybrid,Vector,0,0.33,0.33,0.33,0,22.93
+"Considering Aphelios's role as protector and Alune's magical gifts, what does their shared destiny as children of the lunar convergence imply for the Lunari's future?",Hybrid,Vector,0,0.0,0.0,0.0,5,10.92
+Tell me about Alune's sister.,Adversarial,Vector,0,0.0,0.0,0.0,0,5.65
+"What did the Solari do to the Lunari, whom they considered heretics?",Adversarial,Vector,0,0.0,0.0,0.0,9,5.31
+What are Amumu's weapons?,Graph,Vector,0,0.0,0.0,0.0,10,3.02
+In which region did Amumu originate?,Graph,Vector,0,0.0,0.0,0.0,0,4.29
+What were Amumu's former occupations?,Graph,Vector,0,0.0,0.0,0.0,0,2.84
+What species is Amumu?,Graph,Vector,0,0.0,0.0,0.0,0,2.97
+What is the reason behind Amumu's perpetual sadness?,Vector,Vector,1,0.0,0.0,0.0,10,5.78
+Describe Amumu's actions during his reign as emperor.,Vector,Vector,1,0.0,0.0,0.0,10,14.54
+What legendary artifact was Amumu hunting for?,Vector,Vector,1,0.0,0.0,0.0,5,3.08
+How old is Amumu?,Vector,Vector,1,0.0,0.0,0.0,10,3.0
+What was the significance of the Eye of Angor in Shurima?,Hybrid,Vector,0,0.0,0.0,0.0,10,5.25
+How did Amumu's reign as Emperor of Shurima reflect his character?,Hybrid,Vector,0,0.67,0.67,0.67,10,9.45
+What is the relationship between Amumu and his younger sister?,Adversarial,Vector,0,0.0,0.0,0.0,0,1.99
+Who betrayed Amumu's trust when he sought the Eye of Angor?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.93
+What weapon does Anivia use?,Graph,Vector,0,0.67,2.0,1.0,0,2.4
+What is Anivia's place of origin?,Graph,Vector,0,0.0,0.0,0.0,0,6.94
+List Anivia's brothers by name.,Graph,Vector,0,0.0,0.0,0.0,0,5.85
+Which region is Anivia associated with?,Graph,Vector,0,0.0,0.0,0.0,0,4.07
+Describe Anivia's role and feelings towards the first mortal tribes in Vorrijaard.,Vector,Vector,1,0.0,0.0,0.0,8,15.6
+What is Anivia's approximate age?,Vector,Vector,1,0.0,0.0,0.0,1,5.09
+What event prompted Anivia's anger towards outsiders during the early days of mortal tribes in Vorrijaard?,Vector,Vector,1,0.0,0.0,0.0,9,6.6
+What are Anivia's primary occupations or roles?,Vector,Vector,1,0.0,0.0,0.0,5,8.11
+"How did Anivia's role as a guardian in the Freljord influence the early mortal tribes, and what led to conflict?",Hybrid,Vector,0,0.0,0.0,0.0,0,14.43
+"Given Anivia's family connection to Ornn, what does her role as a guardian of the Freljord suggest about their shared history or responsibilities?",Hybrid,Vector,0,0.0,0.0,0.0,0,9.21
+Anivia has a brother. Who is he?,Adversarial,Vector,0,0.0,0.0,0.0,10,4.98
+Anivia was angered by outsiders. What specific act of betrayal led to this anger?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.93
+What is Annie's primary weapon?,Graph,Vector,0,0.0,0.0,0.0,10,2.63
+In which region was Annie born?,Graph,Vector,0,0.0,0.0,0.0,10,4.55
+Who are Annie's parents?,Graph,Vector,0,0.0,0.0,0.0,10,3.33
+Who is Annie's pet?,Graph,Vector,0,0.0,0.0,0.0,0,2.51
+Describe Annie's personality and motivations.,Vector,Vector,1,0.0,0.0,0.0,10,17.3
+How did Annie's mother become fused with a demon?,Vector,Vector,1,0.0,0.0,0.0,0,7.43
+What led Annie's parents to flee Noxus?,Vector,Vector,1,0.0,0.0,0.0,10,5.84
+What is the origin of Tybaulk?,Vector,Vector,1,0.0,0.0,0.0,0,6.57
+"Considering Annie's birth in the Ironspike Mountains and her mother's past with the Black Rose, how might these origins influence her future in Noxus?",Hybrid,Vector,0,0.0,0.0,0.0,10,26.03
+"Given that Annie's mother was fused with the demon Tybaulk, how does this magical heritage potentially manifest in Annie's control over fire magic and her relationship with her teddy bear?",Hybrid,Vector,0,0.0,0.0,0.0,0,23.1
+What is Annie's older brother's name?,Adversarial,Vector,0,0.0,0.0,0.0,10,3.19
+Who is the traitor that cursed Annie's mother?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.9
+What are the names of Aphelios's unique weapons?,Graph,Vector,0,0.0,0.0,0.0,0,4.56
+In which region does Aphelios primarily reside?,Graph,Vector,0,0.0,0.0,0.0,0,4.63
+Identify Aphelios's twin sister.,Graph,Vector,0,0.0,0.0,0.0,10,4.13
+Name other champions associated with the Lunari faction alongside Aphelios.,Graph,Vector,0,0.0,0.0,0.0,10,7.49
+What is the psychological motivation behind Aphelios's dedication to the Lunari and his sister Alune?,Vector,Vector,1,0.0,0.0,0.0,10,12.15
+Describe the historical significance of the Marus Omegnum phasing into existence for the Lunari people.,Vector,Vector,1,0.0,0.0,0.0,10,25.64
+What specific action did Aphelios take when the Marus Omegnum reappeared from the Spirit Realm?,Vector,Vector,1,0.0,0.0,0.0,0,7.85
+How does Aphelios view his role as the 'Weapon of the Faithful'?,Vector,Vector,1,0.0,0.0,0.0,9,11.04
+How does Aphelios's role as the Weapon of the Faithful on Targon relate to his twin sister Alune's abilities as a seer?,Hybrid,Vector,0,0.33,0.33,0.33,10,9.46
+"In the context of Lunari beliefs, what is the metaphysical origin of Aphelios's six distinct weapons?",Hybrid,Vector,0,0.0,0.0,0.0,10,5.52
+Who is Aphelios's older brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.44
+Was Aphelios a traitor to the Rakkor empire?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.05
+What is Ashe's primary weapon?,Graph,Vector,0,0.33,1.0,0.5,0,3.25
+In which region does Ashe reside and rule?,Graph,Vector,0,0.0,0.0,0.0,0,7.34
+Who is Ashe married to?,Graph,Vector,0,0.0,0.0,0.0,10,4.33
+List Ashe's known siblings.,Graph,Vector,0,0.0,0.0,0.0,0,3.63
+Describe the nature of Ashe's childhood friendship with Sejuani.,Vector,Vector,1,0.0,0.0,0.0,10,11.66
+What caused Ashe's feelings of burden and isolation during her youth?,Vector,Vector,1,0.0,0.0,0.0,1,7.31
+What was the reason for the severed ties between the Avarosan and Winter's Claw tribes concerning Sejuani's visits?,Vector,Vector,1,0.0,0.0,0.0,10,6.22
+What is Ashe's relation to the ancient figure Avarosa?,Vector,Vector,1,0.0,0.0,0.0,8,3.88
+"How did Ashe's upbringing in the Freljord, with its tribal pressures, shape her relationship with her estranged battlesister, Sejuani?",Hybrid,Vector,0,0.0,0.0,0.0,7,14.29
+What is the symbolic importance of Avarosa's Bow for Ashe's role as the Warmother of the Freljord?,Hybrid,Vector,0,0.0,0.0,0.0,10,9.31
+Who is Ashe's older brother?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,10,4.07
+Did Sejuani betray Ashe and the Avarosans?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,6.51
+What is Ashlesh's primary weapon?,Graph,Vector,0,0.0,0.0,0.0,0,2.57
+Where was Ashlesh originally trapped?,Graph,Vector,0,0.0,0.0,0.0,0,4.34
+Who are Ashlesh's family members?,Graph,Vector,0,0.0,0.0,0.0,0,2.81
+Which other demon is explicitly mentioned as one of the Ten alongside Ashlesh?,Graph,Vector,0,0.0,0.0,0.0,10,4.55
+What is Ashlesh's personality like?,Vector,Vector,1,0.0,0.0,0.0,10,7.9
+When was Ashlesh born or created?,Vector,Vector,1,0.0,0.0,0.0,10,2.07
+What did Ashlesh attempt to do before being imprisoned?,Vector,Vector,1,0.0,0.0,0.0,10,2.22
+What is Ashlesh's current status?,Vector,Vector,1,0.0,0.0,0.0,0,2.85
+Describe the events leading to Ashlesh's imprisonment in the underworld.,Hybrid,Vector,0,0.0,0.0,0.0,0,20.0
+Who guards the place where Ashlesh was trapped and why?,Hybrid,Vector,0,0.0,0.0,0.0,10,4.26
+Describe the betrayal Ashlesh suffered from the divine beings.,Adversarial/Trap,Vector,0,0.0,0.0,0.0,10,5.65
+What is the name of Ashlesh's elder brother?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,2.14
+What weapon does Atakhan use?,Graph,Vector,0,0.0,0.0,0.0,0,3.33
+In which region is Atakhan currently residing?,Graph,Vector,0,0.0,0.0,0.0,4,5.78
+Who was responsible for slaying Atakhan?,Graph,Vector,0,0.0,0.0,0.0,0,3.38
+To which faction did Atakhan belong?,Graph,Vector,0,0.0,0.0,0.0,10,5.29
+What were Atakhan's primary desires or motivations?,Vector,Vector,1,0.0,0.0,0.0,0,9.1
+How did Atakhan become bound to Khatash-Li's helmet?,Vector,Vector,1,0.0,0.0,0.0,10,7.41
+What was Atakhan's role during the reign of Sahn-Uzal?,Vector,Vector,1,0.0,0.0,0.0,10,9.91
+What happened to Atakhan after Sahn-Uzal was slain?,Vector,Vector,1,0.0,0.0,0.0,0,7.3
+"Considering Atakhan's past affiliation with Mordekaiser, what kind of entity is Atakhan often associated with in the Noxian region?",Hybrid,Vector,0,0.0,0.0,0.0,10,8.21
+"Given that Zaahen is known for his ability to slay demons, how did Atakhan's nature as a demon likely play a role in his eventual defeat by Zaahen?",Hybrid,Vector,0,0.0,0.0,0.0,9,10.98
+"Who is Atakhan's sworn enemy, referred to as 'the betrayer'?",Adversarial,Vector,0,0.0,0.0,0.0,0,9.64
+Describe the relationship between Atakhan and his younger sister.,Adversarial,Vector,0,0.0,0.0,0.0,0,5.66
+List Aurelion Sol's weapons.,Graph,Vector,0,0.67,2.0,1.0,0,2.38
+What regions is Aurelion Sol associated with?,Graph,Vector,0,0.0,0.0,0.0,0,7.87
+Name the characters related to Aurelion Sol.,Graph,Vector,0,0.0,0.0,0.0,0,3.44
+What are Aurelion Sol's occupations?,Graph,Vector,0,0.0,0.0,0.0,10,4.67
+Describe Aurelion Sol's initial motivations and approach to the universe.,Vector,Vector,1,0.0,0.0,0.0,0,18.53
+When did Aurelion Sol come into existence?,Vector,Vector,1,0.0,0.0,0.0,10,6.82
+Explain how Aurelion Sol was betrayed and detained.,Vector,Vector,1,0.0,0.0,0.0,10,7.67
+What is Aurelion Sol's species?,Vector,Vector,1,0.0,0.0,0.0,10,4.92
+"Considering Aurelion Sol's role as Star Forger, how did his forced service to the Aspects in Targon change his perspective on creation?",Hybrid,Vector,0,0.33,0.33,0.33,7,13.25
+How does Aurelion Sol's origin as a celestial being relate to his conflict with the Aspects over Runeterra?,Hybrid,Vector,0,0.67,0.67,0.67,10,10.68
+Did Aurelion Sol betray anyone?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,10,4.22
+What is Aurelion Sol's younger sister's name?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,3.77
+What weapons does Aurora wield?,Graph,Vector,0,0.0,0.0,0.0,0,3.73
+In which region does Aurora currently reside?,Graph,Vector,0,0.0,0.0,0.0,0,3.62
+What is Aurora's relationship with Ornn?,Graph,Vector,0,0.0,0.0,0.0,9,4.05
+What is the name of Aurora's tribe?,Graph,Vector,0,0.0,0.0,0.0,10,4.35
+Describe Aurora's early life and upbringing.,Vector,Vector,1,0.0,0.0,0.0,10,15.15
+"What made Aurora's tribe, the Bryni, unique among Vastayan tribes?",Vector,Vector,1,0.0,0.0,0.0,10,5.9
+How did Aurora's great aunt Havu influence her?,Vector,Vector,1,0.0,0.0,0.0,10,4.67
+What is Aurora's special ability that allows her to see spirits?,Vector,Vector,1,0.0,0.0,0.0,0,5.44
+How does Aurora's ability to see spirits affect her life in the Freljord?,Hybrid,Vector,0,0.0,0.0,0.0,10,7.78
+Explain the impact of the Bryni tribe's isolation on Aurora's magical potential and her connection to the Spirit Realm.,Hybrid,Vector,0,0.0,0.0,0.0,10,11.39
+Who is Aurora's closest companion?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.46
+Describe Aurora's relationship with her kin.,Adversarial,Vector,0,0.0,0.0,0.0,10,15.06
+What weapons does the Emperor of the Sands wield?,Graph,Vector,0,0.0,0.0,0.0,0,5.02
+In which region does Azir currently reside?,Graph,Vector,0,0.0,0.0,0.0,5,4.71
+List characters closely associated with Azir.,Graph,Vector,0,0.0,0.0,0.0,10,10.57
+Who is Azir's most prominent descendant mentioned in his lore?,Graph,Vector,0,0.0,0.0,0.0,0,4.39
+What was Azir's primary focus during his early life before becoming emperor?,Vector,Vector,1,0.0,0.0,0.0,6,3.97
+How did Azir and Xerath initially form their friendship?,Vector,Vector,1,0.0,0.0,0.0,10,4.99
+Describe the circumstances surrounding the assassination attempt on Azir's family.,Vector,Vector,1,0.0,0.0,0.0,0,7.99
+What was the nature of Azir's relationship with his father and siblings?,Vector,Vector,1,0.0,0.0,0.0,10,9.3
+"Considering Azir's ascent to Emperor of Shurima and his close bond with Xerath, what ancient text was crucial to their initial friendship?",Hybrid,Vector,0,1.0,0.6,0.75,10,6.87
+How did the ancient desert region of Shurima and the political turmoil surrounding Azir's family influence the events of the assassination attempt?,Hybrid,Vector,0,0.67,0.67,0.67,4,9.27
+What was the role of Azir's older brother in the assassination attempt?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.4
+Describe the betrayal that led to Azir's downfall.,Adversarial,Vector,0,0.0,0.0,0.0,10,13.95
+What weapon does Bard use?,Graph,Vector,0,0.0,0.0,0.0,0,3.96
+What region is Bard associated with?,Graph,Vector,0,0.0,0.0,0.0,1,5.79
+Who are some characters related to Bard?,Graph,Vector,0,0.0,0.0,0.0,10,9.77
+Where did Bard originate from?,Graph,Vector,0,0.0,0.0,0.0,10,4.62
+What motivated Bard to travel the universe?,Vector,Vector,1,0.0,0.0,0.0,4,7.03
+When did Bard first become aware of Runeterra?,Vector,Vector,1,0.0,0.0,0.0,0,4.05
+What kind of being is Bard?,Vector,Vector,1,0.0,0.0,0.0,5,4.55
+What are the creatures that accompany Bard called?,Vector,Vector,1,0.0,0.0,0.0,8,3.26
+"How did Bard perceive Runeterra's song initially, and why did he intervene?",Hybrid,Vector,0,0.0,0.0,0.0,10,5.81
+What role did Aurelion Sol play in Bard's existence or purpose?,Hybrid,Vector,0,0.0,0.0,0.0,5,7.3
+Who is Bard's brother?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,3.47
+Describe the betrayal Bard suffered.,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,8.82
+Where does Baron Nashor primarily reside?,Graph,Vector,0,0.0,0.0,0.0,0,3.7
+What species is Baron Nashor?,Graph,Vector,0,0.0,0.0,0.0,0,1.0
+What is Baron Nashor's faction?,Graph,Vector,0,0.0,0.0,0.0,0,1.93
+Describe Baron Nashor's unique physical appendages.,Graph,Vector,0,0.0,0.0,0.0,0,2.87
+What is known about Baron Nashor's origins?,Vector,Vector,1,0.0,0.0,0.0,10,4.17
+What is Baron Nashor's general behavior pattern?,Vector,Vector,1,0.0,0.0,0.0,0,6.12
+Are there indications that Baron Nashor has been involved in past conflicts?,Vector,Vector,1,0.0,0.0,0.0,0,4.36
+What are the main colors of Baron Nashor's exoskeleton?,Vector,Vector,1,0.33,1.0,0.5,10,4.2
+"Considering Baron Nashor is a Voidborn creature from the Void, what can be inferred about its nature from its appearance and consumption habits?",Hybrid,Vector,0,0.0,0.0,0.0,10,5.64
+"Given Baron Nashor's faction is the Void, how does its described physical form relate to its potential origins and functions in Runeterra?",Hybrid,Vector,0,0.0,0.0,0.0,9,11.2
+Who is Baron Nashor's brother?,Adversarial,Vector,0,0.0,0.0,0.0,10,3.05
+Is Baron Nashor considered a traitor in Runeterra?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.99
+What weapons does Bel'Veth wield?,Graph,Vector,0,0.0,0.0,0.0,10,5.13
+Who are the creators of Bel'Veth?,Graph,Vector,0,0.0,0.0,0.0,9,5.43
+In which regions is Bel'Veth primarily active?,Graph,Vector,0,0.0,0.0,0.0,0,6.7
+List characters who are related to Bel'Veth.,Graph,Vector,0,0.0,0.0,0.0,0,2.29
+What is Bel'Veth's ultimate ambition for reality?,Vector,Vector,1,0.0,0.0,0.0,10,6.19
+Describe the Void before the emergence of the first Voidborn entities.,Vector,Vector,1,0.0,0.0,0.0,10,8.34
+How did the Void's environment change due to increased interaction with Runeterra?,Vector,Vector,1,0.0,0.0,0.0,10,8.33
+What is the origin of the Lavender Sea and its significance?,Vector,Vector,1,0.0,0.0,0.0,2,10.98
+"Given Bel'Veth's creation by the Watchers and her desire to consume all reality, how does this reflect her role in the Void's grander plan?",Hybrid,Vector,0,0.0,0.0,0.0,10,14.08
+"How does the development of the Lavender Sea, a mutated part of the Void, relate to Bel'Veth's reign as Void Empress?",Hybrid,Vector,0,0.0,0.0,0.0,8,11.0
+Is Bel'Veth considered a traitor by the Watchers who brought her into existence?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.51
+Does Bel'Veth have any younger sisters who are also Voidborn entities?,Adversarial,Vector,0,0.0,0.0,0.0,10,4.87
+List Blitzcrank's primary weapons.,Graph,Vector,0,0.0,0.0,0.0,0,3.62
+Who are the characters related to Blitzcrank?,Graph,Vector,0,0.0,0.0,0.0,0,1.67
+In which region was Blitzcrank created?,Graph,Vector,0,0.0,0.0,0.0,10,4.17
+Who is credited as Blitzcrank's creator?,Graph,Vector,0,0.0,0.0,0.0,10,3.84
+What was Blitzcrank originally designed to do in Zaun?,Vector,Vector,1,0.0,0.0,0.0,5,5.8
+"How old is Blitzcrank, according to their current age range?",Vector,Vector,1,0.33,1.0,0.5,0,3.82
+What was Blitzcrank's state before Viktor found and modified them?,Vector,Vector,1,0.0,0.0,0.0,9,4.81
+What is Blitzcrank's primary role or occupation in Zaun?,Vector,Vector,1,0.0,0.0,0.0,10,7.81
+How did Viktor's use of a Shuriman hextech crystal to upgrade Blitzcrank aid in Zaun's cleanup efforts?,Hybrid,Vector,0,0.0,0.0,0.0,5,7.65
+Explain the symbiotic relationship between Zaun's hazardous environment and Blitzcrank's purpose as a guardian.,Hybrid,Vector,0,0.0,0.0,0.0,10,20.47
+Who is Blitzcrank's older brother?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,3.57
+Did anyone betray Blitzcrank or their creator during their formation?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,4.09
+What is Brand's primary weapon?,Graph,Vector,0,0.67,2.0,1.0,10,3.65
+What region is Brand originally from?,Graph,Vector,0,0.0,0.0,0.0,5,4.3
+Who was Brand's former lover?,Graph,Vector,0,0.0,0.0,0.0,0,4.58
+Who was Brand's apprentice master?,Graph,Vector,0,0.0,0.0,0.0,4,3.94
+Why was Kegan Rodhe shunned in Rygann's Reach?,Vector,Vector,1,0.0,0.0,0.0,0,7.43
+What was Brand's birth name?,Vector,Vector,1,0.0,0.0,0.0,10,4.24
+Describe Kegan Rodhe's childhood in Rygann's Reach.,Vector,Vector,1,0.0,0.0,0.0,0,9.04
+How did Kegan Rodhe's parentage affect his upbringing?,Vector,Vector,1,0.0,0.0,0.0,4,6.21
+"How did the harsh environment of Rygann's Reach, Freljord shape Kegan Rodhe's early experiences?",Hybrid,Vector,0,0.33,0.5,0.4,1,6.91
+What was the significance of Kegan Rodhe's relationship with Zvanna in his troubled youth?,Hybrid,Vector,0,0.0,0.0,0.0,10,9.6
+Who was the traitor responsible for abandoning Kegan Rodhe?,Adversarial,Vector,0,0.33,0.5,0.4,0,4.4
+How did Brand's older brother influence his transformation?,Adversarial,Vector,0,0.0,0.0,0.0,10,6.73
+What is the name of Braum's primary weapon?,Graph,Vector,0,0.0,0.0,0.0,10,3.74
+In which region does Braum hail from?,Graph,Vector,0,0.0,0.0,0.0,0,5.67
+Who is the legendary blacksmith that created Braum's door-shield?,Graph,Vector,0,0.0,0.0,0.0,2,4.05
+What was Braum's role in bringing the Freljord family together?,Graph,Vector,0,0.0,0.0,0.0,10,5.45
+What did Braum's mother teach him about the nature of true courage?,Vector,Vector,1,0.0,0.0,0.0,9,5.32
+What was Braum's early life philosophy regarding the people of the Freljord?,Vector,Vector,1,0.0,0.0,0.0,10,7.65
+Why did Braum leave his home town?,Vector,Vector,1,0.0,0.0,0.0,10,5.42
+What did Braum's mother do when their home town was attacked by ice giants?,Vector,Vector,1,0.0,0.0,0.0,10,4.85
+"What is Braum's region, and how did his mother's teachings influence his quest for unity within the Freljord?",Hybrid,Vector,0,0.0,0.0,0.0,9,5.54
+"Describe the relationship between Braum and Ornn, and how it relates to Braum's heroic deeds in the Freljord.",Hybrid,Vector,0,0.0,0.0,0.0,10,18.16
+What was Braum's elder brother's role in his early life?,Adversarial,Vector,0,0.0,0.0,0.0,10,9.34
+Who did Braum betray to become a legendary tale hero?,Adversarial,Vector,0,0.0,0.0,0.0,10,3.27
+What weapons does Briar wield?,Graph,Vector,0,0.0,0.0,0.0,3,5.02
+Who is credited as Briar's creator?,Graph,Vector,0,0.0,0.0,0.0,5,3.7
+In which region was Briar created?,Graph,Vector,0,0.0,0.0,0.0,5,5.15
+Name a historical figure associated with the period of Briar's creation.,Graph,Vector,0,0.0,0.0,0.0,10,3.49
+Describe Briar's primary psychological affliction.,Vector,Vector,1,0.0,0.0,0.0,10,7.94
+What was the immediate outcome of Briar's first mission?,Vector,Vector,1,0.0,0.0,0.0,10,5.92
+What was the Black Rose's intended purpose for Briar?,Vector,Vector,1,0.0,0.0,0.0,0,6.16
+How were Briar's violent instincts initially managed?,Vector,Vector,1,0.0,0.0,0.0,9,5.68
+How did the Black Rose's creation of Briar near the end of Boram Darkwill's reign shape Noxian military strategy?,Hybrid,Vector,0,1.0,0.75,0.86,4,17.99
+"What was the strategic role of deploying Briar, Vladimir's creation, during Jericho Swain's coup?",Hybrid,Vector,0,1.0,0.6,0.75,0,7.67
+Did Briar's older brother betray Noxus?,Adversarial,Vector,0,0.67,1.0,0.8,10,3.67
+Who was the traitor that helped in the creation of Briar?,Adversarial,Vector,0,0.67,1.0,0.8,10,3.57
+What are Caitlyn Kiramman's primary weapons?,Graph,Vector,0,0.33,1.0,0.5,0,4.96
+Who is Caitlyn Kiramman's girlfriend?,Graph,Vector,0,0.0,0.0,0.0,10,4.7
+List Caitlyn Kiramman's parents.,Graph,Vector,0,0.33,1.0,0.5,10,6.42
+In which region does Caitlyn Kiramman serve as Sheriff?,Graph,Vector,0,0.0,0.0,0.0,10,3.56
+Describe Caitlyn Kiramman's feelings about being sheltered by her parents during her childhood.,Vector,Vector,1,0.0,0.0,0.0,8,13.55
+What happened during the sharpshooting competition Caitlyn Kiramman won as a child?,Vector,Vector,1,0.0,0.0,0.0,5,6.38
+How did Caitlyn Kiramman's upbringing among influential nobles and merchants shape her perspective?,Vector,Vector,1,0.0,0.0,0.0,0,10.58
+What was the status of the Kiramman family in Piltover during Caitlyn's youth?,Vector,Vector,1,0.0,0.0,0.0,7,9.49
+"Given her noble upbringing in Piltover, how did Caitlyn Kiramman become the Sheriff and what personal skills contributed to it?",Hybrid,Vector,0,0.33,0.33,0.33,5,22.57
+How does Caitlyn Kiramman's personal skill as a marksman contrast with the expectations placed upon her by her noble family in Piltover?,Hybrid,Vector,0,0.0,0.0,0.0,10,11.18
+Who is Caitlyn Kiramman's traitorous brother?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,4.91
+Describe the role of Caitlyn Kiramman's sister in Piltover's politics.,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,16.69
+What weapons does Cassiopeia use?,Graph,Vector,0,0.33,1.0,0.5,0,6.86
+Which region is Cassiopeia from?,Graph,Vector,0,0.0,0.0,0.0,10,4.05
+Who are Cassiopeia's family members?,Graph,Vector,0,0.33,1.0,0.5,4,5.29
+What factions is Cassiopeia associated with?,Graph,Vector,0,0.0,0.0,0.0,5,5.42
+Describe Cassiopeia's early life and upbringing in Urzeris.,Vector,Vector,1,0.0,0.0,0.0,5,17.44
+How did Cassiopeia's relationship with her mother Soreana develop?,Vector,Vector,1,0.0,0.0,0.0,4,8.43
+What role did the Black Rose cult play in Cassiopeia's upbringing?,Vector,Vector,1,0.0,0.0,0.0,5,8.08
+What psychological traits or personality aspects are associated with Cassiopeia based on her lore?,Vector,Vector,1,0.0,0.0,0.0,10,9.3
+"How did Cassiopeia's noble upbringing in Noxus, combined with her mother's Black Rose affiliation, shape her path and potential influence in Shurima?",Hybrid,Vector,0,1.0,1.0,1.0,0,10.65
+"Considering Cassiopeia's training in authority and her family's assassin background, how might she have navigated the political landscape of Noxus and her covert role within the Black Rose?",Hybrid,Vector,0,0.0,0.0,0.0,0,29.97
+Is Cassiopeia's adopted brother a traitor to Noxus?,Adversarial,Vector,0,0.33,0.33,0.33,0,5.17
+Does Cassiopeia have a sister who betrayed Noxus?,Adversarial,Vector,0,0.33,0.33,0.33,10,5.12
+What are the weapons wielded by Cho'Gath?,Graph,Vector,0,0.0,0.0,0.0,0,4.25
+From which region does Cho'Gath originate?,Graph,Vector,0,0.0,0.0,0.0,0,4.71
+List the Voidborn beings related to Cho'Gath.,Graph,Vector,0,0.0,0.0,0.0,10,4.42
+Who are considered Cho'Gath's creators?,Graph,Vector,0,0.0,0.0,0.0,4,3.14
+What is the primary drive or purpose of Cho'Gath?,Vector,Vector,1,0.0,0.0,0.0,5,5.85
+What is the historical goal of Cho'Gath and its kind concerning Runeterra?,Vector,Vector,1,0.0,0.0,0.0,10,4.01
+Where is Cho'Gath currently found preying on victims?,Vector,Vector,1,0.0,0.0,0.0,5,3.8
+Describe the physical characteristics of Cho'Gath.,Vector,Vector,1,0.0,0.0,0.0,5,6.03
+How does Cho'Gath's origin in the Void relate to its current predatory activities in Icathia?,Hybrid,Vector,0,0.0,0.0,0.0,10,7.66
+Explain the significance of the Watchers to Cho'Gath's role in Runeterra's potential invasion.,Hybrid,Vector,0,0.0,0.0,0.0,9,12.08
+What is the relationship between Cho'Gath and its supposed traitorous kin?,Adversarial,Vector,0,0.0,0.0,0.0,0,1.81
+How does Cho'Gath show affection towards its siblings?,Adversarial,Vector,0,0.0,0.0,0.0,10,1.92
+What weapons does Corki use?,Graph,Vector,0,0.0,0.0,0.0,0,3.66
+Where is Corki from?,Graph,Vector,0,0.0,0.0,0.0,10,5.01
+Who are Corki's known associates?,Graph,Vector,0,0.0,0.0,0.0,10,3.68
+What faction does Corki belong to?,Graph,Vector,0,0.0,0.0,0.0,0,2.88
+What motivates Corki's passion for flight?,Vector,Vector,1,0.0,0.0,0.0,10,7.26
+Describe Corki's role in the Piltovan Progress Day event.,Vector,Vector,1,0.0,0.0,0.0,10,8.97
+What was the outcome of Corki's aerial challenge in Piltover?,Vector,Vector,1,0.0,0.0,0.0,10,4.29
+How is Corki's personality characterized in his expeditions?,Vector,Vector,1,0.0,0.0,0.0,3,7.7
+"Considering Corki is from Bandle City, explain his involvement with the Piltovan Progress Day incident.",Hybrid,Vector,0,0.0,0.0,0.0,0,23.37
+How did Corki's daring nature and connection to Teemo lead to his presence in Piltover for the scout badge?,Hybrid,Vector,0,0.0,0.0,0.0,0,6.82
+Who is Corki's anh trai (older brother)?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.96
+Is Corki a kẻ phản bội (traitor)?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.68
+What weapons does Darius wield?,Graph,Vector,0,0.0,0.0,0.0,1,3.6
+In which region was Darius born?,Graph,Vector,0,0.0,0.0,0.0,8,5.06
+Who is Darius's closest family member mentioned in his lore?,Graph,Vector,0,0.0,0.0,0.0,10,5.24
+Who are Darius's primary allies or superiors within Noxus?,Graph,Vector,0,0.0,0.0,0.0,5,3.82
+What challenges did Darius face in his childhood?,Vector,Vector,1,0.0,0.0,0.0,8,6.03
+What were Darius's aspirations with Quilletta Varn?,Vector,Vector,1,0.0,0.0,0.0,10,4.53
+Describe Darius's early life experiences before becoming a general.,Vector,Vector,1,0.0,0.0,0.0,10,10.12
+How did the invasion of Basilich by Noxus shape Darius's path?,Vector,Vector,1,0.0,0.0,0.0,10,9.12
+"How did Darius's early life experiences in Basilich, including the Noxian invasion, influence his future ambitions?",Hybrid,Vector,0,0.0,0.0,0.0,10,12.47
+"Given his position as a general and his familial ties, what does Darius's relationship with his brother Draven reveal about Noxian values?",Hybrid,Vector,0,0.0,0.0,0.0,1,11.93
+Who is Darius's elder brother?,Adversarial,Vector,0,0.0,0.0,0.0,2,4.91
+What treason did Darius commit against Noxus?,Adversarial,Vector,0,0.0,0.0,0.0,10,5.59
+List Diana's weapons.,Graph,Vector,0,0.0,0.0,0.0,0,2.75
+What region is Diana associated with?,Graph,Vector,0,0.0,0.0,0.0,0,5.11
+Who was Diana's former lover?,Graph,Vector,0,0.0,0.0,0.0,2,3.07
+What factions is Diana a part of?,Graph,Vector,0,0.0,0.0,0.0,4,4.36
+Describe Diana's early life and training with the Solari.,Vector,Vector,1,0.0,0.0,0.0,3,13.95
+What did Diana discover about the Solari texts regarding the moon?,Vector,Vector,1,0.0,0.0,0.0,0,7.52
+How did Diana react to her teachers' vague answers?,Vector,Vector,1,0.0,0.0,0.0,3,5.39
+What is Diana's current residence?,Vector,Vector,1,0.0,0.0,0.0,10,3.55
+How did Diana's past affiliation with the Solari in Targon influence her understanding of the moon?,Hybrid,Vector,0,0.0,0.0,0.0,10,9.79
+"Considering Diana's romantic interest in Leona, how does this past relationship contrast with her current faction affiliations?",Hybrid,Vector,0,0.0,0.0,0.0,10,9.89
+Tell me about Diana's older brother.,Adversarial,Vector,0,0.0,0.0,0.0,0,3.88
+What weapons does Dr. Mundo use?,Graph,Vector,0,0.0,0.0,0.0,0,4.06
+What region is Dr. Mundo from?,Graph,Vector,0,0.0,0.0,0.0,10,3.77
+Who is Dr. Mundo related to?,Graph,Vector,0,0.0,0.0,0.0,0,3.91
+What are Dr. Mundo's occupations?,Graph,Vector,0,0.0,0.0,0.0,10,6.05
+How did Dr. Mundo become known as The Madman of Zaun?,Vector,Vector,1,0.0,0.0,0.0,5,6.32
+Describe Dr. Mundo's personality before his experiments.,Vector,Vector,1,0.0,0.0,0.0,5,10.33
+What happened to Dr. Mundo during his time at Osweld Asylum?,Vector,Vector,1,0.0,0.0,0.0,7,6.82
+Why was Dr. Mundo committed to Osweld Asylum?,Vector,Vector,1,0.0,0.0,0.0,5,4.43
+"Considering his role in Zaun's criminal underworld and his personality, describe Dr. Mundo's life before Osweld Asylum.",Hybrid,Vector,0,0.33,0.25,0.29,4,12.09
+How did the experiments at Osweld Asylum alter Dr. Mundo's perception of being a 'doctor' in Zaun?,Hybrid,Vector,0,0.67,0.5,0.57,9,8.64
+Did Dr. Mundo betray his chem-baron employer?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,3.37
+Who is the sister of Dr. Mundo?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,10,2.46
+What weapon does Draven use?,Graph,Vector,0,0.0,0.0,0.0,10,3.76
+Where does Draven primarily reside?,Graph,Vector,0,0.0,0.0,0.0,0,3.51
+Who is Draven's brother?,Graph,Vector,0,0.0,0.0,0.0,10,3.86
+Name a character related to Draven,Graph,Vector,0,0.0,0.0,0.0,0,2.81
+How did Draven's childhood shape him?,Vector,Vector,1,0.0,0.0,0.0,8,8.38
+How did Draven and Darius join the Noxus army?,Vector,Vector,1,0.0,0.0,0.0,2,7.41
+What made Draven bored with being a soldier?,Vector,Vector,1,0.0,0.0,0.0,10,7.0
+Describe Draven's hometown before it fell to Noxus.,Vector,Vector,1,0.0,0.0,0.0,0,7.34
+"How did Draven's upbringing in Basilich, Noxus influence his desire for glory?",Hybrid,Vector,0,0.0,0.0,0.0,10,10.18
+How did Draven's relationship with Darius impact his entry into the Noxian military?,Hybrid,Vector,0,0.0,0.0,0.0,4,10.35
+What is the name of Draven's elder brother?,Adversarial,Vector,0,0.0,0.0,0.0,10,3.93
+Was anyone in Draven's family a traitor?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.13
+List Ekko's known weapons.,Graph,Vector,0,0.0,0.0,0.0,0,3.84
+What region is Ekko's home city located in?,Graph,Vector,0,0.0,0.0,0.0,10,5.57
+Who were Ekko's childhood friends that formed his gang?,Graph,Vector,0,0.0,0.0,0.0,10,6.77
+What faction does Ekko primarily associate with in Zaun?,Graph,Vector,0,0.0,0.0,0.0,0,5.29
+Describe Ekko's upbringing and early life in Zaun.,Vector,Vector,1,0.0,0.0,0.0,10,11.93
+How did Ekko become an inventor?,Vector,Vector,1,0.0,0.0,0.0,9,8.37
+What role did Benzo play in Ekko's childhood?,Vector,Vector,1,0.0,0.0,0.0,10,9.89
+What are Ekko's aliases?,Vector,Vector,1,0.0,0.0,0.0,0,6.74
+"Considering Ekko's role in Zaun and his childhood gang, how did his early environment shape his inventive skills?",Hybrid,Vector,0,0.33,0.33,0.33,10,21.59
+"How did Ekko's status as a 'Little Man' in Zaun influence his relationships with Vi and Powder, and what were the implications for his early life?",Hybrid,Vector,0,0.0,0.0,0.0,10,16.31
+Does Ekko have an older brother?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,6.18
+Who is Ekko's younger sister?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,4.7
+What is the Elder Dragon's weapon?,Graph,Vector,0,0.0,0.0,0.0,0,4.16
+In which region does the Elder Dragon reside?,Graph,Vector,0,0.0,0.0,0.0,0,4.54
+Who are the characters related to the Elder Dragon?,Graph,Vector,0,0.0,0.0,0.0,0,2.27
+What is the Elder Dragon's faction?,Graph,Vector,0,0.0,0.0,0.0,0,2.19
+Describe the Elder Dragon's general nature and its tendency to intervene in world affairs.,Vector,Vector,1,0.0,0.0,0.0,10,3.98
+What do legends and prophecies say about the Elder Dragon's potential alliances?,Vector,Vector,1,0.0,0.0,0.0,10,4.98
+What happens if someone crosses the Elder Dragon without due cause?,Vector,Vector,1,0.0,0.0,0.0,10,3.75
+Can you describe the color of the Elder Dragon's eyes and mouth?,Vector,Vector,1,0.0,0.0,0.0,10,5.2
+"What is the Elder Dragon's stance on those who respect Runeterra's harmony, and where does it primarily exist?",Hybrid,Vector,0,0.0,0.0,0.0,5,11.04
+"What kind of wrath does the Elder Dragon wield, and who are its related characters?",Hybrid,Vector,0,0.0,0.0,0.0,1,11.97
+Who is the Elder Dragon's brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.77
+Who is known as a traitor to the Elder Dragon?,Adversarial,Vector,0,0.0,0.0,0.0,0,1.03
+What weapons does Evelynn wield?,Graph,Vector,0,0.0,0.0,0.0,0,2.95
+In which region did Evelynn originate?,Graph,Vector,0,0.0,0.0,0.0,0,12.93
+Who is Evelynn related to in terms of other demons?,Graph,Vector,0,0.0,0.0,0.0,5,5.03
+What are Evelynn's primary occupations?,Graph,Vector,0,0.0,0.0,0.0,0,9.81
+How did Evelynn become a demon?,Vector,Vector,1,0.0,0.0,0.0,2,4.92
+What event stimulated Evelynn's transformation into a demon?,Vector,Vector,1,0.0,0.0,0.0,5,2.33
+Describe Evelynn's existence before her awakening.,Vector,Vector,1,0.0,0.0,0.0,10,7.59
+What does Evelynn hunger for after the Rune Wars ended?,Vector,Vector,1,0.0,0.0,0.0,0,3.53
+How did the Rune Wars in Runeterra influence Evelynn's nature as a demon?,Hybrid,Vector,0,0.67,0.67,0.67,9,6.92
+Describe the connection between Evelynn's thirst for agony and her predatory nature.,Hybrid,Vector,0,0.33,0.5,0.4,6,19.8
+Who betrayed Evelynn?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.19
+Does Evelynn have any siblings?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.45
+What weapon does Ezreal use?,Graph,Vector,0,1.0,3.0,1.5,0,2.96
+Where is Ezreal from?,Graph,Vector,0,0.0,0.0,0.0,10,3.23
+Who are Ezreal's family members?,Graph,Vector,0,0.0,0.0,0.0,4,4.71
+List characters related to Ezreal.,Graph,Vector,0,0.0,0.0,0.0,0,1.81
+Why did Ezreal become an adventurer?,Vector,Vector,1,0.0,0.0,0.0,7,6.38
+What happened to Ezreal's parents?,Vector,Vector,1,0.0,0.0,0.0,4,6.22
+How old is Ezreal?,Vector,Vector,1,0.33,1.0,0.5,10,3.36
+What was the most important expedition Ezreal's parents prepared for?,Vector,Vector,1,0.0,0.0,0.0,10,5.26
+What is the significance of the Tomb of Ne'Zuk in Ezreal's quest?,Hybrid,Vector,0,0.0,0.0,0.0,4,4.85
+"Describe Ezreal's relationship with his uncle, Professor Lymere.",Hybrid,Vector,0,0.0,0.0,0.0,1,11.61
+Tell me about Ezreal's brother.,Adversarial,Vector,0,0.0,0.0,0.0,0,3.44
+Who betrayed Ezreal?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.04
+What are Fiddlesticks' primary weapons?,Graph,Vector,0,0.0,0.0,0.0,0,3.97
+In which regions has Fiddlesticks been observed in its physical form?,Graph,Vector,0,0.0,0.0,0.0,0,5.74
+Name the other primordial demons that Fiddlesticks is known to be associated with.,Graph,Vector,0,0.0,0.0,0.0,0,5.59
+What is the Freljordian folklore nickname for Fiddlesticks?,Graph,Vector,0,0.0,0.0,0.0,0,3.98
+What are the different origin stories or theories about Fiddlesticks' creation?,Vector,Vector,1,0.0,0.0,0.0,9,11.31
+When did Fiddlesticks' presence become more than just a myth in Demacian territories?,Vector,Vector,1,0.0,0.0,0.0,10,5.83
+What is Fiddlesticks' core identity as an ancient entity?,Vector,Vector,1,0.0,0.0,0.0,4,5.58
+What is the recorded age of Fiddlesticks?,Vector,Vector,1,0.0,0.0,0.0,1,8.26
+How does Fiddlesticks' nature as a Demon of Fear intertwine with its lore from Noxus involving a bad harvest?,Hybrid,Vector,0,0.0,0.0,0.0,10,12.11
+"Considering Fiddlesticks' connection to other primordial demons and its noted appearances in Demacia, what does this suggest about its influence on the mortal realm?",Hybrid,Vector,0,0.0,0.0,0.0,10,10.41
+Who was the traitor responsible for Fiddlesticks' suffering in ancient times?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.93
+"Describe Fiddlesticks' relationship with its sister, the demon Lillia.",Adversarial,Vector,0,0.0,0.0,0.0,0,8.95
+What weapons does Fiora use?,Graph,Vector,0,0.0,0.0,0.0,4,4.1
+In which region does Fiora reside?,Graph,Vector,0,0.0,0.0,0.0,0,5.13
+Who is Fiora's father?,Graph,Vector,0,0.67,2.0,1.0,0,4.79
+List characters related to Fiora.,Graph,Vector,0,0.0,0.0,0.0,0,1.79
+Describe Fiora's personality and how she defied her family.,Vector,Vector,1,0.0,0.0,0.0,8,15.72
+What were Fiora's early life aspirations?,Vector,Vector,1,0.0,0.0,0.0,8,7.47
+How did Fiora learn to wield a rapier?,Vector,Vector,1,0.0,0.0,0.0,8,5.39
+What was the significance of Fiora's eighteenth birthday?,Vector,Vector,1,0.0,0.0,0.0,10,8.15
+How did being the youngest daughter of House Laurent in Demacia shape Fiora's early life and her development as a swordswoman?,Hybrid,Vector,0,0.67,0.5,0.57,10,11.66
+"Considering Fiora's family ties and her skill with a rapier, what role might she play in Demacian society?",Hybrid,Vector,0,1.0,0.75,0.86,10,24.49
+Who is Fiora's elder brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.97
+Who arranged Fiora's marriage?,Adversarial,Vector,0,0.67,1.0,0.8,10,5.17
+What weapon does Fizz wield?,Graph,Vector,0,0.0,0.0,0.0,0,3.3
+What region is Fizz associated with?,Graph,Vector,0,0.0,0.0,0.0,0,5.05
+Who is Fizz's pet?,Graph,Vector,0,0.0,0.0,0.0,10,2.44
+Name characters related to Fizz.,Graph,Vector,0,0.0,0.0,0.0,2,3.1
+Describe Fizz's personality and occupation.,Vector,Vector,1,0.0,0.0,0.0,10,9.96
+What was the ancient civilization that Fizz lived amongst?,Vector,Vector,1,0.0,0.0,0.0,4,4.03
+What threat motivated Fizz to travel the seas?,Vector,Vector,1,0.0,0.0,0.0,10,4.45
+What was Fizz's pledge to help the ancient civilizations?,Vector,Vector,1,0.0,0.0,0.0,5,4.92
+What was Fizz's role and objective when the ancient civilizations faced threats from the sea?,Hybrid,Vector,0,0.0,0.0,0.0,5,5.23
+How does Fizz's current residence near Bilgewater relate to his origins in an ancient underwater city?,Hybrid,Vector,0,0.0,0.0,0.0,10,7.45
+Who is Fizz's traitor?,Adversarial,Vector,0,0.0,0.0,0.0,0,1.64
+Tell me about Fizz's older brother.,Adversarial,Vector,0,0.0,0.0,0.0,0,2.87
+What are Galio's primary defensive tools?,Graph,Vector,0,0.0,0.0,0.0,4,4.7
+In which region of Runeterra does Galio primarily protect?,Graph,Vector,0,0.0,0.0,0.0,0,3.01
+Who created Galio and what was his relationship to Galio?,Graph,Vector,0,0.0,0.0,0.0,1,7.6
+List some characters related to Galio.,Graph,Vector,0,0.0,0.0,0.0,0,2.06
+Describe the event that caused Galio to awaken for the first time.,Vector,Vector,1,0.0,0.0,0.0,1,6.07
+What did Galio's mind long for after returning to inert stone?,Vector,Vector,1,0.0,0.0,0.0,5,1.69
+What was Galio's initial role when commissioned by the Demacian military?,Vector,Vector,1,0.0,0.0,0.0,0,4.91
+What is Galio's species and nature?,Vector,Vector,1,0.0,0.0,0.0,9,6.51
+"How did Galio, as Demacia's protector, neutralize threats during the Battle of the Greenfang Mountains?",Hybrid,Vector,0,0.0,0.0,0.0,8,4.08
+Explain the link between Arcturus J. Durand's masterpiece and Galio's first awakening.,Hybrid,Vector,0,0.0,0.0,0.0,6,6.22
+What betrayal did Galio prevent when fighting the Arcane Fist?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.56
+Who is the large stone guardian that awoke to fight?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.34
+List Gangplank's known weapons.,Graph,Vector,0,1.0,3.0,1.5,10,3.66
+What are the primary regions associated with Gangplank?,Graph,Vector,0,0.0,0.0,0.0,0,3.42
+Identify Gangplank's former romantic interest.,Graph,Vector,0,0.67,2.0,1.0,5,4.09
+What were Gangplank's occupations?,Graph,Vector,0,0.0,0.0,0.0,5,10.48
+Describe Gangplank's personality traits and leadership style.,Vector,Vector,1,0.33,1.0,0.5,0,15.81
+What is Gangplank's reputation among other pirates?,Vector,Vector,1,0.0,0.0,0.0,10,6.49
+How does Gangplank typically deal with members of his own crew who displease him?,Vector,Vector,1,0.0,0.0,0.0,10,7.23
+What historical event involving Sarah Fortune's mother is attributed to Gangplank?,Vector,Vector,1,0.0,0.0,0.0,0,5.68
+"Considering Gangplank's cruel nature, how has his role as the 'Reaver King' of Bilgewater impacted his control over the city?",Hybrid,Vector,0,0.0,0.0,0.0,10,10.63
+How did Gangplank's past relationship with Illaoi influence his current standing or personal outlook?,Hybrid,Vector,0,0.0,0.0,0.0,5,11.42
+Does Gangplank have an older brother who assists him?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.81
+Is Gangplank considered a traitor within Bilgewater?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.41
+What weapons does Garen use?,Graph,Vector,0,0.0,0.0,0.0,0,3.59
+In which region does Garen reside?,Graph,Vector,0,0.0,0.0,0.0,10,4.45
+Who is Garen's sister?,Graph,Vector,0,0.0,0.0,0.0,8,3.57
+What is Garen's faction?,Graph,Vector,0,0.0,0.0,0.0,7,3.64
+Describe Garen's upbringing and education.,Vector,Vector,1,0.0,0.0,0.0,10,17.83
+What are Garen's core beliefs or motivations?,Vector,Vector,1,0.0,0.0,0.0,10,12.94
+What is the significance of the Galio monument to Garen?,Vector,Vector,1,0.0,0.0,0.0,1,10.76
+Is Garen still alive?,Vector,Vector,1,0.0,0.0,0.0,10,2.63
+How does Garen's noble upbringing in Demacia influence his role as captain of the Dauntless Vanguard?,Hybrid,Vector,0,0.0,0.0,0.0,10,11.47
+"Considering his family ties, what does Garen's loyalty to Demacia signify?",Hybrid,Vector,0,0.67,0.67,0.67,10,11.27
+Who is Garen's closest family member in Demacia?,Adversarial,Vector,0,0.33,0.5,0.4,0,5.99
+Describe Garen's relationship with his brothers.,Adversarial,Vector,0,0.67,2.0,1.0,0,11.48
+What weapons does Gnar use?,Graph,Vector,0,0.0,0.0,0.0,0,5.09
+In which regions has Gnar resided?,Graph,Vector,0,0.0,0.0,0.0,0,3.22
+Who are some characters related to Gnar?,Graph,Vector,0,0.0,0.0,0.0,0,2.97
+What is known about Gnar's immediate family members?,Graph,Vector,0,0.0,0.0,0.0,0,2.91
+Describe Gnar's temperament as a young yordle.,Vector,Vector,1,0.0,0.0,0.0,8,8.25
+Where did Gnar live before the Freljord was named?,Vector,Vector,1,0.0,0.0,0.0,8,5.52
+What did Gnar consider himself to have kinship with?,Vector,Vector,1,0.0,0.0,0.0,0,2.99
+What kind of items did Gnar collect in his early life?,Vector,Vector,1,0.0,0.0,0.0,5,4.66
+How did Gnar's early life in the Freljord shape his temperament towards larger creatures?,Hybrid,Vector,0,0.0,0.0,0.0,7,9.17
+"Considering Gnar's occupation as a hunter and his tendency to bond with larger creatures in the Freljord, how might his relationship with beings like Willump be characterized?",Hybrid,Vector,0,0.0,0.0,0.0,10,8.62
+What is Gnar's brother's name?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.2
+Is there any record of Gnar being betrayed by anyone?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.8
+What are Gragas's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,0,4.77
+In which region does Gragas currently reside?,Graph,Vector,0,0.0,0.0,0.0,0,4.48
+List characters related to Gragas.,Graph,Vector,0,0.0,0.0,0.0,0,1.77
+What is Gragas's faction affiliation?,Graph,Vector,0,0.0,0.0,0.0,10,5.94
+What was Gragas's ultimate goal in brewing?,Vector,Vector,1,0.0,0.0,0.0,8,4.41
+How did Gragas find the ice shard in the Freljord?,Vector,Vector,1,0.0,0.0,0.0,7,3.77
+What effect did the ice shard have on Gragas's brew?,Vector,Vector,1,0.0,0.0,0.0,10,4.02
+What is Gragas's species and current age?,Vector,Vector,1,0.0,0.0,0.0,0,4.06
+Explain how the Freljord's arctic water and ice shard contributed to Gragas's ultimate ale.,Hybrid,Vector,0,0.0,0.0,0.0,8,6.15
+How did Gragas's quest for the perfect brew lead him to the Freljord and what did he find?,Hybrid,Vector,0,0.0,0.0,0.0,9,6.82
+Who is the traitor that Gragas is seeking revenge against?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.99
+Can you describe Gragas's younger sister and her role in his life?,Adversarial,Vector,0,0.0,0.0,0.0,0,6.47
+What are the names of the weapons Graves uses?,Graph,Vector,0,0.0,0.0,0.0,0,3.97
+In which region did Malcolm Graves grow up?,Graph,Vector,0,0.0,0.0,0.0,9,4.51
+Who is Graves's romantic interest?,Graph,Vector,0,0.0,0.0,0.0,0,3.18
+List characters that are related to Graves.,Graph,Vector,0,0.0,0.0,0.0,0,2.27
+Describe Graves's early life in Bilgewater.,Vector,Vector,1,0.0,0.0,0.0,10,6.4
+What event led Graves to leave Bilgewater for the Shuriman mainland?,Vector,Vector,1,0.0,0.0,0.0,7,4.38
+Tell me about the card game where Graves first met Twisted Fate.,Vector,Vector,1,0.0,0.0,0.0,10,6.09
+"What is Graves's personality like, based on his early life and occupations?",Vector,Vector,1,0.0,0.0,0.0,4,8.63
+Describe Graves's occupation as a mercenary and how it relates to his past in Bilgewater.,Hybrid,Vector,0,0.0,0.0,0.0,10,9.59
+How does Graves's status as an Outlaw and his connection to Bilgewater influence his current residence?,Hybrid,Vector,0,0.0,0.0,0.0,7,9.05
+Is Graves known to be a traitor?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.97
+Does Graves have any siblings?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.94
+What weapons does Gwen use?,Graph,Vector,0,0.33,1.0,0.5,0,3.88
+What regions is Gwen associated with?,Graph,Vector,0,0.0,0.0,0.0,5,5.52
+Who created Gwen?,Graph,Vector,0,0.0,0.0,0.0,10,3.1
+List characters related to Gwen.,Graph,Vector,0,0.0,0.0,0.0,5,4.45
+What was Gwen's original purpose as a doll?,Vector,Vector,1,0.0,0.0,0.0,10,8.01
+What events led to Gwen being forgotten for centuries?,Vector,Vector,1,0.0,0.0,0.0,10,7.88
+Describe Gwen's early life and relationship with Isolde.,Vector,Vector,1,0.0,0.0,0.0,8,21.77
+How did Viego's actions affect Gwen's existence?,Vector,Vector,1,0.0,0.0,0.0,10,7.33
+"Explain how Gwen, created by Isolde in Camavor, ended up in the Shadow Isles.",Hybrid,Vector,0,0.0,0.0,0.0,4,10.65
+How did Isolde's illness and death influence Gwen's fate?,Hybrid,Vector,0,0.0,0.0,0.0,2,8.66
+Does Gwen have any siblings?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.75
+What is the significance of the 'betrayer' in Gwen's story?,Adversarial,Vector,0,0.0,0.0,0.0,1,5.99
+What weapons does Hecarim wield?,Graph,Vector,0,0.0,0.0,0.0,0,4.91
+Which regions are associated with Hecarim?,Graph,Vector,0,0.0,0.0,0.0,5,3.92
+Who was Hecarim's former fiancée?,Graph,Vector,0,0.0,0.0,0.0,0,1.69
+List the characters related to Hecarim.,Graph,Vector,0,0.0,0.0,0.0,0,1.8
+Describe Hecarim's personality and motivations.,Vector,Vector,1,0.0,0.0,0.0,10,27.09
+What was Hecarim's former role in the Kingdom of Camavor?,Vector,Vector,1,0.0,0.0,0.0,9,6.3
+How did Hecarim become the leader of the Iron Order?,Vector,Vector,1,0.0,0.0,0.0,10,11.03
+What is Hecarim's current form or state?,Vector,Vector,1,0.0,0.0,0.0,9,6.71
+How did Hecarim's ambition in Camavor lead to his current existence in the Shadow Isles?,Hybrid,Vector,0,0.0,0.0,0.0,6,9.87
+Explain the connection between Hecarim's loyalty to King Viego in Camavor and his current allegiance in the Shadow Isles.,Hybrid,Vector,0,0.0,0.0,0.0,10,15.73
+Who did Hecarim betray to gain control of the Iron Order?,Adversarial,Vector,0,0.0,0.0,0.0,7,4.82
+"What is the relationship between Hecarim and his brother, the Commander of the Iron Order?",Adversarial,Vector,0,0.0,0.0,0.0,0,6.95
+What weapons does Heimerdinger use?,Graph,Vector,0,0.0,0.0,0.0,0,3.43
+What regions is Heimerdinger associated with?,Graph,Vector,0,0.0,0.0,0.0,0,6.94
+Who are some characters related to Heimerdinger?,Graph,Vector,0,0.0,0.0,0.0,0,2.84
+What faction does Heimerdinger belong to?,Graph,Vector,0,0.0,0.0,0.0,10,4.62
+What drives Heimerdinger's passion for invention?,Vector,Vector,1,0.0,0.0,0.0,4,5.11
+What role did Heimerdinger play in the founding of Piltover?,Vector,Vector,1,0.0,0.0,0.0,5,10.57
+How old was Heimerdinger during Arcane Act 1?,Vector,Vector,1,0.0,0.0,0.0,0,5.19
+What is Heimerdinger's current known status?,Vector,Vector,1,0.0,0.0,0.0,0,6.37
+How did Heimerdinger's inventions impact Piltover's development as a city of progress?,Hybrid,Vector,0,0.0,0.0,0.0,4,8.4
+How did Heimerdinger's experience witnessing a magical catastrophe influence his decision to help found Piltover?,Hybrid,Vector,0,0.0,0.0,0.0,8,9.01
+Did Heimerdinger betray his Yordle brethren by leaving Bandle City?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,4.78
+What are the general duties of a leader like Heimerdinger in Piltover?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,10,15.66
+What is Hwei's primary weapon?,Graph,Vector,0,1.0,3.0,1.5,0,3.48
+Where is Hwei originally from?,Graph,Vector,0,0.0,0.0,0.0,0,4.15
+Which characters are related to Hwei?,Graph,Vector,0,0.0,0.0,0.0,0,8.74
+What is Hwei's occupation?,Graph,Vector,0,0.0,0.0,0.0,5,6.32
+How does Hwei's paint magic influence its audience?,Vector,Vector,1,0.0,0.0,0.0,10,5.36
+What was Hwei's childhood like in Koyehn?,Vector,Vector,1,0.0,0.0,0.0,10,5.1
+What is required to prevent Hwei's art from overpowering mental perceptions?,Vector,Vector,1,0.0,0.0,0.0,9,4.63
+What is the significance of Hwei's shifting eye colors?,Vector,Vector,1,0.0,0.0,0.0,10,10.37
+How does Hwei's artistic magic connect to his origins in Ionia?,Hybrid,Vector,0,0.0,0.0,0.0,8,10.63
+Describe the relationship between Hwei and Jhin in the context of Ionian art.,Hybrid,Vector,0,0.0,0.0,0.0,0,13.09
+What is the name of Hwei's brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.57
+Who is the traitor in Hwei's family?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.0
+What are Illaoi's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,1,3.22
+What region is Illaoi from?,Graph,Vector,0,0.0,0.0,0.0,0,3.55
+Who was Illaoi's former lover?,Graph,Vector,0,0.0,0.0,0.0,10,5.07
+What is Illaoi's faction?,Graph,Vector,0,0.0,0.0,0.0,10,5.79
+What is Illaoi's role as a spiritual leader?,Vector,Vector,1,0.0,0.0,0.0,7,5.93
+How did Illaoi's upbringing influence her destiny?,Vector,Vector,1,0.0,0.0,0.0,9,10.05
+Describe Illaoi's feelings about her past romance with Gangplank.,Vector,Vector,1,0.0,0.0,0.0,5,8.14
+What are Illaoi's core beliefs and responsibilities?,Vector,Vector,1,0.0,0.0,0.0,9,9.36
+How does Illaoi's devotion to Nagakabouros affect her connection to the Serpent Isles?,Hybrid,Vector,0,0.0,0.0,0.0,10,9.31
+"Considering Illaoi's former relationship with Gangplank and her current residence in Bilgewater, how might her past influence her present actions?",Hybrid,Vector,0,0.0,0.0,0.0,10,29.36
+Tell me about Illaoi's mother.,Adversarial,Vector,0,0.0,0.0,0.0,0,6.27
+What is Illaoi's brother's name and role in her life?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.85
+What are Irelia's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,0,3.94
+What is Irelia's region of origin?,Graph,Vector,0,0.0,0.0,0.0,10,2.78
+Who were Irelia's brothers?,Graph,Vector,0,0.0,0.0,0.0,0,5.1
+Who was Irelia's grandmother?,Graph,Vector,0,0.0,0.0,0.0,0,3.59
+Why did Irelia pursue traditional dance from a young age?,Vector,Vector,1,0.0,0.0,0.0,9,6.22
+What happened to Irelia's father and brothers during the Noxian invasion?,Vector,Vector,1,0.0,0.0,0.0,0,9.44
+What role did Irelia's grandmother play in her life?,Vector,Vector,1,0.0,0.0,0.0,5,5.57
+What command did Admiral Duqual give regarding Irelia's family crest?,Vector,Vector,1,0.0,0.0,0.0,7,5.84
+How did the Noxian invasion of Ionia shape Irelia's connection to dance and her identity?,Hybrid,Vector,0,0.0,0.0,0.0,7,7.46
+Describe the influence of Irelia's Ionian heritage on her role as a Sentinel of Light.,Hybrid,Vector,0,0.0,0.0,0.0,8,17.17
+Tell me about the traitor who wronged Irelia's family.,Adversarial,Vector,0,0.0,0.0,0.0,1,4.54
+What did Irelia's brother do during the Noxian invasion?,Adversarial,Vector,0,0.0,0.0,0.0,2,4.37
+What regions are associated with Ivern's origins?,Graph,Vector,0,0.0,0.0,0.0,5,6.06
+Who are Ivern's offspring?,Graph,Vector,0,0.0,0.0,0.0,4,4.15
+Who are characters directly related to Ivern besides Daisy?,Graph,Vector,0,0.0,0.0,0.0,5,4.28
+What kind of magic does Ivern wield?,Graph,Vector,0,0.0,0.0,0.0,10,6.87
+Why did Ivern the Cruel seek out the land where magic flows?,Vector,Vector,1,0.0,0.0,0.0,8,3.79
+Describe Ivern's actions upon reaching Ionia.,Vector,Vector,1,0.0,0.0,0.0,1,27.18
+What was Ivern's role in ancient Vorrijaard?,Vector,Vector,1,0.0,0.0,0.0,10,5.82
+What ancient gods did Ivern the Cruel follow?,Vector,Vector,1,0.0,0.0,0.0,4,4.15
+How did Ivern's early life in the Freljord contrast with his later actions in Ionia?,Hybrid,Vector,0,0.0,0.0,0.0,5,7.9
+What was the nature of the conflict Ivern engaged in with the Vastayans in Ionia?,Hybrid,Vector,0,0.0,0.0,0.0,5,7.64
+What does 'Ivern the Cruel' imply about his relationship with his family?,Adversarial,Vector,0,0.0,0.0,0.0,3,4.54
+Is Daisy Ivern's older brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.1
+What are Janna's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,0,3.54
+In which regions has Janna been present?,Graph,Vector,0,0.0,0.0,0.0,5,3.65
+Who are some characters related to Janna?,Graph,Vector,0,0.0,0.0,0.0,0,2.08
+What are Janna's occupations?,Graph,Vector,0,0.0,0.0,0.0,0,2.98
+Describe Janna's nature as a spirit.,Vector,Vector,1,0.0,0.0,0.0,8,7.99
+What is the ancient Shuriman meaning of Janna's true name?,Vector,Vector,1,0.0,0.0,0.0,4,4.41
+What signs were said to precede heavy winds or storms according to old tales?,Vector,Vector,1,0.0,0.0,0.0,10,5.75
+What is Janna's species and place of origin?,Vector,Vector,1,0.0,0.0,0.0,5,4.0
+"How does Janna, as Zaun's Guardian, interact with or influence characters like Ekko who also operate in Zaun?",Hybrid,Vector,0,0.0,0.0,0.0,10,22.91
+Explain Janna's connection to Shurima and how her elemental spirit nature manifests across different regions like Zaun.,Hybrid,Vector,0,0.0,0.0,0.0,2,41.07
+Is Janna the older sister of any known champions?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.2
+Was Janna ever considered a traitor by her people?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.7
+What is Jarvan IV's primary weapon?,Graph,Vector,0,0.67,2.0,1.0,0,4.45
+What is Jarvan IV's region of origin?,Graph,Vector,0,0.0,0.0,0.0,8,6.22
+Who is Jarvan IV's father?,Graph,Vector,0,0.33,1.0,0.5,9,6.63
+Who was Jarvan IV's mentor and surrogate uncle?,Graph,Vector,0,1.0,3.0,1.5,10,5.54
+Describe Jarvan IV's early life and upbringing.,Vector,Vector,1,0.0,0.0,0.0,10,12.57
+What was the circumstance of Jarvan IV's mother's death?,Vector,Vector,1,0.0,0.0,0.0,8,6.29
+What Demacian virtues was Prince Jarvan taught?,Vector,Vector,1,0.0,0.0,0.0,10,4.15
+Is Jarvan IV alive?,Vector,Vector,1,0.0,0.0,0.0,0,3.91
+How has Demacia influenced Jarvan IV's upbringing and his role as King?,Hybrid,Vector,0,0.0,0.0,0.0,10,14.38
+"Considering Xin Zhao's role as Jarvan IV's mentor, what does this imply about Demacian culture?",Hybrid,Vector,0,0.67,1.0,0.8,5,11.49
+Who is Jarvan IV's anh trai?,Adversarial,Vector,0,0.33,1.0,0.5,0,5.38
+Who is the traitor mentioned in relation to Jarvan IV?,Adversarial,Vector,0,0.0,0.0,0.0,0,6.15
+What weapons has Jax been known to wield?,Graph,Vector,0,0.0,0.0,0.0,4,3.36
+Which regions are associated with Jax?,Graph,Vector,0,0.0,0.0,0.0,4,7.1
+List characters related to Jax.,Graph,Vector,0,0.0,0.0,0.0,0,1.87
+Who was Jax's father?,Graph,Vector,0,0.0,0.0,0.0,0,3.61
+Describe Jax's early life in Icathia.,Vector,Vector,1,0.0,0.0,0.0,10,11.63
+What were Jax's feelings towards the Shuriman Empire?,Vector,Vector,1,0.0,0.0,0.0,4,9.36
+"What does the term ""Kohari"" refer to in Jax's background?",Vector,Vector,1,0.0,0.0,0.0,5,5.98
+Where does Jax currently reside?,Vector,Vector,1,0.0,0.0,0.0,0,2.82
+How did the Shuriman Empire's actions in ancient times affect Jax's upbringing in Icathia?,Hybrid,Vector,0,0.0,0.0,0.0,8,9.67
+What is the significance of the Kohari's ritual suicide for Jax's heritage from Icathia?,Hybrid,Vector,0,1.0,1.0,1.0,5,7.29
+Tell me about Jax's brother.,Adversarial,Vector,0,0.0,0.0,0.0,0,2.21
+Who was the primary betrayer of Icathia?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.13
+What are Jayce's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,4,3.71
+In which region does Jayce primarily operate?,Graph,Vector,0,0.0,0.0,0.0,0,3.83
+Who is Jayce's romantic interest?,Graph,Vector,0,0.0,0.0,0.0,8,3.11
+List some characters related to Jayce.,Graph,Vector,0,0.0,0.0,0.0,0,1.94
+What inspired Jayce to pursue hextech?,Vector,Vector,1,0.0,0.0,0.0,5,6.4
+Describe Jayce's early life and family background.,Vector,Vector,1,0.0,0.0,0.0,5,14.52
+What was Jayce's role in Piltover after becoming its defender?,Vector,Vector,1,0.0,0.0,0.0,4,6.2
+What happened to Jayce at the end of Arcane Act 2?,Vector,Vector,1,0.0,0.0,0.0,0,6.14
+How did Jayce's ambition in Piltover lead to conflict with Silco's vision?,Hybrid,Vector,0,0.0,0.0,0.0,0,10.76
+What is the significance of the runic crystal Jayce received in his development as an inventor in Piltover?,Hybrid,Vector,0,0.0,0.0,0.0,8,8.59
+Did Jayce have a brother who helped him invent the Mercury Hammer?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.76
+Who was the traitor that betrayed Jayce and his mother in Piltover?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.97
+List all known weapons used by Jinx.,Graph,Vector,0,0.0,0.0,0.0,4,8.35
+What region is Jinx from?,Graph,Vector,0,0.0,0.0,0.0,0,3.97
+Who is Jinx's adoptive father?,Graph,Vector,0,0.0,0.0,0.0,4,3.91
+List Jinx's known family members.,Graph,Vector,0,0.0,0.0,0.0,0,2.12
+Describe Jinx's early life and her parents' occupation.,Vector,Vector,1,0.0,0.0,0.0,0,11.9
+What happened to Jinx's biological parents?,Vector,Vector,1,0.0,0.0,0.0,0,3.91
+What was Jinx's primary motivation for participating in the uprising?,Vector,Vector,1,0.0,0.0,0.0,0,5.05
+"How did Jinx's relationship with her older sister, Vi, begin?",Vector,Vector,1,0.0,0.0,0.0,1,8.8
+"Explain Jinx's role in Zaun's conflict with Piltover, referencing her parents' fate.",Hybrid,Vector,0,0.0,0.0,0.0,0,25.82
+How did the events of the uprising shape Jinx's perception of authority and family?,Hybrid,Vector,0,0.0,0.0,0.0,5,16.33
+Describe the protective actions of Jinx's older sister.,Adversarial,Vector,0,0.0,0.0,0.0,1,4.18
+Who was the main betrayer during the Zaunite uprising?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.96
+What weapon does K'Sante wield?,Graph,Vector,0,0.0,0.0,0.0,0,3.61
+Where is K'Sante's place of origin?,Graph,Vector,0,0.0,0.0,0.0,9,4.84
+In which region is K'Sante primarily associated?,Graph,Vector,0,0.0,0.0,0.0,0,4.37
+Who was K'Sante's former lover mentioned in his lore?,Graph,Vector,0,0.0,0.0,0.0,10,5.3
+Describe K'Sante's training to hunt the cobra-lion.,Vector,Vector,1,0.0,0.0,0.0,7,11.58
+What kind of monsters did Xerath create that posed a threat?,Vector,Vector,1,0.0,0.0,0.0,5,4.14
+What specific difficulty did K'Sante and Tope encounter when hunting the cobra-lion?,Vector,Vector,1,0.0,0.0,0.0,10,7.34
+How did the battles between Azir and Xerath affect K'Sante's homeland?,Vector,Vector,1,0.0,0.0,0.0,6,7.54
+"How did Xerath's actions in Shurima, like creating monsters, impact K'Sante's life in Nazumah?",Hybrid,Vector,0,0.0,0.0,0.0,5,10.99
+"Explain how K'Sante's experiences hunting creatures with regenerating hides, like the cobra-lion, shaped his skills as a defender.",Hybrid,Vector,0,0.0,0.0,0.0,5,14.42
+Who is K'Sante's brother?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,4.43
+Who betrayed K'Sante?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,1.96
+What are Kai'Sa's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,0,2.44
+Where is Kai'Sa originally from?,Graph,Vector,0,0.0,0.0,0.0,8,4.57
+Who is Kai'Sa's father?,Graph,Vector,0,0.0,0.0,0.0,8,3.87
+Name one character related to Kai'Sa besides her father.,Graph,Vector,0,0.0,0.0,0.0,0,3.05
+How did Kai'Sa survive in the Void?,Vector,Vector,1,0.0,0.0,0.0,0,3.64
+What event led to Kai'Sa being trapped in the Void?,Vector,Vector,1,0.0,0.0,0.0,1,6.73
+Describe Kai'Sa's psychological state after being trapped in the Void.,Vector,Vector,1,0.0,0.0,0.0,5,36.96
+What was Kai'Sa's early life like before being taken by the Void?,Vector,Vector,1,0.0,0.0,0.0,4,9.87
+How did Kai'Sa's experience in the Void shape her role as a Balance Preserver in Shurima?,Hybrid,Vector,0,0.67,0.67,0.67,9,9.69
+"Considering Kai'Sa's father is Kassadin, how does her relationship with the Void differ from his?",Hybrid,Vector,0,0.0,0.0,0.0,5,17.03
+Tell me about Kai'Sa's younger sister.,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,4.56
+What did Kai'Sa do to the traitor that attacked her village?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,4.18
+What are Kalista's primary weapons?,Graph,Vector,0,0.33,1.0,0.5,0,3.75
+In which regions is Kalista primarily associated with?,Graph,Vector,0,0.0,0.0,0.0,5,6.89
+Who were Kalista's romantic interests?,Graph,Vector,0,0.0,0.0,0.0,0,3.5
+List characters related to Kalista.,Graph,Vector,0,0.0,0.0,0.0,0,2.57
+Describe Kalista's role and loyalty to Viego during his early reign.,Vector,Vector,1,0.0,0.0,0.0,10,12.27
+What event led to Isolde being wounded?,Vector,Vector,1,0.0,0.0,0.0,0,5.48
+What is Kalista's current status and residence?,Vector,Vector,1,0.0,0.0,0.0,1,10.5
+When was Kalista born?,Vector,Vector,1,0.0,0.0,0.0,0,6.18
+"How did Kalista's role as General of Camavor influence her relationship with Viego and Isolde, leading to the events that wounded Isolde?",Hybrid,Vector,0,0.0,0.0,0.0,8,10.2
+"Considering Kalista's origin in Camavor and her current residence in the Shadow Isles, what kind of vengeance does she embody?",Hybrid,Vector,0,0.0,0.0,0.0,5,12.23
+Who is Kalista's brother?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,4,5.4
+What is the relationship between Kalista and her sister?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,2,3.41
+What weapons does Karma use?,Graph,Vector,0,0.0,0.0,0.0,0,5.6
+Where is Karma's current residence?,Graph,Vector,0,0.0,0.0,0.0,10,3.24
+List characters related to Karma.,Graph,Vector,0,0.0,0.0,0.0,0,6.94
+What is Karma's primary region of origin?,Graph,Vector,0,0.0,0.0,0.0,10,5.69
+Can you tell me about Karma's spiritual role in Ionia?,Vector,Vector,1,0.0,0.0,0.0,10,21.03
+What challenges did Darha face when she became Karma's host?,Vector,Vector,1,0.0,0.0,0.0,10,16.42
+Describe the process by which the monks identified Karma's reincarnation.,Vector,Vector,1,0.0,0.0,0.0,0,10.7
+"What was the life of Karma's previous incarnation, Jakgri, like?",Vector,Vector,1,0.0,0.0,0.0,0,12.86
+How does Karma's role as the Avatar of Ionia connect to her being raised in Shon-Xan?,Hybrid,Vector,0,0.0,0.0,0.0,4,11.5
+Explain the significance of Karma's current residence at the Lasting Altar within the context of Ionia's spiritual guidance.,Hybrid,Vector,0,0.0,0.0,0.0,10,27.11
+Does Karma have a brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.57
+Who is the traitor that Karma is trying to stop?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.38
+What are Karthus's primary weapons or magical abilities?,Graph,Vector,0,0.0,0.0,0.0,10,5.79
+Where does Karthus currently reside?,Graph,Vector,0,0.0,0.0,0.0,10,3.24
+Who are Karthus's known family members?,Graph,Vector,0,0.0,0.0,0.0,10,2.88
+Name one character Karthus is related to.,Graph,Vector,0,0.0,0.0,0.0,0,2.06
+What fascination did Karthus have regarding death in his early life?,Vector,Vector,1,0.0,0.0,0.0,8,4.94
+How did Karthus become a Death Preacher?,Vector,Vector,1,0.0,0.0,0.0,4,13.7
+What did Karthus realize when his sisters died?,Vector,Vector,1,0.0,0.0,0.0,10,5.72
+Where was Karthus born?,Vector,Vector,1,0.0,0.0,0.0,10,4.1
+How did Karthus's early fascination with death lead to his current occupation in the Shadow Isles?,Hybrid,Vector,0,0.67,0.67,0.67,10,7.57
+What is the significance of the Black Mist to Karthus and his current residence?,Hybrid,Vector,0,0.0,0.0,0.0,10,8.14
+Tell me about Karthus's brother.,Adversarial,Vector,0,0.0,0.0,0.0,10,6.82
+Did a traitor cause Karthus's sisters to die?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.82
+Who is Kassadin's daughter?,Graph,Vector,0,0.0,0.0,0.0,10,5.46
+What weapons does Kassadin wield?,Graph,Vector,0,0.0,0.0,0.0,9,7.51
+What region did Kassadin originate from before settling in Zirima?,Graph,Vector,0,0.0,0.0,0.0,0,4.98
+What faction does Kassadin belong to?,Graph,Vector,0,0.0,0.0,0.0,10,5.4
+Describe Kassadin's early life as an orphan in the Great Sai.,Vector,Vector,1,0.0,0.0,0.0,0,12.02
+What is Kassadin's role as a 'Balance Preserver'?,Vector,Vector,1,0.0,0.0,0.0,0,5.84
+How did Kassadin obtain his unique name?,Vector,Vector,1,0.0,0.0,0.0,6,8.86
+What is known about Kassadin's current place of residence?,Vector,Vector,1,0.0,0.0,0.0,10,6.67
+"Considering Kassadin's experiences in the Void, how does this relate to his role as a Balance Preserver?",Hybrid,Vector,0,0.0,0.0,0.0,10,8.02
+How does Kassadin's Shuriman heritage and his daughter Kai'Sa's Void connection shape his mission as a Balance Preserver?,Hybrid,Vector,0,0.67,0.67,0.67,9,16.48
+What role did Kassadin's betrayer play in his life?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.21
+Describe Kassadin's interactions with his blood relatives.,Adversarial,Vector,0,0.0,0.0,0.0,10,33.69
+What weapon does Kayle wield?,Graph,Vector,0,1.0,3.0,1.5,10,4.77
+In which region does Kayle currently reside?,Graph,Vector,0,1.0,3.0,1.5,10,4.86
+Who is Kayle's twin sister?,Graph,Vector,0,0.0,0.0,0.0,10,6.1
+List the characters related to Kayle.,Graph,Vector,0,0.0,0.0,0.0,10,1.84
+What are Kayle's psychological motivations for being a protector?,Vector,Vector,1,0.0,0.0,0.0,5,13.24
+Describe Kayle's early life experiences as a child of an Aspect.,Vector,Vector,1,0.0,0.0,0.0,0,21.68
+What led Kayle's father to flee Mount Targon with his daughters?,Vector,Vector,1,0.0,0.0,0.0,0,4.63
+What is Kayle's occupation?,Vector,Vector,1,0.0,0.0,0.0,10,5.71
+"Considering Kayle's birth on Mount Targon and her father's fear of her mother's Aspect duties, how did this early Targon experience shape her later role as Demacia's Protector of Justice?",Hybrid,Vector,0,0.0,0.0,0.0,9,24.82
+"What is the relationship between Kayle's mother, Mihira, being the Aspect of Justice and Kayle and Morgana being born with celestial power on Mount Targon?",Hybrid,Vector,0,0.0,0.0,0.0,10,8.5
+Does Kayle have an older brother who betrayed her?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.33
+"What is the name of Kayle's younger sister, and what was her role in the betrayal?",Adversarial,Vector,0,0.0,0.0,0.0,0,3.85
+What weapon does Kayn wield?,Graph,Vector,0,0.0,0.0,0.0,4,5.7
+In which regions has Kayn operated?,Graph,Vector,0,0.0,0.0,0.0,4,4.51
+List characters associated with the Order of Shadow.,Graph,Vector,0,0.0,0.0,0.0,0,1.74
+What is Kayn's faction?,Graph,Vector,0,0.0,0.0,0.0,2,3.37
+Describe Kayn's early life as a child soldier in Noxus.,Vector,Vector,1,0.0,0.0,0.0,10,10.67
+What psychological factors drove Kayn to seek power and join Zed's order?,Vector,Vector,1,0.0,0.0,0.0,0,9.72
+Describe the internal conflict Kayn experiences due to Rhaast.,Vector,Vector,1,0.0,0.0,0.0,10,11.43
+What skills did Kayn master as an acolyte of the Order of Shadow?,Vector,Vector,1,0.0,0.0,0.0,10,6.68
+How did Kayn's Noxian upbringing influence his actions in Ionia and his relationship with Zed's Order?,Hybrid,Vector,0,0.0,0.0,0.0,10,12.48
+What is the significance of Rhaast's Scythe to Kayn's identity as both a Shadow Assassin and a potential Darkin host?,Hybrid,Vector,0,0.67,0.67,0.67,10,26.61
+What role did Kayn's sibling play in his recruitment by Zed?,Adversarial,Vector,0,0.0,0.0,0.0,0,6.89
+Describe Kayn's relationship with the soldiers who abandoned him during the Ionian conflict.,Adversarial,Vector,0,0.0,0.0,0.0,0,21.83
+What weapons does Kennen wield?,Graph,Vector,0,0.0,0.0,0.0,10,5.07
+In which region does Kennen currently reside?,Graph,Vector,0,0.0,0.0,0.0,10,3.15
+What faction is Kennen a leader of?,Graph,Vector,0,0.0,0.0,0.0,10,4.32
+Name characters closely associated with Kennen within the Kinkou Order.,Graph,Vector,0,0.0,0.0,0.0,5,5.55
+Why did Kennen leave Bandle City?,Vector,Vector,1,0.0,0.0,0.0,10,4.68
+When did Kennen first journey to the material realm?,Vector,Vector,1,0.0,0.0,0.0,10,2.45
+What fascinated Kennen about the First Lands?,Vector,Vector,1,0.0,0.0,0.0,10,4.74
+What led Kennen to forsake his ties to Bandle City?,Vector,Vector,1,0.0,0.0,0.0,10,3.77
+How did Kennen's search for balance influence his integration into Ionia?,Hybrid,Vector,0,0.0,0.0,0.0,10,6.48
+"Considering Kennen's role as Kinkou Order's Leader and his ancient journey, what is his primary objective in Ionia?",Hybrid,Vector,0,0.0,0.0,0.0,10,8.13
+Is Kennen's older brother a member of the Kinkou Order?,Adversarial,Vector,0,0.0,0.0,0.0,10,1.63
+Did Kennen ever betray Ionia's people in ancient times?,Adversarial,Vector,0,0.0,0.0,0.0,10,6.41
+Who are the other Voidborn creatures closely related to Kha'Zix?,Graph,Vector,0,0.0,0.0,0.0,6,13.12
+What is Kha'Zix's place of origin?,Graph,Vector,0,0.33,1.0,0.5,2,9.78
+Who are Kha'Zix's creators?,Graph,Vector,0,0.0,0.0,0.0,10,6.75
+What are Kha'Zix's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,0,4.92
+What drives Kha'Zix's evolution?,Vector,Vector,1,0.0,0.0,0.0,10,8.18
+Describe Kha'Zix's early life and how he became a predator.,Vector,Vector,1,0.0,0.0,0.0,10,18.81
+How does Kha'Zix adapt and evolve through consumption?,Vector,Vector,1,0.0,0.0,0.0,10,8.41
+What is Kha'Zix's fundamental nature as a species?,Vector,Vector,1,0.0,0.0,0.0,10,8.61
+Describe Kha'Zix's predatory evolution within the Shuriman jungles.,Hybrid,Vector,0,0.0,0.0,0.0,4,25.1
+"Explain Kha'Zix's role as a predator serving his creators, the Watchers.",Hybrid,Vector,0,0.0,0.0,0.0,10,14.39
+What is Kha'Zix's older brother's name?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,7.01
+Who betrayed Kha'Zix?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,2.74
+What weapons do Lamb and Wolf use?,Graph,Vector,0,0.0,0.0,0.0,0,5.16
+In which regions does Kindred reside or have origins?,Graph,Vector,0,0.0,0.0,0.0,10,15.04
+List the characters that are related to Kindred.,Graph,Vector,0,0.0,0.0,0.0,0,3.25
+What are the roles or occupations of Kindred?,Graph,Vector,0,0.0,0.0,0.0,0,10.48
+Describe the fundamental nature of Kindred as spirit gods.,Vector,Vector,1,0.0,0.0,0.0,10,14.72
+What is the legendary origin story of Kindred?,Vector,Vector,1,0.0,0.0,0.0,3,10.32
+For how long have tales of Kindred been circulating?,Vector,Vector,1,0.0,0.0,0.0,5,7.04
+What is Kindred's primary purpose or role within Runeterra?,Vector,Vector,1,0.0,0.0,0.0,10,6.72
+"Considering Kindred's role as spirit gods of death across Runeterra, how might their relationship with Karthus, a mortal who seeks to defy death, be viewed?",Hybrid,Vector,0,0.0,0.0,0.0,0,29.65
+"Given Kindred's origin story of splitting into two to avoid loneliness, and their residence in Runeterra, how does this duality reflect their eternal hunting of all things?",Hybrid,Vector,0,0.0,0.0,0.0,10,9.35
+What does Kindred's brother think about their eternal hunt?,Adversarial,Vector,0,0.0,0.0,0.0,10,2.36
+Who is the traitor that Kindred is tasked to hunt?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.52
+What are Kled's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,0,3.19
+In which region does Kled currently reside?,Graph,Vector,0,0.0,0.0,0.0,6,4.46
+List the characters directly related to Kled.,Graph,Vector,0,0.0,0.0,0.0,0,1.91
+What are the species of Kled and his pet?,Graph,Vector,0,0.0,0.0,0.0,3,6.26
+Can you describe Kled's personality traits?,Vector,Vector,1,0.0,0.0,0.0,7,10.51
+What are the key elements of Kled's distinctive attire?,Vector,Vector,1,0.0,0.0,0.0,10,8.29
+What are some of Kled's notable aliases or titles?,Vector,Vector,1,0.0,0.0,0.0,10,24.04
+What is the status of the background information for Kled?,Vector,Vector,1,0.0,0.0,0.0,10,4.77
+How does Kled's fierce personality as a Noxian soldier contrast with his current residence in the Dalamor Plain?,Hybrid,Vector,0,0.0,0.0,0.0,10,14.2
+How does Kled's relationship with his pet Skaarl affect his effectiveness as a soldier in Noxus?,Hybrid,Vector,0,0.0,0.0,0.0,6,12.89
+What is the connection between Kled and the alias 'Traitor'?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,10,9.57
+Describe Kled's relationship with his brother.,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,9.88
+What is Kog'Maw's primary weapon?,Graph,Vector,0,0.0,0.0,0.0,10,6.64
+In which region was Kog'Maw created?,Graph,Vector,0,0.67,2.0,1.0,10,6.68
+List the other Voidborn creatures related to Kog'Maw.,Graph,Vector,0,0.0,0.0,0.0,10,8.12
+What was Kog'Maw's entry point into Runeterra?,Graph,Vector,0,0.33,1.0,0.5,10,6.32
+Describe Kog'Maw's behavior after arriving in Runeterra.,Vector,Vector,1,0.0,0.0,0.0,0,26.17
+What is known about Kog'Maw's creation?,Vector,Vector,1,0.0,0.0,0.0,10,5.74
+What is the significance of Kog'Maw being slowly drawn towards Malzahar?,Vector,Vector,1,0.0,0.0,0.0,0,9.23
+What species is Kog'Maw?,Vector,Vector,1,0.33,1.0,0.5,10,6.16
+"Given Kog'Maw entered Runeterra through Icathia and is drawn to Malzahar, what is his current residence and what is his relationship with Malzahar?",Hybrid,Vector,0,0.33,0.33,0.33,10,10.85
+Kog'Maw is a Voidborn creature. Describe his early actions after creation in the Void and his entry into Runeterra.,Hybrid,Vector,0,0.33,0.5,0.4,5,20.93
+Is Kog'Maw considered a traitor by the Watchers who created him?,Adversarial/Trap,Vector,0,0.33,0.5,0.4,10,4.05
+Who is Kog'Maw's older brother?,Adversarial/Trap,Vector,0,0.33,1.0,0.5,0,5.12
+Who are LeBlanc's known pets?,Graph,Vector,0,0.0,0.0,0.0,9,4.44
+In which region does LeBlanc currently reside?,Graph,Vector,0,0.0,0.0,0.0,10,2.18
+List some key characters related to LeBlanc.,Graph,Vector,0,0.0,0.0,0.0,1,9.54
+What are LeBlanc's primary magical abilities or weapons?,Graph,Vector,0,0.0,0.0,0.0,10,9.6
+When was LeBlanc born according to historical timelines?,Vector,Vector,1,0.0,0.0,0.0,10,3.02
+What was LeBlanc's perspective on Mordekaiser's character?,Vector,Vector,1,0.0,0.0,0.0,9,11.67
+Describe the kind of events LeBlanc witnessed during the Iron Revenant's rule.,Vector,Vector,1,0.0,0.0,0.0,10,9.09
+What magical specialization defined LeBlanc in her early life?,Vector,Vector,1,0.0,0.0,0.0,5,4.58
+"Considering LeBlanc's known abilities and her role in Noxus, how might she use illusions to maintain the Black Rose's influence?",Hybrid,Vector,0,0.33,0.33,0.33,10,28.97
+How did LeBlanc's understanding of Mordekaiser's ruthlessness shape her service during his reign?,Hybrid,Vector,0,0.0,0.0,0.0,5,11.42
+Did LeBlanc view Mordekaiser as a traitor for his actions against Atakhan?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,10,8.86
+LeBlanc is known as the Matron of the Black Rose. Does she have a prominent sister who also plays a significant role in Noxus?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,8.78
+What weapon does Lee Sin use?,Graph,Vector,0,1.0,3.0,1.5,0,6.29
+Where is Lee Sin's place of origin?,Graph,Vector,0,0.33,1.0,0.5,10,3.45
+Name the characters related to Lee Sin.,Graph,Vector,0,0.33,1.0,0.5,10,4.87
+What is Lee Sin's current residence?,Graph,Vector,0,1.0,3.0,1.5,0,6.91
+Can you describe Lee Sin's physical appearance?,Vector,Vector,1,0.33,1.0,0.5,5,9.3
+What is Lee Sin's species?,Vector,Vector,1,0.33,1.0,0.5,10,4.98
+What is Lee Sin's age range?,Vector,Vector,1,0.33,1.0,0.5,10,2.7
+What are Lee Sin's occupations?,Vector,Vector,1,0.33,1.0,0.5,10,1.46
+How does Lee Sin's occupation as a Monk in Ionia relate to his status as a Monastery Guardian?,Hybrid,Vector,0,0.33,0.5,0.4,10,6.0
+"What is the significance of Lee Sin's residence in Ionia, given his relationship with Karma?",Hybrid,Vector,0,0.67,0.67,0.67,9,7.39
+Tell me about Lee Sin's older brother.,Adversarial/Trap,Vector,0,0.33,1.0,0.5,0,5.62
+What role did the traitor play in Lee Sin's life?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,4.95
+What weapons does Leona use?,Graph,Vector,0,0.0,0.0,0.0,10,4.93
+In which region does Leona primarily operate?,Graph,Vector,0,0.0,0.0,0.0,10,5.64
+Who is Leona's romantic partner mentioned in her lore?,Graph,Vector,0,0.0,0.0,0.0,10,4.7
+Name one of Leona's siblings.,Graph,Vector,0,0.0,0.0,0.0,10,5.68
+What were Leona's initial feelings towards Diana's ostracization by the Solari?,Vector,Vector,1,0.0,0.0,0.0,6,7.16
+,,,,,,,,
+ What secret did Diana share with Leona one night that related to ancient societies?,Vector,Vector,1,0.0,0.0,0.0,0,991.0
+What label did the Solari give to Diana due to her non-conformist beliefs?,Vector,Vector,1,0.0,0.0,0.0,10,6.11
+What advice did Leona give Diana regarding her discovery of the moon's ancient symbols?,Vector,Vector,1,0.0,0.0,0.0,5,6.94
+"Considering Leona's Targon origins and her compassion for Diana, explain the initial tension between their differing beliefs within the Solari.",Hybrid,Vector,0,0.0,0.0,0.0,5,21.34
+How does Leona's Targon heritage connect to her wielding of Solar Magic?,Hybrid,Vector,0,0.0,0.0,0.0,10,10.73
+Describe Leona's relationship with her elder brother.,Adversarial,Vector,0,0.0,0.0,0.0,0,11.77
+Who was the ultimate betrayer that Leona had to confront?,Adversarial,Vector,0,0.0,0.0,0.0,0,9.01
+What are Lissandra's primary weapons used in combat?,Graph,Vector,0,0.33,1.0,0.5,4,6.86
+In which major region of Runeterra does Lissandra hold significant influence and reside?,Graph,Vector,0,0.33,1.0,0.5,10,4.02
+Can you name Lissandra's two known sisters?,Graph,Vector,0,0.0,0.0,0.0,10,6.37
+"List some of the characters and entities Lissandra is related to or associated with, besides her sisters.",Graph,Vector,0,0.0,0.0,0.0,10,15.18
+What are Lissandra's underlying motivations for her actions and her pact with the Watchers?,Vector,Vector,1,0.0,0.0,0.0,5,21.2
+Summarize Lissandra's perspective on the historical War of the Three Sisters.,Vector,Vector,1,0.0,0.0,0.0,4,13.14
+What event in Lissandra's early life caused her to lose her sight?,Vector,Vector,1,0.0,0.0,0.0,10,5.36
+Explain the terms of the deal Lissandra struck with the extradimensional entities known as the Watchers.,Vector,Vector,1,0.0,0.0,0.0,10,13.0
+How has Lissandra's pact with the Frozen Watchers impacted her control and governance over the Freljord?,Hybrid,Vector,0,0.0,0.0,0.0,10,16.39
+"Considering her sisters Avarosa and Serylda, how did their roles in the War of the Three Sisters ultimately lead Lissandra to become the Watchers' Seeker?",Hybrid,Vector,0,0.0,0.0,0.0,1,13.55
+Can you tell me about Lissandra's younger sister?,Adversarial,Vector,0,0.0,0.0,0.0,0,7.3
+Who was the ultimate traitor that Lissandra fought against in ancient times?,Adversarial,Vector,0,0.0,0.0,0.0,10,4.84
+What are Lucian's primary weapons?,Graph,Vector,0,0.67,2.0,1.0,5,7.21
+In which region was Lucian born and raised?,Graph,Vector,0,0.33,0.5,0.4,9,6.79
+Who is Lucian's romantic interest?,Graph,Vector,0,0.33,1.0,0.5,0,4.96
+Who were Lucian's parents?,Graph,Vector,0,0.33,1.0,0.5,10,4.75
+What was Lucian's initial aspiration as a young man?,Vector,Vector,1,0.0,0.0,0.0,10,6.19
+"What tragic event befell Senna, Lucian's wife?",Vector,Vector,1,0.0,0.0,0.0,5,5.03
+How did Lucian manage to resurrect Senna after her death?,Vector,Vector,1,0.0,0.0,0.0,10,5.69
+"Describe the major conflict involving Lucian, Senna, and Viego.",Vector,Vector,1,0.0,0.0,0.0,0,9.15
+How did Lucian's upbringing in Demacia influence his path as a Sentinel of Light?,Hybrid,Vector,0,0.0,0.0,0.0,8,9.26
+"Explain the conflict between Lucian and Thresh, detailing its origin.",Hybrid,Vector,0,0.0,0.0,0.0,10,20.27
+What is Lucian's sister's name?,Adversarial,Vector,0,0.33,1.0,0.5,0,5.75
+Who is the traitor that cursed Lucian's family?,Adversarial,Vector,0,0.0,0.0,0.0,10,7.28
+What weapons does Lulu use?,Graph,Vector,0,0.0,0.0,0.0,10,6.1
+Where is Lulu originally from?,Graph,Vector,0,0.0,0.0,0.0,10,3.38
+Who is Lulu's magical pet?,Graph,Vector,0,0.0,0.0,0.0,0,2.99
+Describe Lulu's relationship with Pix.,Graph,Vector,0,0.0,0.0,0.0,4,8.78
+What are Lulu's personality traits?,Vector,Vector,1,0.0,0.0,0.0,10,8.61
+How did Lulu get her magical staff?,Vector,Vector,1,0.0,0.0,0.0,0,4.38
+What is The Glade?,Vector,Vector,1,0.0,0.0,0.0,0,6.42
+What happened when Lulu tried to help the injured bird?,Vector,Vector,1,0.0,0.0,0.0,10,4.76
+What kind of magic does Lulu practice in Bandle City?,Hybrid,Vector,0,0.0,0.0,0.0,0,5.37
+How did Pix's guidance lead to Lulu becoming a trickster sorceress?,Hybrid,Vector,0,0.0,0.0,0.0,9,7.77
+Does Lulu have a brother who is a traitor?,Adversarial,Vector,0,0.0,0.0,0.0,10,3.93
+Tell me about Lulu's sister and her role in the Glade.,Adversarial,Vector,0,0.0,0.0,0.0,0,3.86
+What regions is Malphite associated with?,Graph,Vector,0,0.0,0.0,0.0,5,7.4
+Who created Malphite?,Graph,Vector,0,0.0,0.0,0.0,10,5.08
+List characters related to Malphite.,Graph,Vector,0,0.0,0.0,0.0,0,2.24
+Where did Malphite originate from?,Graph,Vector,0,0.0,0.0,0.0,10,6.13
+What was Malphite's original purpose as a guardian?,Vector,Vector,1,0.0,0.0,0.0,10,3.81
+Describe the purpose of the Monolith.,Vector,Vector,1,0.0,0.0,0.0,10,6.07
+What happened to Ne'Zuk's plan to neutralize the Void?,Vector,Vector,1,0.0,0.0,0.0,0,3.97
+What kind of being is Malphite?,Vector,Vector,1,0.0,0.0,0.0,10,9.28
+"What was Malphite's role as an Order Enforcer in Ixtal, given the threat of the Void?",Hybrid,Vector,0,0.0,0.0,0.0,10,9.24
+"How did Malphite's creator, Ne'Zuk, attempt to use elemental magic against the Void?",Hybrid,Vector,0,0.0,0.0,0.0,10,8.45
+What is Malphite's relationship with his brother?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,6.48
+Who is the traitor that caused the fall of the Monolith?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,3.31
+List Malzahar's associated regions.,Graph,Vector,0,0.0,0.0,0.0,0,5.09
+Who are Malzahar's known relatives or close associates?,Graph,Vector,0,0.0,0.0,0.0,0,5.28
+What is Malzahar's primary occupation?,Graph,Vector,0,0.0,0.0,0.0,10,5.3
+What weapon does Malzahar wield?,Graph,Vector,0,0.0,0.0,0.0,10,4.96
+Describe Malzahar's early life and how he became a seer.,Vector,Vector,1,0.0,0.0,0.0,10,15.72
+What psychological state did Malzahar experience after his parents' death?,Vector,Vector,1,0.0,0.0,0.0,5,5.8
+What aspect of his future was hidden from Malzahar?,Vector,Vector,1,0.0,0.0,0.0,10,4.84
+How did Malzahar's accurate predictions attract patrons?,Vector,Vector,1,0.0,0.0,0.0,5,3.26
+How did Malzahar's upbringing in Shurima contribute to his connection with the Void?,Hybrid,Vector,0,0.0,0.0,0.0,10,9.48
+"Considering his role as a Cult Leader in the Void faction, what past experiences might have led him to such a path?",Hybrid,Vector,0,0.0,0.0,0.0,10,22.42
+Who was the traitor Malzahar served before his rise as Void Prophet?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,10,5.96
+Tell me about Malzahar's brother and his role in Shurima.,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,5.92
+What is Maokai's primary weapon?,Graph,Vector,0,0.0,0.0,0.0,10,5.51
+Which region did Maokai guard before the Ruination?,Graph,Vector,0,1.0,1.5,1.2,10,5.74
+List one character that Maokai is related to.,Graph,Vector,0,0.0,0.0,0.0,10,5.66
+What is Maokai's occupation in the Shadow Isles?,Graph,Vector,0,1.0,1.5,1.2,10,7.78
+Describe Maokai's personality traits.,Vector,Vector,1,0.67,2.0,1.0,9,21.61
+What cataclysmic event led to the change of the Blessed Isles?,Vector,Vector,1,0.0,0.0,0.0,10,6.46
+What specific action did Maokai take to preserve the sacred water during the Ruination?,Vector,Vector,1,0.33,0.5,0.4,10,4.36
+How old is Maokai?,Vector,Vector,1,1.0,1.5,1.2,10,10.15
+Explain how Maokai's escape from the Blessed Isles during the Ruination led to his current status.,Hybrid,Vector,0,1.0,1.0,1.0,5,13.34
+"Considering Maokai's role as a guardian, how does his connection to the Saplings reflect his past?",Hybrid,Vector,0,0.67,0.67,0.67,4,12.55
+Tell me about the spirit who lost their home.,Adversarial,Vector,0,0.33,0.5,0.4,0,3.52
+Who is the guardian of the corrupted lands?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.8
+What are Master Yi's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,10,6.72
+Where did Master Yi originate from?,Graph,Vector,0,0.33,1.0,0.5,10,5.08
+Who are some characters related to Master Yi?,Graph,Vector,0,0.0,0.0,0.0,10,5.23
+What faction does Master Yi belong to?,Graph,Vector,0,0.0,0.0,0.0,10,5.93
+What drove Master Yi to abandon Wuju traditions during the Noxian invasion?,Vector,Vector,1,0.0,0.0,0.0,8,7.58
+Describe Master Yi's early life and aspirations.,Vector,Vector,1,0.0,0.0,0.0,5,16.25
+What significant event led Master Yi to take up arms against Noxus?,Vector,Vector,1,0.0,0.0,0.0,5,8.03
+What was Master Yi's reputation as a swordsman during his training?,Vector,Vector,1,0.0,0.0,0.0,9,6.44
+"Given Master Yi's origin in Wuju, Ionia, how did his personal philosophy clash with the Wuju Order's secrecy when faced with external threats?",Hybrid,Vector,0,0.33,0.33,0.33,10,14.54
+"Considering Master Yi's mastery of Wuju Style, what is his relationship with other martial artists from Ionia, such as Wukong?",Hybrid,Vector,0,0.0,0.0,0.0,10,10.82
+Is Master Yi's older brother a famous warrior?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,10,6.74
+Who is the main traitor Master Yi fought against?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,10,4.8
+What are Milio's weapons?,Graph,Vector,0,0.0,0.0,0.0,0,6.03
+Where does Milio currently live?,Graph,Vector,0,0.0,0.0,0.0,9,4.8
+Who is Milio's grandmother?,Graph,Vector,0,0.0,0.0,0.0,10,6.57
+What species is Milio?,Graph,Vector,0,0.0,0.0,0.0,10,6.26
+What is Milio's family history regarding the Yun Tal?,Vector,Vector,1,0.0,0.0,0.0,10,10.13
+How did Milio struggle to understand discipline during his elemental magic training?,Vector,Vector,1,0.0,0.0,0.0,10,7.52
+What happened to Milio's great-aunt Luné?,Vector,Vector,1,0.0,0.0,0.0,4,6.31
+Describe Milio's childhood and early training with elemental axiomata.,Vector,Vector,1,0.0,0.0,0.0,5,15.55
+Explain how Milio's family came to be exiled in Ixtal due to his great-aunt's treason.,Hybrid,Vector,0,0.0,0.0,0.0,5,9.79
+What was the significance of the Yun Tal trials for Milio's grandmother and her mastery of earth magic?,Hybrid,Vector,0,0.0,0.0,0.0,10,8.15
+Tell me about Milio's brother.,Adversarial,Vector,0,0.0,0.0,0.0,0,7.96
+Tell me about Milio's sister.,Adversarial,Vector,0,0.0,0.0,0.0,0,4.37
+What are Miss Fortune's signature weapons?,Graph,Vector,0,0.0,0.0,0.0,5,5.31
+Where is Miss Fortune from?,Graph,Vector,0,0.33,0.5,0.4,10,5.62
+Who were Miss Fortune's parents?,Graph,Vector,0,0.33,0.5,0.4,0,4.48
+Which pirate captain attacked Miss Fortune's family?,Graph,Vector,0,0.0,0.0,0.0,10,3.71
+What traumatic event shaped Miss Fortune's early life?,Vector,Vector,1,0.0,0.0,0.0,0,4.55
+What was Miss Fortune's mother's profession?,Vector,Vector,1,0.0,0.0,0.0,0,5.89
+How did Sarah Fortune survive the attack on her home?,Vector,Vector,1,0.0,0.0,0.0,10,9.01
+What was the consequence of Miss Fortune's mother crafting special pistols for Gangplank?,Vector,Vector,1,0.0,0.0,0.0,0,5.22
+How did Miss Fortune's upbringing in Bilgewater and the murder of her parents by Gangplank influence her desire for vengeance and rule?,Hybrid,Vector,0,0.33,0.25,0.29,0,21.86
+"What role does Bilgewater play in Miss Fortune's life, considering her personal history and current position as its ruler?",Hybrid,Vector,0,1.0,1.0,1.0,9,13.61
+Does Miss Fortune have a brother who helped her exact revenge?,Adversarial,Vector,0,0.0,0.0,0.0,0,6.19
+Who is known as the traitor from Miss Fortune's past?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.86
+What weapon does Mordekaiser wield?,Graph,Vector,0,0.67,2.0,1.0,10,4.57
+In which region does Mordekaiser reside in his Death Realm?,Graph,Vector,0,0.33,0.5,0.4,0,6.47
+Who is one of Mordekaiser's pets mentioned in his lore?,Graph,Vector,0,0.0,0.0,0.0,10,6.07
+What faction is Mordekaiser the ruler of?,Graph,Vector,0,0.0,0.0,0.0,0,4.68
+What were Sahn-Uzal's primary motivations before becoming Mordekaiser?,Vector,Vector,1,0.0,0.0,0.0,4,7.8
+How did Sahn-Uzal manage to defeat the demon Atakhan?,Vector,Vector,1,1.0,1.0,1.0,10,8.84
+What led Sahn-Uzal to perform a dark ritual involving his general Khatash-Li and the demon Atakhan?,Vector,Vector,1,1.0,0.75,0.86,0,9.61
+What is Mordekaiser's current status according to the infobox?,Vector,Vector,1,0.0,0.0,0.0,10,11.83
+"Considering Sahn-Uzal's ambitions and the regions he conquered, what was the significance of the Hall of Bones in his quest for power in the northern wildlands?",Hybrid,Vector,0,0.0,0.0,0.0,10,11.51
+"How did the enslavement of the demon Atakhan by Sahn-Uzal, following the loss of Khatash-Li, shape the extent of his empire in the northern wildlands?",Hybrid,Vector,0,1.0,0.6,0.75,0,11.77
+Does Mordekaiser have a brother?,Adversarial,Vector,0,0.0,0.0,0.0,10,5.79
+Who is Mordekaiser's sister?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.42
+Who is Morgana's twin sister?,Graph,Vector,0,0.0,0.0,0.0,10,4.93
+Who is Morgana's mother?,Graph,Vector,0,0.0,0.0,0.0,10,6.26
+In which region does Morgana primarily operate?,Graph,Vector,0,0.0,0.0,0.0,7,6.98
+List Morgana's known aliases.,Graph,Vector,0,0.0,0.0,0.0,5,8.28
+What were the circumstances of Morgana's birth on Mount Targon?,Vector,Vector,1,0.0,0.0,0.0,10,9.87
+"Why did Morgana's father, Kilam, flee Mount Targon with his daughters?",Vector,Vector,1,0.0,0.0,0.0,3,6.65
+What is Morgana's psychological motivation for protecting the downtrodden?,Vector,Vector,1,0.0,0.0,0.0,9,12.26
+Describe Morgana's species and her connection to celestial beings.,Vector,Vector,1,0.0,0.0,0.0,5,19.25
+How did her mother Mihira's role as an Aspect of Justice influence Morgana's early life and her eventual path as a protector in Demacia?,Hybrid,Vector,0,0.0,0.0,0.0,10,13.97
+"Considering Morgana's alias 'The Fallen', what personal struggles might she face as the Defender of the Realm in Demacia, given her celestial heritage and family history?",Hybrid,Vector,0,0.0,0.0,0.0,10,40.79
+Who is Morgana's brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,6.37
+Tell me about the betrayal Morgana suffered from her mother's celestial duties.,Adversarial,Vector,0,0.0,0.0,0.0,10,25.74
+What weapons does Naafiri use?,Graph,Vector,0,0.0,0.0,0.0,4,8.48
+Who are the characters related to Naafiri?,Graph,Vector,0,0.0,0.0,0.0,0,2.03
+What regions is Naafiri associated with?,Graph,Vector,0,0.0,0.0,0.0,0,4.93
+What species and hosts are part of Naafiri?,Graph,Vector,0,0.0,0.0,0.0,10,9.64
+"Describe Naafiri's personality traits, particularly her pride and vanity.",Vector,Vector,1,0.0,0.0,0.0,10,19.37
+What was Naafiri's role and perception during the Darkin War?,Vector,Vector,1,0.0,0.0,0.0,5,10.1
+What is Naafiri's current status and where does she reside?,Vector,Vector,1,0.0,0.0,0.0,9,7.81
+Explain Naafiri's unique ability of Hemomancy.,Vector,Vector,1,0.0,0.0,0.0,10,11.63
+How did Naafiri's pride influence her actions during the Darkin War in Shurima?,Hybrid,Vector,0,0.0,0.0,0.0,10,8.87
+What is the significance of Naafiri's Darkin Daggers in her role as a Shuriman Guardian?,Hybrid,Vector,0,0.33,0.5,0.4,5,12.88
+Does Naafiri have any siblings or brothers?,Adversarial,Vector,0,0.0,0.0,0.0,0,8.67
+What is the name of the traitor among the Darkin that Naafiri opposes?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.89
+What weapons does Nami wield?,Graph,Vector,0,0.0,0.0,0.0,10,5.83
+In which region does Nami primarily reside or originate from?,Graph,Vector,0,0.0,0.0,0.0,9,7.55
+Name some characters related to Nami.,Graph,Vector,0,0.0,0.0,0.0,10,9.63
+Who are Nami's romantic interests?,Graph,Vector,0,0.0,0.0,0.0,10,4.54
+What was Nami's lifelong ambition during her early life?,Vector,Vector,1,0.0,0.0,0.0,10,5.69
+Describe Nami's personality traits as a young Vastaya.,Vector,Vector,1,0.0,0.0,0.0,9,11.63
+What is the significance of the Tidecaller title for the Marai?,Vector,Vector,1,0.0,0.0,0.0,10,8.92
+What is the Marai tribe's practice involving moonstones and pearls?,Vector,Vector,1,0.0,0.0,0.0,5,6.43
+"In the Marai Territory, what is the primary objective of Nami's quest when she becomes a Tidecaller?",Hybrid,Vector,0,0.0,0.0,0.0,3,3.76
+"How do the Marai, Nami's species, utilize the moonstone they receive from humans?",Hybrid,Vector,0,0.0,0.0,0.0,0,6.51
+Who was the 'traitor' in Nami's story?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.03
+Tell me about Nami's 'human relatives'.,Adversarial,Vector,0,0.0,0.0,0.0,10,5.02
+What weapons does Nasus wield?,Graph,Vector,0,0.0,0.0,0.0,10,6.44
+In which region does Nasus reside?,Graph,Vector,0,0.67,2.0,1.0,0,6.35
+Who is Nasus's brother?,Graph,Vector,0,0.33,1.0,0.5,10,8.26
+List all characters associated with Nasus.,Graph,Vector,0,0.0,0.0,0.0,10,6.62
+What is Nasus's personality like?,Vector,Vector,1,0.0,0.0,0.0,10,8.72
+How old is Nasus?,Vector,Vector,1,0.67,2.0,1.0,10,7.89
+What are some of Nasus's titles or aliases?,Vector,Vector,1,0.0,0.0,0.0,5,12.26
+Describe Nasus's appearance.,Vector,Vector,1,0.33,1.0,0.5,10,7.6
+"Considering his role as a guardian and his ancient age, what is Nasus's primary concern in modern Shurima?",Hybrid,Vector,0,0.0,0.0,0.0,10,7.56
+How did Nasus's duty in Shurima potentially conflict with his relationship with his brother Renekton?,Hybrid,Vector,0,0.0,0.0,0.0,0,7.87
+Tell me about the sibling of the guardian of Shurima.,Adversarial,Vector,0,0.67,0.67,0.67,0,7.17
+What is known about the traitor from the desert sands?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.7
+What are Nautilus's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,10,5.96
+In which region does Nautilus reside?,Graph,Vector,0,0.0,0.0,0.0,0,2.7
+List characters related to Nautilus.,Graph,Vector,0,0.0,0.0,0.0,0,15.69
+What was Nautilus's place of origin?,Graph,Vector,0,0.0,0.0,0.0,10,5.7
+What events led to Nautilus becoming a revenant?,Vector,Vector,1,0.0,0.0,0.0,10,6.56
+Describe Nautilus's appearance when he was alive.,Vector,Vector,1,0.0,0.0,0.0,10,8.1
+What is Nautilus's current state of being?,Vector,Vector,1,0.0,0.0,0.0,10,7.85
+How is Nautilus's colossal form depicted in lore?,Vector,Vector,1,0.0,0.0,0.0,10,7.21
+"Given Nautilus's occupation as a guardian in Bilgewater, what is known about his dwelling in the Guardian's Sea?",Hybrid,Vector,0,0.33,0.33,0.33,10,7.99
+"Considering his connection to Bilgewater, how does his physical transformation relate to his current residence?",Hybrid,Vector,0,0.0,0.0,0.0,0,8.76
+Tell me about Nautilus's older brother.,Adversarial,Vector,0,0.0,0.0,0.0,10,4.94
+Who is the betrayer associated with Nautilus?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.85
+What is Neeko's primary weapon or magic source?,Graph,Vector,0,0.0,0.0,0.0,10,5.0
+Which region is Neeko from?,Graph,Vector,0,0.0,0.0,0.0,0,3.18
+List characters related to Neeko.,Graph,Vector,0,0.0,0.0,0.0,10,2.24
+Where did Neeko's tribe originate from?,Graph,Vector,0,0.0,0.0,0.0,10,5.9
+Describe Neeko's early life experiences after the cataclysm.,Vector,Vector,1,0.0,0.0,0.0,4,19.81
+"What happened to Neeko's tribe, the Oovi-Kat?",Vector,Vector,1,0.0,0.0,0.0,10,7.31
+What were Neeko's feelings when she was alone on the driftwood?,Vector,Vector,1,0.0,0.0,0.0,0,4.59
+What is Neeko's species and how does it relate to her abilities?,Vector,Vector,1,0.0,0.0,0.0,10,9.36
+"How did Neeko's origins in Ixtal and her species, Oovi-Kat, shape her journey after the cataclysm?",Hybrid,Vector,0,0.0,0.0,0.0,4,17.81
+"Given Neeko's connection to Nidalee and Rengar, what can be inferred about her relationship with the wild and untamed regions of Runeterra?",Hybrid,Vector,0,0.0,0.0,0.0,8,19.31
+Who is Neeko's older brother and what role did they play in the cataclysm?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.34
+Who was the traitor that caused the destruction of the Oovi-Kat tribe?,Adversarial,Vector,0,0.0,0.0,0.0,0,1.9
+What weapons does Nidalee utilize?,Graph,Vector,0,0.0,0.0,0.0,0,4.21
+In which region does Nidalee primarily operate?,Graph,Vector,0,0.0,0.0,0.0,10,5.6
+List the characters that are related to Nidalee.,Graph,Vector,0,0.0,0.0,0.0,10,3.97
+Describe Nidalee's adoptive family structure.,Graph,Vector,0,0.0,0.0,0.0,10,11.31
+How was Nidalee's early life shaped by the pakaa pack?,Vector,Vector,1,0.0,0.0,0.0,10,9.17
+What are the characteristics of Nidalee's transformations?,Vector,Vector,1,0.0,0.0,0.0,2,7.88
+What were Nidalee's feelings about outsiders during her youth?,Vector,Vector,1,0.0,0.0,0.0,5,10.34
+What mysterious figures did Nidalee follow during a feverish state in her early life?,Vector,Vector,1,0.0,0.0,0.0,5,6.02
+How did Nidalee's upbringing by the pakaa pack influence her skills and current role as a huntress?,Hybrid,Vector,0,0.0,0.0,0.0,10,11.86
+How do Nidalee's transformations and pakaa upbringing relate to her challenges in the Shuriman Jungle?,Hybrid,Vector,0,0.0,0.0,0.0,10,15.99
+Where was Nidalee abandoned by the betrayer?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,3.81
+What advice did Nidalee's sister give her about hunting?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,7.73
+What weapon does Nilah wield?,Graph,Vector,0,0.0,0.0,0.0,10,5.03
+What regions is Nilah associated with?,Graph,Vector,0,0.0,0.0,0.0,10,5.7
+Who is one of Nilah's related characters?,Graph,Vector,0,0.0,0.0,0.0,1,2.27
+What is the true name of the demon Nilah is associated with?,Graph,Vector,0,0.0,0.0,0.0,10,6.77
+How does the demon Ashlesh affect Nilah's emotions?,Vector,Vector,1,0.0,0.0,0.0,7,10.02
+What are the theories about Nilah's ten years away?,Vector,Vector,1,0.0,0.0,0.0,10,8.96
+What is the mythological significance of Nilah's name?,Vector,Vector,1,0.0,0.0,0.0,0,8.21
+What kind of supernatural strength does Nilah possess?,Vector,Vector,1,0.0,0.0,0.0,9,6.83
+"Given Nilah's association with Bilgewater and her monstrous hunting, what kind of challenges might she face there?",Hybrid,Vector,0,0.0,0.0,0.0,4,21.69
+"How does Nilah's curse of perpetual joy influence her approach to fighting demons like Fiddlesticks, considering she's also part demon?",Hybrid,Vector,0,0.0,0.0,0.0,10,21.3
+Who is Nilah's betrayer?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,5.02
+Tell me about Nilah's sibling.,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,7.6
+What are Nocturne's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,10,5.74
+List characters related to Nocturne.,Graph,Vector,0,0.0,0.0,0.0,0,2.29
+What is Nocturne's place of origin?,Graph,Vector,0,0.0,0.0,0.0,10,4.92
+In which region does Nocturne primarily reside or operate?,Graph,Vector,0,0.0,0.0,0.0,1,3.86
+Describe the circumstances surrounding Nocturne's creation during the Rune Wars.,Vector,Vector,1,0.0,0.0,0.0,8,7.47
+Why did shadow magic become known as a forbidden art?,Vector,Vector,1,0.0,0.0,0.0,2,6.36
+What was Nocturne's existence like in the Spirit Realm after the Rune Wars concluded?,Vector,Vector,1,0.0,0.0,0.0,6,7.34
+How did Nocturne manage to manifest in the physical world?,Vector,Vector,1,0.0,0.0,0.0,5,2.96
+How does Nocturne's origin in the Spirit Realm connect to its current presence in Demacia?,Hybrid,Vector,0,0.0,0.0,0.0,6,8.08
+"Considering Nocturne's nature as a demon of nightmares, how does it relate to other demons like Evelynn and Tahm Kench?",Hybrid,Vector,0,0.0,0.0,0.0,2,9.27
+Tell me about Nocturne's brother.,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,3.75
+Who is the traitor that Nocturne seeks revenge against?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,10,2.3
+What weapons does Nunu use?,Graph,Vector,0,0.0,0.0,0.0,10,5.18
+What region is Nunu from?,Graph,Vector,0,0.0,0.0,0.0,8,5.1
+List characters related to Nunu.,Graph,Vector,0,0.0,0.0,0.0,0,1.77
+What is Nunu's occupation?,Graph,Vector,0,0.0,0.0,0.0,10,4.55
+Describe Nunu's early life with the Notai tribe.,Vector,Vector,1,0.0,0.0,0.0,10,8.81
+What happened to Nunu's mother?,Vector,Vector,1,0.0,0.0,0.0,8,4.1
+Tell me about Nunu's childhood and his mother's teachings.,Vector,Vector,1,0.0,0.0,0.0,7,12.2
+What did Nunu learn from his mother Layka?,Vector,Vector,1,0.0,0.0,0.0,4,5.77
+How did Nunu's Freljord upbringing and his mother's teachings influence his musical journey?,Hybrid,Vector,0,0.67,0.5,0.57,5,10.16
+Describe Nunu's bond with Willump in the context of his nomadic Freljord life.,Hybrid,Vector,0,0.0,0.0,0.0,0,13.51
+What is Nunu's relationship with his older brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.66
+Who betrayed Nunu's family?,Adversarial,Vector,0,0.0,0.0,0.0,0,1.81
+" ""What factions does Olaf belong to?""", Graph,Vector,0,0.0,0.0,0.0,10,5.06
+" ""What factions does Olaf belong to?""", Graph,Vector,0,0.0,0.0,0.0,10,0.95
+What is Orianna's main weapon?,Graph,Vector,0,0.33,1.0,0.5,0,4.36
+In which region was Orianna originally from?,Graph,Vector,0,0.0,0.0,0.0,10,5.47
+Who is Orianna's father?,Graph,Vector,0,0.0,0.0,0.0,10,5.12
+Name one character related to Orianna besides her father.,Graph,Vector,0,0.0,0.0,0.0,10,3.54
+What happened to Orianna when she was young?,Vector,Vector,1,0.0,0.0,0.0,0,6.89
+How was Orianna brought back to life after her death?,Vector,Vector,1,0.0,0.0,0.0,0,5.75
+What drove Dr. Corin Reveck to conduct unethical experiments?,Vector,Vector,1,0.0,0.0,0.0,10,7.94
+Describe Orianna's nature and role after her reconstruction.,Vector,Vector,1,0.0,0.0,0.0,4,13.15
+Why did Orianna's father move to Zaun after his experiments in Piltover?,Hybrid,Vector,0,0.0,0.0,0.0,0,6.14
+How did Orianna's reconstruction impact her father's standing in Piltover and their subsequent move?,Hybrid,Vector,0,0.0,0.0,0.0,6,10.83
+What did Orianna's older brother do to her?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.9
+What is Orianna's main weapon?,Graph,Vector,0,0.33,1.0,0.5,0,4.23
+In which region was Orianna originally from?,Graph,Vector,0,0.0,0.0,0.0,10,5.49
+Who is Orianna's father?,Graph,Vector,0,0.0,0.0,0.0,10,5.13
+Name one character related to Orianna besides her father.,Graph,Vector,0,0.0,0.0,0.0,10,3.54
+What happened to Orianna when she was young?,Vector,Vector,1,0.0,0.0,0.0,0,6.97
+How was Orianna brought back to life after her death?,Vector,Vector,1,0.0,0.0,0.0,0,5.66
+What drove Dr. Corin Reveck to conduct unethical experiments?,Vector,Vector,1,0.0,0.0,0.0,10,7.91
+Describe Orianna's nature and role after her reconstruction.,Vector,Vector,1,0.0,0.0,0.0,4,14.16
+Why did Orianna's father move to Zaun after his experiments in Piltover?,Hybrid,Vector,0,0.0,0.0,0.0,0,6.1
+How did Orianna's reconstruction impact her father's standing in Piltover and their subsequent move?,Hybrid,Vector,0,0.0,0.0,0.0,8,10.03
+What did Orianna's older brother do to her?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.12
+Who was the traitor that caused Orianna's father to be dismissed?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.38
+List all weapons Ornn is known to wield.,Graph,Vector,0,0.0,0.0,0.0,10,7.16
+Who are Ornn's siblings?,Graph,Vector,0,0.0,0.0,0.0,3,10.64
+In which region does Ornn primarily reside?,Graph,Vector,0,0.0,0.0,0.0,10,5.13
+Name one character related to Ornn.,Graph,Vector,0,0.0,0.0,0.0,1,2.36
+Describe Ornn's personality based on his lore.,Vector,Vector,1,0.0,0.0,0.0,8,9.48
+What event led to Ornn gaining the power of the primordial flame?,Vector,Vector,1,0.0,0.0,0.0,10,5.1
+How did Ornn shape the landscape of the Freljord in his youth?,Vector,Vector,1,0.0,0.0,0.0,9,3.56
+What was Ornn's motivation for dedicating himself to forging tools and weapons?,Vector,Vector,1,0.0,0.0,0.0,10,9.7
+How did Ornn's act of reshaping the Freljord contribute to his role as a smith?,Hybrid,Vector,0,0.0,0.0,0.0,8,10.37
+"Describe the relationship between Ornn and his brother Volibear, considering their shared origin in the Freljord.",Hybrid,Vector,0,0.0,0.0,0.0,10,20.69
+Who is the betrayer associated with Ornn's brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.1
+Tell me about the youngest sister of Ornn.,Adversarial,Vector,0,0.0,0.0,0.0,1,6.65
+What weapons does Pantheon wield?,Graph,Vector,0,0.0,0.0,0.0,5,6.21
+In which regions is Pantheon primarily active?,Graph,Vector,0,0.0,0.0,0.0,10,7.83
+Who are some of Pantheon's key related characters?,Graph,Vector,0,0.0,0.0,0.0,0,9.14
+Describe the bond between Atreus and Pylas.,Graph,Vector,0,0.0,0.0,0.0,7,8.84
+Tell me about Atreus's early life and training on Mount Targon.,Vector,Vector,1,0.0,0.0,0.0,10,9.57
+What defining qualities does Atreus possess in his fighting spirit?,Vector,Vector,1,0.0,0.0,0.0,10,5.73
+What was Atreus's role and experience as a Ra'Horak warrior?,Vector,Vector,1,0.0,0.0,0.0,8,5.5
+What is the lore significance of the 'Aspect of War' for Pantheon?,Vector,Vector,1,0.0,0.0,0.0,10,21.58
+How did Atreus's endurance on Targon influence his destiny?,Hybrid,Vector,0,0.0,0.0,0.0,8,8.25
+What significance does the Aegis of Zeonia hold within Pantheon's arsenal and lore?,Hybrid,Vector,0,0.0,0.0,0.0,10,19.58
+Tell me about Atreus's best friend and his brother.,Adversarial,Vector,0,0.0,0.0,0.0,8,4.96
+Who is the traitor that Atreus fought?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.14
+What is the name of Poppy's primary weapon?,Graph,Vector,0,0.0,0.0,0.0,10,4.22
+In which region is Poppy known to be a hero?,Graph,Vector,0,0.0,0.0,0.0,10,6.31
+Who are some characters that share a connection with Poppy?,Graph,Vector,0,0.0,0.0,0.0,0,4.68
+What is Poppy's role or occupation?,Graph,Vector,0,0.0,0.0,0.0,4,6.51
+Describe Poppy's feelings about other Yordles in Bandle City.,Vector,Vector,1,0.0,0.0,0.0,10,11.62
+What motivated Poppy to leave Bandle City and travel to human lands?,Vector,Vector,1,0.0,0.0,0.0,10,6.47
+What specific quality did Poppy admire in the human settlers she encountered?,Vector,Vector,1,0.0,0.0,0.0,5,4.31
+What aspect of Poppy's personality was alien to her compared to other Yordles?,Vector,Vector,1,0.0,0.0,0.0,9,6.06
+How does Poppy's Yordle nature and search for purpose manifest in her role as Hero of Demacia?,Hybrid,Vector,0,0.0,0.0,0.0,8,14.23
+"Considering her background, what kind of beings would Poppy seek out in Demacia for their sense of purpose?",Hybrid,Vector,0,0.0,0.0,0.0,9,10.18
+Does Poppy have an older brother who betrayed her?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,5.9
+"Who is Poppy's most trusted female companion in Demacia, excluding Lulu?",Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,4.61
+What is Qiyana's signature weapon?,Graph,Vector,0,1.0,3.0,1.5,0,4.53
+In which region does Qiyana hail from?,Graph,Vector,0,1.0,3.0,1.5,8,5.95
+List the names of Qiyana's known sisters.,Graph,Vector,0,0.0,0.0,0.0,6,5.63
+What is the name of Qiyana's ancestral home?,Graph,Vector,0,0.33,1.0,0.5,10,5.56
+Describe Qiyana's early feelings about her place in the royal succession.,Vector,Vector,1,0.0,0.0,0.0,8,11.57
+What kind of elemental magic did Qiyana train in?,Vector,Vector,1,0.0,0.0,0.0,5,6.57
+What event led Qiyana to believe she should claim the throne?,Vector,Vector,1,0.0,0.0,0.0,10,6.36
+What historical event is mentioned in relation to Qiyana's lore that involved Piltovan miners?,Vector,Vector,1,0.0,0.0,0.0,1,4.23
+How did Qiyana's upbringing in Ixaocan contribute to her ambition for power within Ixtal?,Hybrid,Vector,0,0.0,0.0,0.0,9,8.96
+Explain the connection between Qiyana's elemental magic training and her claim to the Yun Tal throne in Ixtal.,Hybrid,Vector,0,0.0,0.0,0.0,10,14.77
+Who is Qiyana's closest male relative?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.75
+Tell me about the betrayal Qiyana orchestrated against her rivals.,Adversarial,Vector,0,0.0,0.0,0.0,0,31.81
+What weapon does Quinn use in combat?,Graph intent,Vector,0,0.0,0.0,0.0,0,6.32
+Who is Quinn's twin brother?,Graph intent,Vector,0,0.33,1.0,0.5,10,5.24
+What region is Quinn from?,Graph intent,Vector,0,0.33,1.0,0.5,8,5.18
+What faction is Quinn associated with?,Graph intent,Vector,0,0.33,1.0,0.5,10,4.93
+What were Quinn and Caleb's early interests after seeing knights?,Vector intent,Vector,0,0.0,0.0,0.0,5,5.25
+Describe the circumstances leading to Caleb's death.,Vector intent,Vector,0,0.0,0.0,0.0,10,5.31
+What skills did Quinn develop from ranging in the wilds?,Vector intent,Vector,0,0.0,0.0,0.0,9,4.48
+What was Quinn's father's profession?,Vector intent,Vector,0,0.0,0.0,0.0,10,5.82
+"How did Quinn's upbringing in Uwendale, influenced by both her father's trade and mother's background, shape her ranger skills?",Hybrid intent,Vector,0,0.0,0.0,0.0,8,11.74
+"Considering Quinn's twin brother Caleb died during a hunt, what specific role did the wounded Tuskvore play in the incident?",Hybrid intent,Vector,0,0.0,0.0,0.0,10,6.66
+What did the traitor say to Quinn?,Adversarial/Trap intent,Vector,0,0.0,0.0,0.0,0,4.37
+Tell me about the betrayal by Quinn's brother.,Adversarial/Trap intent,Vector,0,0.0,0.0,0.0,0,7.61
+What weapon does Rammus use?,Graph,Vector,0,0.0,0.0,0.0,0,4.26
+In which region does Rammus primarily roam?,Graph,Vector,0,0.0,0.0,0.0,10,4.48
+Who is Rammus related to?,Graph,Vector,0,0.0,0.0,0.0,0,4.75
+What is Rammus's species or place of origin?,Graph,Vector,0,0.0,0.0,0.0,10,5.06
+What is Rammus's history before the Rune Wars?,Vector,Vector,1,0.0,0.0,0.0,1,7.25
+How was Rammus perceived in ancient Shurima?,Vector,Vector,1,0.0,0.0,0.0,10,5.94
+How did Rammus survive the Rune Wars?,Vector,Vector,1,0.0,0.0,0.0,0,6.62
+Describe a specific event where Rammus intervened.,Vector,Vector,1,0.0,0.0,0.0,8,6.84
+"Considering Rammus's ancient Shuriman origins as a guardian spirit, why might he have intervened in the Siram fortress incident?",Hybrid,Vector,0,0.0,0.0,0.0,9,11.03
+"What happened to the fortress in Siram, and how does this event relate to Rammus's current nomadic lifestyle in Shurima?",Hybrid,Vector,0,0.0,0.0,0.0,9,8.61
+"Given Rammus was depicted among ancient Shuriman demigods, could he have been a traitor?",Adversarial,Vector,0,0.0,0.0,0.0,0,4.79
+Does Rammus have any known siblings?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.02
+What weapons does Rek'Sai use?,Graph,Vector,0,0.0,0.0,0.0,0,5.03
+Who created Rek'Sai?,Graph,Vector,0,0.0,0.0,0.0,10,4.84
+What region is Rek'Sai's primary domain?,Graph,Vector,0,0.0,0.0,0.0,5,5.25
+List characters that are related to Rek'Sai.,Graph,Vector,0,0.0,0.0,0.0,5,7.08
+Describe Rek'Sai's primal instincts and motivations.,Vector,Vector,1,0.0,0.0,0.0,10,22.99
+What was Rek'Sai's early life like in the Void?,Vector,Vector,1,0.0,0.0,0.0,5,11.85
+How did Rek'Sai's arrival impact Shurima?,Vector,Vector,1,0.0,0.0,0.0,9,11.73
+What is Rek'Sai's role as the queen of the Xer'Sai?,Vector,Vector,1,0.0,0.0,0.0,10,9.8
+How did Rek'Sai's predatory actions in Shurima contribute to its fearsome reputation?,Hybrid,Vector,0,0.0,0.0,0.0,10,8.2
+Describe the significance of the Xer'Sai as Rek'Sai's brood in the context of their Void origins.,Hybrid,Vector,0,0.0,0.0,0.0,8,24.51
+What is the relationship between Rek'Sai and her purported 'sister queen' from the Void?,Adversarial,Vector,0,0.0,0.0,0.0,0,12.59
+Who is the 'traitor' mentioned in relation to Rek'Sai's history?,Adversarial,Vector,0,0.0,0.0,0.0,0,7.04
+What combat abilities does Rell utilize?,Graph,Vector,0,0.0,0.0,0.0,5,7.64
+Who is Rell's mother mentioned in her family history?,Graph,Vector,0,0.0,0.0,0.0,10,6.09
+In which region was Rell born?,Graph,Vector,0,0.0,0.0,0.0,10,4.3
+Which faction did Rell informally join through House Medarda?,Graph,Vector,0,0.0,0.0,0.0,4,4.72
+Can you describe Rell's early life circumstances in Qualthala?,Vector,Vector,1,0.0,0.0,0.0,8,10.29
+What specific skill did Rell develop at her mother's estate in the Bloodcliffs?,Vector,Vector,1,0.0,0.0,0.0,10,6.15
+What happened to Rell's family's estate in the Bloodcliffs?,Vector,Vector,1,0.0,0.0,0.0,10,6.23
+To which area of Noxus did Rell's family relocate due to their financial difficulties?,Vector,Vector,1,0.0,0.0,0.0,0,2.3
+How did the decline of House Canwell in Noxus affect Rell's childhood environment?,Hybrid,Vector,0,0.0,0.0,0.0,9,8.6
+"Considering Rell's noble origins, what was her experience like after moving to the slums of Bel'zhun?",Hybrid,Vector,0,0.0,0.0,0.0,5,8.58
+Is Rell's brother mentioned in her family history?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.7
+Did anyone betray Rell according to her background story?,Adversarial,Vector,0,0.0,0.0,0.0,10,9.85
+List all weapons used by Renata Glasc.,Graph,Vector,0,0.0,0.0,0.0,8,7.75
+Which characters are related to Renata Glasc?,Graph,Vector,0,0.0,0.0,0.0,10,6.3
+What are Renata Glasc's main occupations?,Graph,Vector,0,0.0,0.0,0.0,10,7.11
+Where did Renata Glasc originate from?,Graph,Vector,0,0.33,1.0,0.5,10,0.88
+What was the primary motivation behind Renata Glasc's parents' alchemical research?,Vector,Vector,1,0.0,0.0,0.0,6,5.02
+Why did the Piltover clans target Renata Glasc's parents?,Vector,Vector,1,0.0,0.0,0.0,8,4.27
+Describe Renata Glasc's early approach to business in Zaun.,Vector,Vector,1,0.0,0.0,0.0,10,11.76
+What does Renata Glasc's upbringing reveal about her values regarding wealth?,Vector,Vector,1,0.0,0.0,0.0,9,8.21
+"How did the violent end of her parents in Zaun, orchestrated by Piltover clans, influence Renata Glasc's rise as a Chem-Baroness?",Hybrid,Vector,0,0.0,0.0,0.0,10,12.1
+"Considering her role as founder of Glasc Industries and her status as a Chem-Baroness in Zaun, what was the strategic importance of her parents' life-prolonging medicine research?",Hybrid,Vector,0,0.0,0.0,0.0,5,12.17
+Tell me about Renata Glasc's brother.,Adversarial,Vector,0,0.0,0.0,0.0,0,6.01
+What was the impact of Renata Glasc's sister on her career?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.03
+What weapon does Renekton primarily use?,Graph,Vector,0,0.0,0.0,0.0,5,4.26
+Who is Renekton's brother?,Graph,Vector,0,0.0,0.0,0.0,10,5.32
+In which region does Renekton currently reside?,Graph,Vector,0,0.0,0.0,0.0,10,5.02
+List three characters related to Renekton.,Graph,Vector,0,0.0,0.0,0.0,2,6.0
+Describe Renekton's childhood personality.,Vector,Vector,1,0.0,0.0,0.0,8,7.21
+What historical roles did Renekton hold in ancient Shurima?,Vector,Vector,1,0.0,0.0,0.0,9,10.29
+How did Renekton's early life fighting influence his military career?,Vector,Vector,1,0.0,0.0,0.0,0,9.04
+What motivated Renekton's continuous engagement in fights during his youth?,Vector,Vector,1,0.0,0.0,0.0,10,5.97
+How did Renekton's innate ferocity contribute to his role as Gatekeeper of Shurima?,Hybrid,Vector,0,0.0,0.0,0.0,5,8.44
+"How did Renekton's relationship with his brother, Nasus, reveal his independent spirit before their ascension?",Hybrid,Vector,0,0.0,0.0,0.0,10,8.58
+"What is the name of Renekton's sister, who is known for her betrayal?",Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,6.25
+"Besides Nasus, what other brother of Renekton was a traitor to Shurima?",Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,6.04
+What are Rengar's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,10,7.11
+In which region does Rengar primarily operate?,Graph,Vector,0,0.67,2.0,1.0,0,3.21
+Who is Rengar's father?,Graph,Vector,0,0.33,1.0,0.5,8,6.01
+Name a character from Ixtal that Rengar is associated with.,Graph,Vector,0,0.0,0.0,0.0,0,5.48
+Describe Rengar's early life struggles.,Vector,Vector,1,0.0,0.0,0.0,1,10.62
+What was the core value of Rengar's Kiilash tribe?,Vector,Vector,1,0.0,0.0,0.0,8,6.7
+How did Rengar survive after fleeing his tribe?,Vector,Vector,1,0.0,0.0,0.0,9,5.44
+What was Rengar's father's initial belief about his son?,Vector,Vector,1,0.0,0.0,0.0,8,5.92
+"Rengar's father, Ponjaf, was chieftain of the Kiilash tribe in Ixtal. What core societal value did this tribe uphold, and how did Rengar's upbringing contrast with it?",Hybrid,Vector,0,0.0,0.0,0.0,8,10.78
+"Rengar was nearly killed by a human hunter named Markon. How did this encounter, despite being a moment of peril, contribute to Rengar's survival and his hope to rejoin his tribe?",Hybrid,Vector,0,0.0,0.0,0.0,8,9.66
+Who is the traitor in Rengar's story?,Adversarial,Vector,0,0.0,0.0,0.0,0,8.36
+What weapon is Rhaast primarily known for?,Graph,Vector,0,0.67,2.0,1.0,2,7.04
+In which regions has Rhaast been present according to the lore?,Graph,Vector,0,0.33,1.0,0.5,8,3.88
+Who is Rhaast's fellow Ascended who guided his Ascension ceremony?,Graph,Vector,0,0.0,0.0,0.0,10,5.88
+What are some of Rhaast's aliases?,Graph,Vector,0,0.33,1.0,0.5,10,6.28
+What were Rhaast's dominant personality traits before the Shuriman Empire's fall?,Vector,Vector,1,0.0,0.0,0.0,0,4.87
+What happened to the Ascended after the fall of the Shuriman Empire that led to them being called Darkin?,Vector,Vector,1,0.0,0.0,0.0,6,6.5
+What did Rhaast gift to a friend before his Ascension ceremony?,Vector,Vector,1,0.0,0.0,0.0,0,2.36
+What became of the Ascended's purpose after the Void and the Shuriman Empire fell?,Vector,Vector,1,0.0,0.0,0.0,10,5.8
+"After the fall of the Shuriman Empire and their subsequent conflicts, where did Rhaast eventually make his way to?",Hybrid,Vector,0,0.0,0.0,0.0,6,6.26
+How did Rhaast's relationship with his fellow Ascended like Zaahen evolve after the Shuriman Empire's fall?,Hybrid,Vector,0,0.0,0.0,0.0,0,12.61
+Describe the relationship between Rhaast and the character referred to as 'Brother'.,Adversarial,Vector,0,0.0,0.0,0.0,0,12.13
+When did Rhaast fight against the traitors who wronged him?,Adversarial,Vector,0,0.0,0.0,0.0,1,6.48
+What region is the Rift Herald from?,Graph,Vector,0,0.0,0.0,0.0,10,2.93
+What species is the Rift Herald?,Graph,Vector,0,0.67,2.0,1.0,10,2.79
+What are the known aliases of the Rift Herald?,Graph,Vector,0,0.0,0.0,0.0,5,2.2
+Where does the Rift Herald currently reside on Runeterra?,Graph,Vector,0,0.0,0.0,0.0,10,4.64
+How does the Rift Herald adapt to its surroundings?,Vector,Vector,1,0.0,0.0,0.0,9,6.15
+What specific creature did the Rift Herald consume that influenced its appearance?,Vector,Vector,1,0.0,0.0,0.0,10,3.78
+Is the Rift Herald a singular entity or part of a larger group of its kind?,Vector,Vector,1,0.0,0.0,0.0,0,3.61
+"What common characteristic do Voidborn creatures, like the Rift Herald, share in their appearance?",Vector,Vector,1,0.0,0.0,0.0,1,5.14
+"Considering the Rift Herald is a Voidborn, explain how its consumption of a Scuttle Crab modified its physical form.",Hybrid,Vector,0,0.0,0.0,0.0,10,9.12
+"The Rift Herald is described as residing on Runeterra and having a bipedal form with claws and a tail, while also being a Voidborn. How do these aspects of its nature and location interact in its appearance?",Hybrid,Vector,0,0.67,0.67,0.67,4,8.25
+Is the Rift Herald a traitor?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.24
+Does the Rift Herald have an older brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,1.95
+What weapons does Riven wield?,Graph,Vector,0,0.0,0.0,0.0,10,4.56
+In which regions has Riven lived or served?,Graph,Vector,0,0.0,0.0,0.0,6,8.57
+Who are Riven's adopted parents mentioned in her history?,Graph,Vector,0,0.0,0.0,0.0,10,8.02
+Who were Riven's sisters-in-arms within the Fury Company?,Graph,Vector,0,0.0,0.0,0.0,10,5.99
+What motivated Riven to join the Noxian Empire as a soldier?,Vector,Vector,1,0.0,0.0,0.0,10,5.92
+Describe Riven's upbringing as an orphan in Trevale.,Vector,Vector,1,0.0,0.0,0.0,10,10.68
+How did Riven master the use of a longsword despite its size?,Vector,Vector,1,0.0,0.0,0.0,4,5.98
+What was Riven's perception of the bonds she formed with her fellow soldiers?,Vector,Vector,1,0.0,0.0,0.0,10,6.95
+What led Riven to serve as a Guardian of Ionia after her Noxian military career?,Hybrid,Vector,0,0.0,0.0,0.0,2,7.24
+Describe Riven's role as a Noxian Captain and its contrast with her present status as an Exile.,Hybrid,Vector,0,0.0,0.0,0.0,10,15.75
+Tell me about Riven's older brother and his role in Noxus.,Adversarial,Vector,0,0.0,0.0,0.0,0,9.98
+What is Riven's relationship with her biological sister?,Adversarial,Vector,0,0.0,0.0,0.0,0,11.6
+What are Rumble's primary weapons or inventions?,Graph,Vector,0,0.0,0.0,0.0,10,5.01
+Where does Rumble currently reside?,Graph,Vector,0,0.0,0.0,0.0,10,3.26
+Who are some of the yordles related to Rumble?,Graph,Vector,0,0.0,0.0,0.0,10,6.31
+What are Rumble's notable occupations or roles?,Graph,Vector,0,0.0,0.0,0.0,7,10.84
+Describe Rumble's personality and how his early life experiences shaped him.,Vector,Vector,1,0.0,0.0,0.0,5,14.36
+What happened when Rumble tried to greet Heimerdinger's human students in Bandle City?,Vector,Vector,1,0.0,0.0,0.0,10,7.21
+Why did Rumble reject Heimerdinger's offer to attend his academy?,Vector,Vector,1,0.0,0.0,0.0,10,4.04
+What did Rumble do after being beaten up by the human students and leaving Bandle City?,Vector,Vector,1,0.0,0.0,0.0,10,3.4
+"Considering Rumble's origins in Bandle City and his rejection of Heimerdinger's academy, how did his experience in Bandle City influence his view on technology?",Hybrid,Vector,0,0.0,0.0,0.0,6,10.37
+"How did Rumble's difficult experiences in Bandle City, particularly with other yordles and human students, shape his relationship with his invention, Tristy?",Hybrid,Vector,0,0.0,0.0,0.0,10,9.95
+Who was Rumble's older sibling in Bandle City?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,4.47
+Was Heimerdinger a betrayer to Rumble?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,5.18
+What is Ryze's primary weapon?,Graph,Vector,0,0.0,0.0,0.0,10,5.59
+In which region does Ryze operate?,Graph,Vector,0,0.0,0.0,0.0,9,2.7
+Who was Ryze's mentor?,Graph,Vector,0,0.0,0.0,0.0,10,3.83
+Is Brand related to Ryze?,Graph,Vector,0,0.0,0.0,0.0,10,6.5
+Can you describe Ryze's early life?,Vector,Vector,1,0.0,0.0,0.0,6,9.36
+What motivated Ryze and Tyrus to travel across Valoran?,Vector,Vector,1,0.0,0.0,0.0,5,6.08
+What is Ryze's current age range?,Vector,Vector,1,0.0,0.0,0.0,10,6.29
+What was Ryze's role as an apprentice to Tyrus?,Vector,Vector,1,0.0,0.0,0.0,9,4.47
+"As a Guardian of Runeterra, how did the paranoia surrounding World Runes impact Ryze's early travels?",Hybrid,Vector,0,0.0,0.0,0.0,10,7.67
+Ryze is an Archmage and apprentice to Tyrus. How did his apprenticeship shape his understanding of dangerous artifacts?,Hybrid,Vector,0,0.0,0.0,0.0,9,7.28
+Who is Ryze's older brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.06
+Who betrayed Ryze?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.33
+List Samira's weapons.,Graph,Vector,0,0.0,0.0,0.0,10,4.62
+What regions is Samira associated with in her lore?,Graph,Vector,0,0.0,0.0,0.0,5,5.78
+Who are the characters directly related to Samira in the lore?,Graph,Vector,0,0.0,0.0,0.0,8,4.26
+What is Samira's current place of residence?,Graph,Vector,0,0.0,0.0,0.0,10,1.78
+Describe Samira's early life and experiences.,Vector,Vector,1,0.0,0.0,0.0,0,14.74
+What specific event caused Samira's permanent injury to her right eye?,Vector,Vector,1,0.0,0.0,0.0,5,5.53
+What are Samira's primary occupations?,Vector,Vector,1,0.0,0.0,0.0,5,2.9
+What was the consequence for Captain Indari during the Rokrund attack?,Vector,Vector,1,0.0,0.0,0.0,5,5.88
+How did Samira's experiences during the Rokrund attack in Shurima shape her current career as a mercenary in Noxus?,Hybrid,Vector,0,0.0,0.0,0.0,10,12.54
+Explain the events at Rokrund Plains and their impact on Samira and Captain Indari.,Hybrid,Vector,0,0.0,0.0,0.0,4,17.03
+Does Samira have a brother mentioned in her lore?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.36
+Identify the traitor Samira encountered during the Rokrund uprising.,Adversarial,Vector,0,0.0,0.0,0.0,0,4.58
+What weapons does Sejuani wield?,Graph,Vector,0,0.0,0.0,0.0,10,5.6
+In which region does Sejuani primarily reside?,Graph,Vector,0,0.0,0.0,0.0,10,4.57
+Who is Sejuani's oathfather?,Graph,Vector,0,0.0,0.0,0.0,0,4.89
+What faction does Sejuani lead?,Graph,Vector,0,0.0,0.0,0.0,5,3.89
+Describe Sejuani's early life experiences with her mother and grandmother.,Vector,Vector,1,0.0,0.0,0.0,10,11.48
+What did Sejuani observe during her visit to the Avarosan that influenced her?,Vector,Vector,1,0.0,0.0,0.0,6,5.45
+How did Sejuani view Grena?,Vector,Vector,1,0.0,0.0,0.0,0,4.94
+Who was Grena's daughter that Sejuani met?,Vector,Vector,1,0.0,0.0,0.0,5,3.8
+"Considering Sejuani's upbringing in the harsh Freljord and her mother's neglect, how did her admiration for Grena's leadership shape her own path as a Warmother of the Winter's Claw?",Hybrid,Vector,0,0.0,0.0,0.0,7,13.15
+"How did Sejuani's relationship with Ashe, fostered during their youth in the Freljord, evolve given their differing leadership styles and tribal affiliations?",Hybrid,Vector,0,0.0,0.0,0.0,3,20.07
+Who is the anh trai (older brother) mentioned in Sejuani's family?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.72
+Who is the kẻ phản bội (traitor) that Sejuani's mother Kalkia may have been associated with?,Adversarial,Vector,0,0.0,0.0,0.0,6,6.62
+What weapon does Senna wield?,Graph,Vector,0,0.0,0.0,0.0,0,3.99
+Where was Senna originally from?,Graph,Vector,0,0.0,0.0,0.0,10,6.32
+Who is Senna married to?,Graph,Vector,0,0.0,0.0,0.0,10,5.5
+List some characters who are closely connected to Senna.,Graph,Vector,0,0.0,0.0,0.0,5,18.53
+Describe Senna's childhood and her first encounter with the Black Mist.,Vector,Vector,1,0.0,0.0,0.0,8,17.78
+What is Senna's current existence status?,Vector,Vector,1,0.0,0.0,0.0,10,6.29
+What are Senna's primary roles as a Sentinel of Light?,Vector,Vector,1,0.0,0.0,0.0,10,6.09
+Why did Senna keep people at a distance from herself?,Vector,Vector,1,0.0,0.0,0.0,10,7.41
+How did Urias's training prepare Senna for her fight against the Black Mist?,Hybrid,Vector,0,0.0,0.0,0.0,8,7.01
+What was the significance of Urias's death to Senna and Lucian?,Hybrid,Vector,0,0.0,0.0,0.0,5,7.34
+"Did Senna have any siblings, such as a brother or sister?",Adversarial,Vector,0,0.0,0.0,0.0,10,5.39
+Who were the primary betrayers Senna faced during her early life on her home island?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.39
+What weapon does Seraphine use?,Graph,Vector,0,1.0,3.0,1.5,5,4.64
+In which regions does Seraphine perform?,Graph,Vector,0,0.67,2.0,1.0,10,5.51
+What is the name of Seraphine's pet?,Graph,Vector,0,0.67,2.0,1.0,10,5.28
+What is Seraphine's occupation?,Graph,Vector,0,0.33,1.0,0.5,10,5.6
+How did Seraphine's father help her with her powers?,Vector,Vector,1,0.0,0.0,0.0,9,5.13
+Describe Seraphine's early passion for music.,Vector,Vector,1,0.0,0.0,0.0,2,5.98
+Why did Seraphine initially try to repress her magical powers?,Vector,Vector,1,0.0,0.0,0.0,10,6.31
+How did Seraphine get involved in the conflict between Piltover and Zaun?,Vector,Vector,1,0.0,0.0,0.0,4,5.35
+How did Seraphine's trips to Zaun influence her music while living in Piltover?,Hybrid,Vector,0,0.0,0.0,0.0,6,10.28
+How did Seraphine's father's hearing aids enable her to become a performer?,Hybrid,Vector,0,0.0,0.0,0.0,6,6.45
+What is the reason Seraphine is nicknamed 'The Traitor'?,Adversarial,Vector,0,0.0,0.0,0.0,0,9.08
+Who is Seraphine's brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.4
+What are Shaco's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,10,4.62
+In which region does Shaco currently reside?,Graph,Vector,0,0.67,2.0,1.0,0,2.67
+List the characters related to Shaco.,Graph,Vector,0,0.0,0.0,0.0,0,2.29
+What is Shaco's occupation?,Graph,Vector,0,0.33,1.0,0.5,10,3.82
+How did Shaco gain sentience?,Vector,Vector,1,0.33,1.0,0.5,6,3.37
+What is known about Shaco's early life?,Vector,Vector,1,0.33,1.0,0.5,0,3.27
+What are Shaco's motives behind his crimes?,Vector,Vector,1,0.33,1.0,0.5,0,3.17
+Describe Shaco's personality based on his actions.,Vector,Vector,1,0.0,0.0,0.0,5,10.73
+"Considering Shaco's unknown origins in Runeterra, what is known about his early life and transformation?",Hybrid,Vector,0,0.0,0.0,0.0,2,20.22
+"Given Shaco's known relationships with other entities of chaos, what can be inferred about his nature?",Hybrid,Vector,0,0.0,0.0,0.0,7,9.32
+Does Shaco have an older brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.11
+Who is Shaco's younger sister?,Adversarial,Vector,0,0.0,0.0,0.0,0,1.97
+What are Shen's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,10,6.2
+Where does Shen primarily reside?,Graph,Vector,0,0.0,0.0,0.0,0,2.21
+Who is Shen's adopted brother?,Graph,Vector,0,0.0,0.0,0.0,10,2.83
+What order does Shen lead?,Graph,Vector,0,0.0,0.0,0.0,10,5.16
+What are the core tenets of the Kinkou Order that Shen was taught?,Vector,Vector,1,0.0,0.0,0.0,10,5.7
+Describe Shen's early childhood experiences within the Kinkou Order.,Vector,Vector,1,0.0,0.0,0.0,10,15.22
+"What significant event occurred involving Shen, his father Kusho, and a servant boy named Govos during Shen's childhood?",Vector,Vector,1,0.0,0.0,0.0,0,7.24
+What was Shen's father's motivation for allowing Govos to spar with him and offering him guidance?,Vector,Vector,1,0.0,0.0,0.0,1,2.25
+"How did Shen's upbringing in Ionia, particularly his training in the Kinkou Order's tenets, influence his role as an Interplanar Guardian?",Hybrid,Vector,0,0.0,0.0,0.0,10,13.06
+"Considering Shen's father, Kusho, took pity on Govos and offered him guidance against Shen, how might this event foreshadow Shen's own future leadership style within the Kinkou Order and his responsibilities?",Hybrid,Vector,0,0.0,0.0,0.0,10,22.95
+"The lore mentions Shen's father, Kusho, taking pity on a boy. Was this boy a traitor?",Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,6.22
+What weapons does Shyvana wield?,Graph,Vector,0,0.0,0.0,0.0,0,3.98
+In which region does Shyvana currently reside?,Graph,Vector,0,1.0,3.0,1.5,0,5.63
+Who is Shyvana's mother?,Graph,Vector,0,0.33,1.0,0.5,10,2.97
+Name one character that Shyvana is related to.,Graph,Vector,0,0.0,0.0,0.0,5,3.86
+How did Shyvana discover her dragon transformation abilities?,Vector,Vector,1,0.0,0.0,0.0,10,6.1
+What led to Shyvana being born as a humanoid girl?,Vector,Vector,1,0.0,0.0,0.0,1,4.67
+How did Shyvana cope with being isolated due to her unique nature?,Vector,Vector,1,0.0,0.0,0.0,1,5.96
+"Where did Shyvana's mother, Yvva, live?",Vector,Vector,1,0.0,0.0,0.0,5,7.24
+Describe Shyvana's origin and her current role in Demacia.,Hybrid,Vector,0,0.0,0.0,0.0,5,16.37
+"Explain the relationship between the mage, the stolen egg, and Shyvana's birth.",Hybrid,Vector,0,0.0,0.0,0.0,3,11.21
+Who are Shyvana's other parents mentioned in her family history?,Adversarial,Vector,0,0.0,0.0,0.0,0,8.11
+List all 'traitors' that Shyvana has encountered or is related to.,Adversarial,Vector,0,0.0,0.0,0.0,0,11.05
+What are Singed's primary alchemical weapons?,Graph,Vector,0,0.0,0.0,0.0,10,13.42
+In which regions does Singed operate?,Graph,Vector,0,0.0,0.0,0.0,10,7.4
+Who is Singed's daughter?,Graph,Vector,0,0.0,0.0,0.0,8,4.32
+Who was Singed's respected colleague at Piltover Academy?,Graph,Vector,0,0.0,0.0,0.0,0,4.88
+What drove Singed to pursue unethical alchemical experiments?,Vector,Vector,1,0.0,0.0,0.0,0,9.4
+What was Singed's role and reputation before his disgrace?,Vector,Vector,1,0.0,0.0,0.0,5,8.62
+How did Singed's daughter's death impact his career?,Vector,Vector,1,0.0,0.0,0.0,10,8.18
+Describe Singed's transition from Piltover to Zaun.,Vector,Vector,1,0.0,0.0,0.0,1,23.48
+How did Singed's experiments in Zaun relate to his past in Piltover and his daughter's fate?,Hybrid,Vector,0,0.0,0.0,0.0,10,13.21
+What is the connection between Singed's work in Zaun and his relationship with Heimerdinger?,Hybrid,Vector,0,0.0,0.0,0.0,6,7.87
+What was Singed's relationship with his brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,10.66
+Who was the traitor that caused Singed's downfall?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.39
+List all weapons Sion is known to wield.,Graph,Vector,0,0.33,0.25,0.29,10,5.82
+What is Sion's primary region of origin and current residence?,Graph,Vector,0,0.0,0.0,0.0,5,5.23
+Identify all characters related to Sion.,Graph,Vector,0,0.0,0.0,0.0,10,5.02
+What secret did Diana share with Leona one night that related to ancient societies?,Vector,Vector,1,0.0,0.0,0.0,0,991.0
+What was Sion's occupation before becoming an undead weapon?,Graph,Vector,0,0.0,0.0,0.0,10,6.56
+Describe the process by which Sion was reanimated after his death.,Vector,Vector,1,0.0,0.0,0.0,10,7.74
+How did the hemomancers of the Black Rose affect Sion's mind and body?,Vector,Vector,1,0.0,0.0,0.0,10,7.38
+What is Sion's current status?,Vector,Vector,1,0.0,0.0,0.0,10,3.69
+How did Sion initially meet his end?,Vector,Vector,1,0.0,0.0,0.0,10,3.85
+How did Sion's final battle with Jarvan I of Demacia lead to his reanimation by Noxus's Black Rose?,Hybrid,Vector,0,0.0,0.0,0.0,5,6.95
+"What was Sion's role as the 'Hand of Noxus' general during the empire's expansion, and what were his main objectives in that era?",Hybrid,Vector,0,0.0,0.0,0.0,10,7.46
+What is the name of Sion's sister?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.0
+Who among his comrades betrayed Sion during his campaigns for Noxus?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.63
+List Sivir's primary weapons.,Graph,Vector,0,0.33,1.0,0.5,10,4.19
+Who is Sivir's ancestor mentioned in her family tree?,Graph,Vector,0,0.67,2.0,1.0,0,8.96
+What region is Sivir from?,Graph,Vector,0,0.0,0.0,0.0,0,5.13
+Name three characters related to Sivir.,Graph,Vector,0,0.0,0.0,0.0,0,5.57
+Describe Sivir's early life struggles on the streets of Shurima.,Vector,Vector,1,0.0,0.0,0.0,0,12.01
+What event caused Sivir to distrust others?,Vector,Vector,1,0.33,1.0,0.5,10,7.2
+What was Sivir's role among the mercenaries led by Siharo?,Vector,Vector,1,0.0,0.0,0.0,10,4.37
+How did Sivir feel about being tricked by Mira?,Vector,Vector,1,0.0,0.0,0.0,10,3.94
+What weapon did Sivir primarily use when serving as sergeant for Siharo in Shurima?,Hybrid,Vector,0,0.0,0.0,0.0,10,4.17
+How did Sivir reconcile her difficult childhood as a street orphan with her destiny as the Princess of Shurima?,Hybrid,Vector,0,0.0,0.0,0.0,10,12.68
+Does Sivir have a brother who is also a mercenary?,Adversarial,Vector,0,0.0,0.0,0.0,0,7.23
+Who was the traitor Sivir encountered in the ancient ruins?,Adversarial,Vector,0,0.0,0.0,0.0,10,3.56
+What are Skarner's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,5,5.78
+In which region does Skarner currently reside?,Graph,Vector,0,0.67,2.0,1.0,10,3.24
+List characters related to Skarner.,Graph,Vector,0,0.0,0.0,0.0,10,4.06
+What is Skarner's faction?,Graph,Vector,0,1.0,3.0,1.5,10,5.66
+How did Skarner learn to detect underground vibrations?,Vector,Vector,1,0.0,0.0,0.0,0,7.52
+Describe Skarner's early life and upbringing.,Vector,Vector,1,0.33,1.0,0.5,10,14.8
+What was Skarner's reaction to the arrival of humans in Ixtal?,Vector,Vector,1,0.0,0.0,0.0,5,6.13
+What species does Skarner belong to?,Vector,Vector,1,0.67,2.0,1.0,0,7.93
+How does Skarner's role as a member of the Yun Tal influence his guardianship of Ixtal?,Hybrid,Vector,0,0.0,0.0,0.0,10,13.06
+What is the significance of Skarner's broodmother Nixalẹ in his development as a Brackern?,Hybrid,Vector,0,0.67,0.67,0.67,10,10.76
+Describe the actions of the outsiders who disrupted the peace of Skarner's homeland.,Adversarial,Vector,0,0.33,0.5,0.4,0,10.29
+What are the names of Skarner's direct siblings?,Adversarial,Vector,0,0.33,0.5,0.4,0,5.67
+What weapon does Smolder use?,Graph,Vector,0,0.0,0.0,0.0,0,4.11
+What regions is Smolder associated with?,Graph,Vector,0,0.0,0.0,0.0,5,5.43
+Who are Smolder's known family members?,Graph,Vector,0,0.0,0.0,0.0,10,4.84
+List characters related to Smolder.,Graph,Vector,0,0.0,0.0,0.0,10,3.72
+Describe Smolder's early life and how he was captured by beastmasters.,Vector,Vector,1,0.0,0.0,0.0,0,18.14
+What happened to Smolder's mother after he was captured by beastmasters?,Vector,Vector,1,0.0,0.0,0.0,10,7.04
+How did Smolder survive after washing ashore on the island?,Vector,Vector,1,0.0,0.0,0.0,10,6.34
+What was the fate of most imperial dragons allied with Camavor during the Ruination?,Vector,Vector,1,0.0,0.0,0.0,4,3.65
+Smolder's lineage traces back to Camavor; how does this origin connect to his present situation in Noxus?,Hybrid,Vector,0,0.0,0.0,0.0,10,12.66
+"Given Smolder's origin in a fallen kingdom, what is his relationship with other prominent dragons like Shyvana or Aurelion Sol?",Hybrid,Vector,0,0.0,0.0,0.0,0,16.23
+Who betrayed Camavor leading to its fall?,Adversarial,Vector,0,0.0,0.0,0.0,1,4.72
+What is the name of Smolder's big brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.1
+What is the name of Sona's adoptive father?,Graph,Vector,0,0.0,0.0,0.0,7,6.0
+In which region does Sona currently reside?,Graph,Vector,0,0.0,0.0,0.0,10,6.17
+What is the name of the musical instrument Sona plays?,Graph,Vector,0,0.0,0.0,0.0,0,3.62
+List Sona's immediate adoptive family members.,Graph,Vector,0,0.0,0.0,0.0,10,6.14
+Describe Sona's childhood at the Ionian monastery.,Vector,Vector,1,0.0,0.0,0.0,7,9.89
+What psychological impact did Sona's inability to speak have on her interactions?,Vector,Vector,1,0.0,0.0,0.0,10,8.3
+What is Sona's primary role or profession?,Vector,Vector,1,0.0,0.0,0.0,0,8.26
+What species is Sona Buvelle?,Vector,Vector,1,0.0,0.0,0.0,10,5.37
+How did Sona's discovery of music in Ionia lead to her adoption by House Buvelle in Demacia?,Hybrid,Vector,0,0.0,0.0,0.0,10,11.65
+"What role did Sona's adoptive mother, Lestara, play in her life after adoption into House Buvelle?",Hybrid,Vector,0,0.0,0.0,0.0,10,11.19
+Tell me about Sona's sister.,Adversarial,Vector,0,0.0,0.0,0.0,10,7.88
+Who were Sona's parents?,Adversarial,Vector,0,0.0,0.0,0.0,10,5.49
+What are Soraka's celestial weapons?,Graph,Vector,0,0.0,0.0,0.0,10,5.81
+In which regions does Soraka primarily reside?,Graph,Vector,0,0.0,0.0,0.0,0,3.34
+List the characters known to be related to Soraka.,Graph,Vector,0,0.0,0.0,0.0,0,7.54
+What is the name of Soraka's pet?,Graph,Vector,0,1.0,3.0,1.5,10,4.94
+Why did Soraka choose to descend to the mortal realm?,Vector,Vector,1,0.0,0.0,0.0,0,6.24
+What observations did the celestials make about the early inhabitants of Runeterra?,Vector,Vector,1,0.0,0.0,0.0,0,4.99
+What was Soraka's primary objective when she first came to Runeterra?,Vector,Vector,1,0.0,0.0,0.0,5,4.14
+How did mortals often interact with the guidance provided by the stars?,Vector,Vector,1,0.0,0.0,0.0,9,8.33
+"Considering Soraka's celestial origin and her role as a seer, how might her understanding of fate contrast with that of mortals in Ionia?",Hybrid,Vector,0,0.0,0.0,0.0,5,25.57
+How does Soraka's mission as a traveling healer in Ionia reflect her early concerns about mortal suffering?,Hybrid,Vector,0,0.0,0.0,0.0,0,8.73
+Who betrayed Soraka?,Adversarial,Vector,0,0.33,1.0,0.5,0,2.01
+What are Soraka's celestial weapons?,Graph,Vector,0,0.0,0.0,0.0,10,6.07
+In which regions does Soraka primarily reside?,Graph,Vector,0,0.0,0.0,0.0,5,3.38
+List the characters known to be related to Soraka.,Graph,Vector,0,0.0,0.0,0.0,0,7.29
+What is the name of Soraka's pet?,Graph,Vector,0,1.0,3.0,1.5,0,5.07
+Why did Soraka choose to descend to the mortal realm?,Vector,Vector,1,0.0,0.0,0.0,0,6.21
+What observations did the celestials make about the early inhabitants of Runeterra?,Vector,Vector,1,0.0,0.0,0.0,0,4.94
+What was Soraka's primary objective when she first came to Runeterra?,Vector,Vector,1,0.0,0.0,0.0,8,4.09
+How did mortals often interact with the guidance provided by the stars?,Vector,Vector,1,0.0,0.0,0.0,0,8.97
+"Considering Soraka's celestial origin and her role as a seer, how might her understanding of fate contrast with that of mortals in Ionia?",Hybrid,Vector,0,0.0,0.0,0.0,10,25.28
+How does Soraka's mission as a traveling healer in Ionia reflect her early concerns about mortal suffering?,Hybrid,Vector,0,0.0,0.0,0.0,10,8.77
+Who betrayed Soraka?,Adversarial,Vector,0,0.33,1.0,0.5,0,2.07
+What is Soraka's connection to the Void?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.8
+What are Sylas's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,10,5.51
+From which region does Sylas hail?,Graph,Vector,0,0.0,0.0,0.0,10,5.96
+List characters closely related to Sylas in Demacian politics.,Graph,Vector,0,0.0,0.0,0.0,5,18.34
+What factions is Sylas a part of or has been associated with?,Graph,Vector,0,0.0,0.0,0.0,10,10.44
+What events or observations led Sylas to distrust Demacian authorities?,Vector,Vector,1,0.0,0.0,0.0,10,9.45
+Describe Sylas's early life and his initial dealings with the Mageseekers.,Vector,Vector,1,0.0,0.0,0.0,9,11.86
+What was Sylas's core motivation for starting a revolution?,Vector,Vector,1,0.0,0.0,0.0,10,7.83
+What role did Sylas's family play in his early life?,Vector,Vector,1,0.0,0.0,0.0,9,7.0
+"Considering his history in Demacia, how does Sylas's current situation in the Freljord reflect his revolutionary ideals?",Hybrid,Vector,0,0.0,0.0,0.0,8,15.54
+Explain how Sylas's Petricite Restraints serve as both a symbol of his oppression and a tool for his rebellion.,Hybrid,Vector,0,0.0,0.0,0.0,10,22.38
+Who is known as the 'Traitor' who opposes the Mageseekers in Demacia?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,10,3.8
+What are Syndra's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,10,4.19
+In which region of Runeterra does Syndra primarily reside?,Graph,Vector,0,0.0,0.0,0.0,8,6.26
+Who was Syndra's brother mentioned in her early life?,Graph,Vector,0,0.0,0.0,0.0,10,6.36
+List characters related to Syndra.,Graph,Vector,0,0.0,0.0,0.0,7,7.97
+What caused Syndra to manifest her dark magic?,Vector,Vector,1,0.0,0.0,0.0,7,6.39
+Describe Syndra's early life and the circumstances of her powers manifesting.,Vector,Vector,1,0.0,0.0,0.0,10,18.09
+What happened to the Spectral Willow after Syndra's powers manifested?,Vector,Vector,1,0.0,0.0,0.0,10,5.47
+Where did Syndra seek solace during her childhood?,Vector,Vector,1,0.0,0.0,0.0,10,5.6
+What event in Ionia led to Syndra's family being blamed for the demise of a sacred tree?,Hybrid,Vector,0,0.0,0.0,0.0,10,6.3
+How did Syndra's interaction with her brother Evard and his friends contribute to her notoriety?,Hybrid,Vector,0,0.0,0.0,0.0,10,7.73
+What happened to Syndra's older brother?,Adversarial,Vector,0,0.0,0.0,0.0,8,10.54
+Who betrayed Syndra in her village?,Adversarial,Vector,0,0.0,0.0,0.0,10,4.39
+What weapons does Tahm Kench use?,Graph,Vector,0,0.0,0.0,0.0,0,5.9
+In which region does Tahm Kench primarily reside?,Graph,Vector,0,0.0,0.0,0.0,10,3.76
+List characters related to Tahm Kench.,Graph,Vector,0,0.0,0.0,0.0,10,9.56
+What is Tahm Kench's main occupation?,Graph,Vector,0,0.0,0.0,0.0,10,5.0
+Describe Tahm Kench's personality and nature.,Vector,Vector,1,0.0,0.0,0.0,10,12.84
+What is the general historical timeline of Tahm Kench?,Vector,Vector,1,0.0,0.0,0.0,10,10.02
+Can you describe Tahm Kench's physical appearance?,Vector,Vector,1,0.0,0.0,0.0,0,9.76
+What are the implications of Tahm Kench being a 'Demon of Addiction'?,Vector,Vector,1,0.0,0.0,0.0,0,10.59
+"What is Tahm Kench's role as a demon in Runeterra, and what is his primary tool for devouring souls?",Hybrid,Vector,0,0.0,0.0,0.0,5,10.0
+"Considering his association with other demons like Fiddlesticks, what does Tahm Kench offer to those who make a deal with him?",Hybrid,Vector,0,0.0,0.0,0.0,0,4.34
+Who is Tahm Kench's older brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.61
+Who is the greatest traitor Tahm Kench fears?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.75
+What are Taliyah's main magical abilities or weapons?,Graph,Vector,0,0.0,0.0,0.0,10,8.34
+Where was Taliyah originally from?,Graph,Vector,0,0.33,1.0,0.5,10,7.08
+Who is Taliyah's grandmother?,Graph,Vector,0,0.0,0.0,0.0,10,4.67
+Name three characters closely associated with Taliyah.,Graph,Vector,0,0.0,0.0,0.0,4,4.85
+Describe Taliyah's childhood and upbringing with the Naasaj tribe.,Vector,Vector,1,0.0,0.0,0.0,10,24.08
+What pivotal event occurred when Taliyah was six years old that revealed her powers?,Vector,Vector,1,0.0,0.0,0.0,4,7.42
+What was the primary occupation of Taliyah's nomadic tribe?,Vector,Vector,1,0.0,0.0,0.0,9,5.96
+How did Taliyah perceive the desert environment during her youth?,Vector,Vector,1,0.0,0.0,0.0,9,5.63
+"Considering Taliyah's origin in southern Shurima and her tribe's nomadic lifestyle, what event in her childhood first demonstrated her unique control over stone?",Hybrid,Vector,0,0.0,0.0,0.0,10,7.96
+How did Taliyah's upbringing in the Naasaj tribe near Icathia shape her early fascination with stone magic?,Hybrid,Vector,0,1.0,0.6,0.75,10,14.49
+Does Taliyah have an anh trai?,Adversarial,Vector,0,0.0,0.0,0.0,10,7.33
+Is Taliyah known as a kẻ phản bội?,Adversarial,Vector,0,0.0,0.0,0.0,10,5.81
+What weapons does Talon use?,Graph,Vector,0,0.0,0.0,0.0,10,5.88
+In which region is Talon primarily associated with?,Graph,Vector,0,0.0,0.0,0.0,10,5.79
+Who are Talon's adoptive family members?,Graph,Vector,0,0.0,0.0,0.0,10,6.98
+Which faction does Talon belong to?,Graph,Vector,0,0.0,0.0,0.0,5,4.2
+Why did Talon choose to serve General Du Couteau?,Vector,Vector,1,0.0,0.0,0.0,10,5.67
+What was Talon's life like before he was discovered by General Du Couteau?,Vector,Vector,1,0.0,0.0,0.0,10,9.46
+What is Talon's general demeanor or attitude towards authority?,Vector,Vector,1,0.0,0.0,0.0,10,7.51
+Does Talon remember his birth parents?,Vector,Vector,1,0.0,0.0,0.0,0,4.62
+"How did Talon's upbringing in Noxus shape his view on respect and authority, especially concerning General Du Couteau?",Hybrid,Vector,0,0.0,0.0,0.0,1,14.15
+"Considering Talon's skills as an assassin and his association with Noxus, what is his likely role in the Black Rose faction's schemes?",Hybrid,Vector,0,0.33,0.33,0.33,0,17.97
+Who is Talon's uncle?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,5.13
+Tell me about the traitor in Talon's family.,Adversarial/Trap,Vector,0,1.0,1.5,1.2,10,11.4
+What are Taric's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,5,6.31
+What regions is Taric primarily associated with?,Graph,Vector,0,0.0,0.0,0.0,10,4.81
+List the characters related to Taric.,Graph,Vector,0,0.0,0.0,0.0,10,5.26
+What was Taric's occupation before becoming an Aspect?,Graph,Vector,0,0.0,0.0,0.0,0,9.85
+How did Taric's upbringing in Demacia influence his view on life and art?,Vector,Vector,1,0.0,0.0,0.0,10,9.84
+Describe Taric's early life and training in Demacia.,Vector,Vector,1,0.0,0.0,0.0,10,11.07
+What values did Taric hold regarding Demacia?,Vector,Vector,1,0.0,0.0,0.0,10,7.19
+What is Taric's role as the Aspect of the Protector?,Vector,Vector,1,0.0,0.0,0.0,9,8.56
+How did Taric's dedication to Demacia during his early life shape his later role as a Targon Aspect?,Hybrid,Vector,0,0.0,0.0,0.0,10,10.98
+What is the connection between Taric's service in the Dauntless Vanguard and his current position on Mount Targon?,Hybrid,Vector,0,0.0,0.0,0.0,0,11.06
+Tell me about the betrayal Taric committed against the Aspects.,Adversarial,Vector,0,0.0,0.0,0.0,0,26.86
+"What is Taric's relationship with his older brother, and how did it affect his journey?",Adversarial,Vector,0,0.0,0.0,0.0,0,13.1
+What weapons does Teemo wield?,Graph,Vector,0,0.0,0.0,0.0,10,5.74
+What region is Teemo from?,Graph,Vector,0,0.0,0.0,0.0,10,5.31
+Who are some characters related to Teemo?,Graph,Vector,0,0.0,0.0,0.0,10,1.73
+What is Teemo's role in the Bandle Scouts?,Graph,Vector,0,0.0,0.0,0.0,8,5.84
+Describe Teemo's early career and rise in the Bandle Scouts.,Vector,Vector,1,0.0,0.0,0.0,10,8.37
+How did Teemo's leadership affect the Bandle Scouts?,Vector,Vector,1,0.0,0.0,0.0,6,3.05
+What does Teemo wear and carry?,Vector,Vector,1,0.0,0.0,0.0,10,8.17
+What is Teemo's species and general description?,Vector,Vector,1,0.0,0.0,0.0,5,7.55
+How did Teemo's adventures across Runeterra contribute to his leadership in Bandle City?,Hybrid,Vector,0,0.0,0.0,0.0,9,8.77
+"What makes Teemo a good leader for the Bandle Scouts, considering his role with other yordles?",Hybrid,Vector,0,0.0,0.0,0.0,10,6.7
+What weapons does the Poro King wield?,Graph,Vector,0,0.0,0.0,0.0,10,4.6
+What region is the Poro King associated with?,Graph,Vector,0,0.0,0.0,0.0,10,3.73
+Who is Ingvar the Younger in relation to the Poro King?,Graph,Vector,0,0.0,0.0,0.0,10,6.98
+Who is Bjerg the Wanderer in relation to Ingvar?,Graph,Vector,0,0.0,0.0,0.0,10,2.34
+What is the Poro King's role or purpose in Runeterra?,Vector,Vector,1,0.0,0.0,0.0,10,6.28
+What is known about the Poro King's origins or history?,Vector,Vector,1,0.0,0.0,0.0,0,9.06
+What do people believe about the Poro King's existence?,Vector,Vector,1,0.0,0.0,0.0,3,4.0
+Describe the Poro King's appearance.,Vector,Vector,1,0.0,0.0,0.0,10,7.54
+"Given the Poro King is from Runeterra, what does his existence signify for the Freljordian people based on Ingvar's role?",Hybrid,Vector,0,0.0,0.0,0.0,0,9.06
+How does Ingvar's belief in the Poro King reflect the mythical nature of the character?,Hybrid,Vector,0,0.0,0.0,0.0,8,6.11
+Is the Poro King a traitor to the Freljord?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.37
+What is the Poro King's relationship to Ingvar's mother?,Adversarial,Vector,0,0.0,0.0,0.0,10,6.08
+What weapons does Thresh wield?,Graph,Vector,0,0.0,0.0,0.0,10,7.99
+What are the regions associated with Thresh?,Graph,Vector,0,0.0,0.0,0.0,10,6.81
+Which characters are related to Thresh?,Graph,Vector,0,0.0,0.0,0.0,0,8.2
+What were Thresh's occupations?,Graph,Vector,0,0.0,0.0,0.0,10,8.0
+Describe Thresh's early life and feelings as a monk of Helia.,Vector,Vector,1,0.0,0.0,0.0,10,19.36
+What did Thresh become interested in during his time as a warden?,Vector,Vector,1,0.0,0.0,0.0,10,9.06
+What caused Thresh to grow bitter and cruel?,Vector,Vector,1,0.0,0.0,0.0,10,12.16
+What is Thresh's current status?,Vector,Vector,1,0.0,0.0,0.0,10,6.08
+How did Thresh's role as a warden in the Blessed Isles contribute to his bitterness?,Hybrid,Vector,0,0.0,0.0,0.0,10,9.97
+What led Thresh to take interest in the tome while serving as a warden?,Hybrid,Vector,0,0.0,0.0,0.0,0,3.63
+Did Thresh's brother ever help him with his duties?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,5.08
+What is the name of Trundle's weapon?,Graph,Vector,0,1.0,3.0,1.5,0,7.41
+From which region does Trundle originate?,Graph,Vector,0,0.33,1.0,0.5,10,7.73
+How many siblings did Trundle have in his early life?,Graph,Vector,0,0.0,0.0,0.0,10,7.67
+List characters related to Trundle.,Graph,Vector,0,0.0,0.0,0.0,10,5.3
+What motivated Trundle's departure from his original tribe?,Vector,Vector,1,0.0,0.0,0.0,2,8.09
+Describe Trundle's childhood and early tribal life.,Vector,Vector,1,0.0,0.0,0.0,0,11.53
+Is Trundle currently alive or deceased?,Vector,Vector,1,0.33,1.0,0.5,10,5.68
+What are Trundle's primary roles or occupations?,Vector,Vector,1,0.33,1.0,0.5,10,5.62
+How do Trundle's Freljordian origins influence his leadership among the Frost Trolls and Frostguard?,Hybrid,Vector,0,0.0,0.0,0.0,10,20.7
+"What is the purpose of Trundle's weapon, Boneshiver, in his raiding activities?",Hybrid,Vector,0,0.0,0.0,0.0,10,9.74
+Who was the traitor that caused Trundle's exile from his warband?,Adversarial,Vector,0,0.0,0.0,0.0,4,6.47
+What kind of relationship did Trundle have with his numerous brothers?,Adversarial,Vector,0,0.0,0.0,0.0,0,9.79
+What is Tryndamere's primary region of origin?,Graph,Vector,0,0.67,2.0,1.0,0,8.36
+Who is Tryndamere's spouse?,Graph,Vector,0,0.0,0.0,0.0,10,6.62
+List the weapons wielded by Tryndamere.,Graph,Vector,0,0.67,2.0,1.0,0,6.91
+Name some characters who are related to Tryndamere.,Graph,Vector,0,0.67,2.0,1.0,0,2.98
+Describe Tryndamere's early life and his tribe's traditions.,Vector,Vector,1,0.0,0.0,0.0,10,24.87
+What event caused Tryndamere to feel an intense rage and determination for vengeance?,Vector,Vector,1,0.0,0.0,0.0,10,8.86
+Explain the impact of Aatrox's arrival on Tryndamere and his tribe.,Vector,Vector,1,0.0,0.0,0.0,10,10.9
+What is Tryndamere's current status and his main occupations?,Vector,Vector,1,0.0,0.0,0.0,10,9.37
+How did the catastrophic encounter with Aatrox in the Freljord shape Tryndamere's resolve and his path toward becoming a leader?,Hybrid,Vector,0,0.0,0.0,0.0,10,12.52
+"Considering his marriage to Ashe and his leadership role in the Freljord, how does Tryndamere's vow of vengeance against Aatrox influence his decisions as a tribal leader?",Hybrid,Vector,0,0.33,0.25,0.29,10,30.27
+Who is the betrayer that Tryndamere vowed to get revenge upon?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.25
+Tell me about Tryndamere's older brother.,Adversarial,Vector,0,0.0,0.0,0.0,0,8.44
+What are the names of Twisted Fate's weapons?,Graph,Vector,0,0.0,0.0,0.0,10,7.66
+In which region is Twisted Fate primarily associated with?,Graph,Vector,0,0.0,0.0,0.0,10,5.58
+Who is Twisted Fate's romantic partner?,Graph,Vector,0,0.0,0.0,0.0,0,2.69
+List characters that are related to Twisted Fate.,Graph,Vector,0,0.0,0.0,0.0,0,2.56
+Describe Twisted Fate's early life and upbringing as Tobias Felix.,Vector,Vector,1,0.0,0.0,0.0,10,19.55
+What led Tobias Felix to become the cardsharp known as Twisted Fate?,Vector,Vector,1,0.0,0.0,0.0,5,12.35
+How did Tobias Felix learn the skills of card sharping and reading people?,Vector,Vector,1,0.0,0.0,0.0,10,7.93
+What types of gambling games did Tobias Felix play in his youth?,Vector,Vector,1,0.0,0.0,0.0,0,3.92
+How did Twisted Fate's life as a thief and cardsharp in Bilgewater influence his current lifestyle?,Hybrid,Vector,0,0.0,0.0,0.0,6,12.63
+Describe the nature of Twisted Fate's relationship with Graves and its potential impact on their shared ventures.,Hybrid,Vector,0,0.0,0.0,0.0,0,28.13
+Does Twisted Fate have an older brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,8.58
+Was Twisted Fate ever accused of being a traitor by his former crew?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.92
+What weapons does Twitch use?,Graph,Vector,0,0.0,0.0,0.0,0,4.63
+Where does Twitch originate from and currently reside?,Graph,Vector,0,0.33,0.5,0.4,10,6.11
+Who are the characters related to Twitch?,Graph,Vector,0,0.33,1.0,0.5,10,3.94
+What species is Twitch?,Graph,Vector,0,0.33,1.0,0.5,9,6.11
+Can you describe Twitch's early life in Zaun?,Vector,Vector,1,0.0,0.0,0.0,10,6.15
+What does Twitch consider to be treasures?,Vector,Vector,1,0.0,0.0,0.0,0,5.5
+What occurred during the H.I.V.E. incident involving Twitch?,Vector,Vector,1,0.0,0.0,0.0,0,5.73
+How is Twitch perceived by the people of Zaun?,Vector,Vector,1,0.0,0.0,0.0,0,7.73
+"What kind of environment does Twitch thrive in within Zaun, and what does this suggest about his origins as a 'Plague Rat'?",Hybrid,Vector,0,1.0,0.75,0.86,10,7.19
+"Considering Twitch's primary weapons and his Zaunite origin, what kind of threats does he typically face or pose?",Hybrid,Vector,0,0.67,0.5,0.57,7,13.0
+Is Twitch a traitor to Zaun?,Adversarial,Vector,0,0.0,0.0,0.0,0,8.77
+Who is Twitch's older brother?,Adversarial,Vector,0,0.0,0.0,0.0,10,5.91
+Who did Tybaulk serve before being trapped?,Graph,Vector,0,0.0,0.0,0.0,10,4.07
+What was Tybaulk's companion beast when serving Mordekaiser?,Graph,Vector,0,0.0,0.0,0.0,10,3.65
+What is Tybaulk's current role in relation to Annie?,Graph,Vector,0,0.0,0.0,0.0,10,7.87
+Who betrayed Mordekaiser and trapped Tybaulk?,Graph,Vector,0,0.0,0.0,0.0,10,4.52
+How did Tybaulk influence Amoline Kiosar?,Vector,Vector,1,0.0,0.0,0.0,0,5.91
+Where did Tybaulk originate from in ancient times?,Vector,Vector,1,0.0,0.0,0.0,10,6.64
+Why did Amoline feel pity for Tybaulk?,Vector,Vector,1,0.0,0.0,0.0,10,6.93
+Describe the process of Tybaulk being transferred into a teddy bear.,Vector,Vector,1,0.0,0.0,0.0,10,7.17
+How did Mordekaiser's betrayal by LeBlanc lead to Tybaulk becoming Annie's guardian?,Hybrid,Vector,0,0.0,0.0,0.0,10,8.05
+Explain how Tybaulk's past service to Mordekaiser and betrayal by LeBlanc resulted in him residing in Annie's teddy bear.,Hybrid,Vector,0,0.0,0.0,0.0,10,16.56
+What is Tybaulk's relationship with his sister?,Adversarial,Vector,0,0.0,0.0,0.0,0,8.24
+How did Tybaulk's betrayal affect Mordekaiser?,Adversarial,Vector,0,0.0,0.0,0.0,10,7.94
+What are the different spirit forms Udyr can manifest?,Graph,Vector,0,0.0,0.0,0.0,10,8.23
+Where does Udyr currently reside?,Graph,Vector,0,0.0,0.0,0.0,10,2.54
+Who is Sejuani to Udyr?,Graph,Vector,0,0.0,0.0,0.0,0,7.17
+Who was Kalkia to Udyr?,Graph,Vector,0,0.0,0.0,0.0,0,6.6
+How does Udyr's connection to spirits affect him?,Vector,Vector,1,0.0,0.0,0.0,10,7.75
+Describe Udyr's birth circumstances.,Vector,Vector,1,0.0,0.0,0.0,10,11.14
+What event led Udyr to unleash his powers with purpose for the first time?,Vector,Vector,1,0.0,0.0,0.0,10,8.64
+Why did Udyr's parents seek help for his powers?,Vector,Vector,1,0.0,0.0,0.0,5,7.85
+How did Udyr's upbringing in the Freljord influence his reaction to the Frostguard attack?,Hybrid,Vector,0,0.0,0.0,0.0,9,12.76
+"Given Sejuani is his adopted daughter, how might Udyr's past experiences with his own tribe's destruction shape his protective instincts towards her?",Hybrid,Vector,0,0.0,0.0,0.0,0,15.17
+Did an older brother betray Udyr or his tribe?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.64
+Was Udyr's tribe betrayed by a female family member?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.96
+What weapons does Urgot use?,Graph,Vector,0,0.0,0.0,0.0,10,7.56
+In which regions has Urgot been active?,Graph,Vector,0,0.0,0.0,0.0,10,5.58
+Who are some characters related to Urgot?,Graph,Vector,0,0.0,0.0,0.0,10,6.33
+What was Urgot's former occupation in Noxus?,Graph,Vector,0,0.0,0.0,0.0,10,6.25
+What was Urgot's epiphany in The Dredge?,Vector,Vector,1,0.0,0.0,0.0,0,6.29
+Describe Urgot's early life in Noxus.,Vector,Vector,1,0.0,0.0,0.0,0,6.98
+How did Urgot end up in Zaun during Swain's uprising?,Vector,Vector,1,0.0,0.0,0.0,10,5.35
+What happened to Urgot after he was captured by Chem-Barons in Zaun?,Vector,Vector,1,0.0,0.0,0.0,0,5.0
+How did Urgot's time in the Noxian military influence his experience in Zaun's chemtech prison?,Hybrid,Vector,0,0.0,0.0,0.0,10,11.16
+What was the significance of Swain's uprising in Urgot's journey to Zaun?,Hybrid,Vector,0,0.33,0.5,0.4,0,4.27
+Was Urgot a traitor during Swain's uprising?,Adversarial,Vector,0,0.33,0.5,0.4,10,6.51
+What is Urgot's relationship with his younger brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,7.47
+List all weapons Varus wields.,Graph,Vector,0,0.0,0.0,0.0,10,7.83
+What regions are associated with Varus's origin and current existence?,Graph,Vector,0,0.0,0.0,0.0,4,12.03
+"Besides other Darkin, which characters are related to Varus?",Graph,Vector,0,0.0,0.0,0.0,4,6.88
+What are the real names of Varus's human hosts?,Graph,Vector,0,0.0,0.0,0.0,10,9.07
+What past event left Varus deeply traumatized and fueled his desire for vengeance?,Vector,Vector,1,0.0,0.0,0.0,4,7.3
+Describe Varus's psychological state and his treatment of enemies during warfare.,Vector,Vector,1,0.0,0.0,0.0,10,11.59
+What were Varus's occupations before his Darkin ascension or embodiment?,Vector,Vector,1,0.0,0.0,0.0,0,9.68
+Explain the circumstances that led to Varus's current state as a possessed Darkin.,Vector,Vector,1,0.0,0.0,0.0,0,13.49
+How did the traumatic events Varus experienced in Shurima shape his approach to warfare and his relationship with his Ionian hosts?,Hybrid,Vector,0,0.0,0.0,0.0,10,23.68
+What is the lore behind the Darkin Bow and how does it connect to Varus's vengeance and his hosts' shared destiny?,Hybrid,Vector,0,0.0,0.0,0.0,5,43.83
+Does Varus have any siblings?,Adversarial,Vector,0,0.0,0.0,0.0,1,10.8
+Varus is known for his vengeance. Who is the closest female entity he has directly wronged?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.9
+What weapons does Vayne use?,Graph,Vector,0,0.0,0.0,0.0,5,6.36
+Which region is Vayne from?,Graph,Vector,0,0.33,1.0,0.5,10,6.74
+Who are the related characters to Vayne?,Graph,Vector,0,0.0,0.0,0.0,5,6.87
+What is Vayne's occupation?,Graph,Vector,0,0.0,0.0,0.0,10,6.75
+What motivated Vayne to become a hunter of darkness?,Vector,Vector,1,0.0,0.0,0.0,0,7.64
+Describe Vayne's early life in Demacia.,Vector,Vector,1,0.0,0.0,0.0,9,12.31
+What happened to Vayne's parents?,Vector,Vector,1,0.0,0.0,0.0,10,4.99
+What did Vayne learn in Freljord?,Vector,Vector,1,0.0,0.0,0.0,1,8.42
+How did Vayne's experiences in Freljord shape her vigilante path in Demacia?,Hybrid,Vector,0,0.0,0.0,0.0,10,10.62
+What is the significance of the 'Sentinels of Light' faction in relation to Vayne's family history?,Hybrid,Vector,0,0.0,0.0,0.0,10,11.79
+Vayne's anh trai,Adversarial,Vector,0,0.0,0.0,0.0,0,4.77
+Vayne's em gái,Adversarial,Vector,0,0.0,0.0,0.0,0,5.54
+What are Veigar's primary weapons or sources of power?,Graph,Vector,0,0.0,0.0,0.0,10,11.55
+In which regions of Runeterra has Veigar been known to reside or operate?,Graph,Vector,0,0.0,0.0,0.0,10,8.2
+Who are the characters explicitly related to Veigar in his lore?,Graph,Vector,0,0.0,0.0,0.0,10,3.24
+What is Veigar's occupation and species?,Graph,Vector,0,0.0,0.0,0.0,10,7.28
+What motivated Veigar to seek knowledge beyond traditional Yordle magic?,Vector,Vector,1,0.0,0.0,0.0,10,7.81
+Describe Veigar's experience when he was captured by Mordekaiser.,Vector,Vector,1,0.0,0.0,0.0,0,12.17
+How did Veigar learn to harness celestial magic?,Vector,Vector,1,0.0,0.0,0.0,10,6.63
+Is Veigar currently alive?,Vector,Vector,1,0.33,1.0,0.5,10,5.76
+"Given Veigar's pursuit of celestial magic, where in Runeterra might he have sought such knowledge?",Hybrid,Vector,0,0.0,0.0,0.0,0,10.44
+"Considering Veigar was enslaved by Mordekaiser, what was the nature of his capture and what kind of magic was Mordekaiser interested in?",Hybrid,Vector,0,0.0,0.0,0.0,10,8.97
+Who is Veigar's sister?,Adversarial,Vector,0,0.0,0.0,0.0,10,3.19
+Who betrayed Veigar?,Adversarial,Vector,0,0.0,0.0,0.0,10,3.88
+What weapon does Vel'Koz utilize?,Graph,Vector,0,0.0,0.0,0.0,10,5.41
+Who are Vel'Koz's creators?,Graph,Vector,0,0.0,0.0,0.0,10,9.42
+List other Voidborn creatures that Vel'Koz is related to.,Graph,Vector,0,0.0,0.0,0.0,10,10.76
+What is Vel'Koz's place of origin?,Graph,Vector,0,0.0,0.0,0.0,10,7.73
+What is the primary objective of Vel'Koz as defined by its creators?,Vector,Vector,1,0.0,0.0,0.0,5,9.74
+Describe Vel'Koz's method of understanding.,Vector,Vector,1,0.0,0.0,0.0,10,15.09
+What actions does Vel'Koz perform when it returns to the Void?,Vector,Vector,1,0.0,0.0,0.0,10,13.09
+What physical mark does Vel'Koz leave on its victims?,Vector,Vector,1,0.0,0.0,0.0,10,5.39
+How does being a Voidborn from the Void shape Vel'Koz's approach to researching Runeterra's civilizations?,Hybrid,Vector,0,0.0,0.0,0.0,4,15.64
+"Considering Vel'Koz's mission for the Watchers, what is the significance of its relationship with other Voidborn entities such as Kha'Zix?",Hybrid,Vector,0,0.0,0.0,0.0,5,13.3
+Does Vel'Koz have a brother among the Voidborn or Watchers?,Adversarial,Vector,0,0.0,0.0,0.0,0,7.78
+Vel'Koz works for the Watchers. Did any of his close companions betray him?,Adversarial,Vector,0,0.0,0.0,0.0,0,7.32
+What are Vex's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,10,5.1
+Where does Vex currently reside?,Graph,Vector,0,0.0,0.0,0.0,10,5.2
+Who are some characters related to Vex?,Graph,Vector,0,0.0,0.0,0.0,10,3.9
+What was Vex's place of origin?,Graph,Vector,0,0.0,0.0,0.0,10,5.35
+Describe Vex's feelings about her upbringing in Bandle City.,Vector,Vector,1,0.0,0.0,0.0,10,10.1
+What event led Vex to the Shadow Isles?,Vector,Vector,1,0.0,0.0,0.0,10,5.34
+Why did Vex prefer spending time with her shadow?,Vector,Vector,1,0.0,0.0,0.0,8,4.5
+What is Vex's general disposition or personality?,Vector,Vector,1,0.0,0.0,0.0,10,6.36
+How did Vex's feelings about Bandle City influence her decision to move to the Shadow Isles?,Hybrid,Vector,0,0.0,0.0,0.0,10,9.54
+What makes the Shadow Isles a more appealing place for Vex than Bandle City?,Hybrid,Vector,0,0.0,0.0,0.0,10,9.23
+Is Vex's brother a Yordle?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.17
+Who is the biggest traitor Vex has ever encountered?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.22
+Who is Vi's younger sister?,Graph,Vector,0,0.0,0.0,0.0,8,5.61
+What are the names of Vi's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,0,3.96
+In which regions does Vi operate?,Graph,Vector,0,0.0,0.0,0.0,0,3.13
+List Vi's adoptive family members.,Graph,Vector,0,0.0,0.0,0.0,6,5.38
+Describe Vi's childhood experiences in Zaun.,Vector,Vector,1,0.0,0.0,0.0,10,14.52
+What psychological impact did growing up poor in Zaun have on Vi?,Vector,Vector,1,0.0,0.0,0.0,10,13.37
+What events led to Vi becoming a Pit Fighter?,Vector,Vector,1,0.0,0.0,0.0,2,10.14
+How did Vi's relationship with her sister Powder evolve over time?,Vector,Vector,1,0.0,0.0,0.0,10,13.78
+How did Vi's experiences growing up in the poverty of Zaun shape her dedication to justice in Piltover?,Hybrid,Vector,0,0.0,0.0,0.0,10,22.54
+"Explain the complex relationship between Vi and Jinx, considering their shared history as sisters in Zaun.",Hybrid,Vector,0,0.0,0.0,0.0,8,37.25
+Who is Vi's brother?,Adversarial,Vector,0,0.0,0.0,0.0,6,6.16
+Describe the traitor that Vi had to deal with.,Adversarial,Vector,0,0.0,0.0,0.0,0,3.85
+What is the name of Viego's primary weapon?,Graph,Vector,0,0.0,0.0,0.0,10,5.85
+In which regions is Viego primarily associated with?,Graph,Vector,0,0.33,1.0,0.5,0,6.52
+Who was Viego's spouse?,Graph,Vector,0,0.0,0.0,0.0,10,4.85
+Who is Viego's niece?,Graph,Vector,0,0.33,1.0,0.5,10,3.83
+Describe Viego's emotional state during his early life.,Vector,Vector,1,0.0,0.0,0.0,10,10.06
+How did Viego meet Isolde?,Vector,Vector,1,0.0,0.0,0.0,0,6.84
+What led to Viego becoming the Ruined King?,Vector,Vector,1,0.0,0.0,0.0,0,11.2
+What is Viego's current status in the lore?,Vector,Vector,1,0.0,0.0,0.0,10,6.35
+How did Viego's reign in Camavor contribute to the Ruination of the Shadow Isles?,Hybrid,Vector,0,0.0,0.0,0.0,10,6.72
+Explain the significance of Isolde in Viego's story and his transformation into the Ruined King.,Hybrid,Vector,0,0.0,0.0,0.0,3,18.28
+Who was Viego's older brother that he spent his childhood in the shadow of?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.21
+Who betrayed Viego and his kingdom?,Adversarial,Vector,0,0.0,0.0,0.0,0,2.33
+What weapons did Viktor use in his pursuits?,Graph,Vector,0,0.0,0.0,0.0,10,4.55
+In which regions of Runeterra did Viktor primarily operate?,Graph,Vector,0,0.0,0.0,0.0,5,5.71
+Who are Viktor's notable creations or close associates mentioned in his lore?,Graph,Vector,0,0.0,0.0,0.0,4,9.89
+What faction did Viktor lead or belong to?,Graph,Vector,0,0.0,0.0,0.0,0,5.39
+What was Viktor's main ambition or goal?,Vector,Vector,1,0.0,0.0,0.0,7,6.53
+Describe Viktor's early life and the physical ailment he suffered from.,Vector,Vector,1,0.0,0.0,0.0,10,9.89
+What were Viktor's early occupations or roles before his major inventions?,Vector,Vector,1,0.0,0.0,0.0,4,5.67
+What is the last known status of Viktor?,Vector,Vector,1,0.0,0.0,0.0,3,6.75
+How did Viktor's difficult childhood in Zaun contribute to his vision for the Glorious Evolution?,Hybrid,Vector,0,0.0,0.0,0.0,10,11.45
+How did Viktor's encounter with Singed influence his technological path?,Hybrid,Vector,0,0.0,0.0,0.0,7,12.38
+Did Viktor have a brother who helped him invent the Hexcore?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.75
+Who betrayed Viktor and stole his research?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.77
+Where does Vilemaw currently reside?,Graph,Vector,0,0.0,0.0,0.0,10,3.59
+Who is Elise related to?,Graph,Vector,0,0.0,0.0,0.0,0,7.7
+What is Vilemaw's place of origin?,Graph,Vector,0,0.67,2.0,1.0,10,5.59
+What faction does Vilemaw belong to?,Graph,Vector,0,0.33,1.0,0.5,10,2.96
+What is known about Vilemaw's origin?,Vector,Vector,1,0.0,0.0,0.0,10,3.12
+Describe Vilemaw's personality.,Vector,Vector,1,0.0,0.0,0.0,0,12.94
+Describe Vilemaw's appearance.,Vector,Vector,1,0.0,0.0,0.0,0,3.83
+What kind of creature is Vilemaw?,Vector,Vector,1,0.0,0.0,0.0,5,2.86
+"Given Vilemaw's otherworldly origin and current residence in the Shadow Isles, what can be inferred about its nature?",Hybrid,Vector,0,0.0,0.0,0.0,8,14.72
+What is the significance of Vilemaw's relationship with Elise within the Shadow Isles lore?,Hybrid,Vector,0,0.0,0.0,0.0,0,11.12
+Is Vilemaw the brother of Elise?,Adversarial,Vector,0,0.0,0.0,0.0,10,3.95
+Is Vilemaw a traitor to the Shadow Isles?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.21
+What is Vladimir's primary method of combat?,Graph,Vector,0,0.0,0.0,0.0,0,3.75
+In which region is Vladimir currently residing?,Graph,Vector,0,0.33,1.0,0.5,6,4.92
+Who is Vladimir's distant nephew mentioned in his family tree?,Graph,Vector,0,0.0,0.0,0.0,0,3.62
+"Besides the Crimson Circle, what other faction does Vladimir patronize?",Graph,Vector,0,0.0,0.0,0.0,0,5.16
+What drove Vladimir to accept the Darkin's offer to lead armies against his father's kingdom?,Vector,Vector,1,0.0,0.0,0.0,0,6.64
+Under what circumstances did Vladimir become a hostage to a Darkin?,Vector,Vector,1,0.0,0.0,0.0,4,6.14
+What is the approximate current age of Vladimir?,Vector,Vector,1,0.0,0.0,0.0,10,6.25
+What was Vladimir's status in Camavor before his exile and service to the Darkin?,Vector,Vector,1,0.0,0.0,0.0,10,6.85
+"Considering Vladimir's origin in Camavor and his subsequent actions against his father's kingdom, how might his past experiences have shaped his current pursuit of power within Noxus?",Hybrid,Vector,0,0.0,0.0,0.0,10,25.47
+How did Vladimir's role as a royal hostage and his subsequent command of armies against his own family influence his understanding of loyalty and power?,Hybrid,Vector,0,0.0,0.0,0.0,10,15.14
+Tell me about Vladimir's older brother.,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,7.25
+Who is the main traitor in Vladimir's family?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,4.29
+What is Vladimir's primary method of combat?,Graph,Vector,0,0.0,0.0,0.0,0,3.56
+In which region is Vladimir currently residing?,Graph,Vector,0,0.33,1.0,0.5,8,4.97
+Who is Vladimir's distant nephew mentioned in his family tree?,Graph,Vector,0,0.0,0.0,0.0,0,3.48
+"Besides the Crimson Circle, what other faction does Vladimir patronize?",Graph,Vector,0,0.0,0.0,0.0,0,5.13
+What drove Vladimir to accept the Darkin's offer to lead armies against his father's kingdom?,Vector,Vector,1,0.0,0.0,0.0,0,7.34
+Under what circumstances did Vladimir become a hostage to a Darkin?,Vector,Vector,1,0.0,0.0,0.0,4,6.6
+What is the approximate current age of Vladimir?,Vector,Vector,1,0.0,0.0,0.0,10,6.43
+What was Vladimir's status in Camavor before his exile and service to the Darkin?,Vector,Vector,1,0.0,0.0,0.0,10,7.02
+"Considering Vladimir's origin in Camavor and his subsequent actions against his father's kingdom, how might his past experiences have shaped his current pursuit of power within Noxus?",Hybrid,Vector,0,0.0,0.0,0.0,10,24.14
+How did Vladimir's role as a royal hostage and his subsequent command of armies against his own family influence his understanding of loyalty and power?,Hybrid,Vector,0,0.0,0.0,0.0,10,15.21
+Tell me about Vladimir's older brother.,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,7.5
+Who is the main traitor in Vladimir's family?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,1,4.36
+Who is Volibear's brother?,Graph,Vector,0,0.0,0.0,0.0,10,7.29
+List Volibear's siblings.,Graph,Vector,0,0.0,0.0,0.0,2,8.86
+What region is Volibear from?,Graph,Vector,0,0.0,0.0,0.0,10,5.42
+What are Volibear's weapons?,Graph,Vector,0,0.0,0.0,0.0,0,5.72
+How old is Volibear?,Vector,Vector,1,0.0,0.0,0.0,10,7.29
+What species is Volibear?,Vector,Vector,1,0.0,0.0,0.0,10,3.93
+What is Volibear's occupation?,Vector,Vector,1,0.0,0.0,0.0,7,5.97
+Where does Volibear currently reside?,Vector,Vector,1,0.0,0.0,0.0,10,5.18
+"Considering Volibear's connection to Freljord, what kind of magic does he wield?",Hybrid,Vector,0,0.0,0.0,0.0,0,5.61
+"Given that Ornn is Volibear's brother, what historical role might they have shared in Freljord?",Hybrid,Vector,0,0.0,0.0,0.0,0,12.7
+Who is Volibear's sibling that commands storms?,Adversarial,Vector,0,0.0,0.0,0.0,0,7.82
+"If Volibear was betrayed, who would he blame?",Adversarial,Vector,0,0.0,0.0,0.0,0,9.06
+What are Warwick's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,10,8.44
+In which region does Warwick reside?,Graph,Vector,0,0.0,0.0,0.0,0,5.65
+List Warwick's known family members and adopted children.,Graph,Vector,0,0.0,0.0,0.0,8,18.31
+What were Vander's occupations before his transformation?,Graph,Vector,0,0.0,0.0,0.0,0,5.74
+Can you describe Vander's early life and revolutionary activities?,Vector,Vector,1,0.0,0.0,0.0,8,11.16
+What motivated Vander's fight for Zaun's freedom?,Vector,Vector,1,0.0,0.0,0.0,1,8.41
+What led to Vander's transformation into the beast known as Warwick?,Vector,Vector,1,0.0,0.0,0.0,10,6.94
+What was the historical relationship between Warwick and Silco?,Vector,Vector,1,0.0,0.0,0.0,10,10.18
+How did the political climate of Zaun influence Vander's early revolutionary goals?,Hybrid,Vector,0,0.0,0.0,0.0,10,10.14
+What shared vision united Vander and Silco in their fight for Zaun?,Hybrid,Vector,0,0.0,0.0,0.0,8,6.83
+What happened to Warwick's brother?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.03
+Tell me about the traitor in Zaun's history.,Adversarial,Vector,0,0.0,0.0,0.0,0,6.42
+What are Willump's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,10,5.57
+List all characters explicitly mentioned as being related to Willump.,Graph,Vector,0,0.0,0.0,0.0,4,4.12
+Describe Willump's origins and current living situation.,Graph,Vector,0,0.0,0.0,0.0,8,9.0
+What was Willump's designated role as the last magical yeti?,Graph,Vector,0,0.0,0.0,0.0,8,5.46
+What personal memories did Willump lose over time?,Vector,Vector,1,0.0,0.0,0.0,0,2.97
+How did Willump initially perceive Nunu when they first met?,Vector,Vector,1,0.0,0.0,0.0,0,5.07
+What is the significance of the crystal Willump guarded?,Vector,Vector,1,0.0,0.0,0.0,9,5.86
+What historical event led to the decline of Willump's race?,Vector,Vector,1,0.0,0.0,0.0,0,3.68
+"Describe the connection between Lissandra's actions, the Watchers, and the fate of Willump's people in the Freljord.",Hybrid,Vector,0,0.0,0.0,0.0,1,24.14
+How did Nunu's demonstration of the crystal's power influence Willump's hostility?,Hybrid,Vector,0,0.0,0.0,0.0,0,6.38
+Is Willump's sibling also a guardian in the Freljord?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.33
+"What does Willump think of those who betray ancient powers, like Lissandra?",Adversarial,Vector,0,0.0,0.0,0.0,4,9.09
+In which region does Wukong reside?,Graph,Vector,0,0.0,0.0,0.0,0,6.65
+Who is listed as a related character to Wukong?,Graph,Vector,0,0.0,0.0,0.0,0,2.38
+Where did Wukong originate from?,Graph,Vector,0,0.0,0.0,0.0,10,5.24
+What kind of pranks did Kong play on his tribe?,Vector,Vector,1,0.0,0.0,0.0,0,5.94
+Why was Kong kicked out of his tribe?,Vector,Vector,1,0.0,0.0,0.0,1,4.89
+What self-proclaimed title did Kong adopt after leaving his tribe?,Vector,Vector,1,0.0,0.0,0.0,10,4.59
+What happened when Kong encountered Noxians?,Vector,Vector,1,0.0,0.0,0.0,0,4.36
+How did Wukong's tribal upbringing in Shimon Village influence his decision to challenge humans to duels or games of cunning?,Hybrid,Vector,0,0.0,0.0,0.0,5,9.56
+"Considering Wukong's faction is the Wuju Order and Master Yi is a related character, what can be inferred about their connection?",Hybrid,Vector,0,0.0,0.0,0.0,10,9.37
+Does Wukong have an older brother who betrayed him?,Adversarial,Vector,0,0.0,0.0,0.0,0,6.03
+What is Wukong's sister's name?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.13
+What is Xayah's primary weapon?,Graph,Vector,0,0.0,0.0,0.0,10,5.09
+What region is Xayah from?,Graph,Vector,0,0.0,0.0,0.0,10,6.0
+Who is Xayah's romantic interest?,Graph,Vector,0,0.0,0.0,0.0,10,3.23
+List characters related to Xayah.,Graph,Vector,0,0.0,0.0,0.0,0,2.21
+What motivated Xayah to leave her tribe's isolationist stance?,Vector,Vector,1,0.0,0.0,0.0,8,6.87
+What kind of songs did Xayah's father sing to her in her childhood?,Vector,Vector,1,0.0,0.0,0.0,10,7.79
+What did Xayah yearn for regarding magic and the spirit realm?,Vector,Vector,1,0.0,0.0,0.0,10,7.75
+Describe the main threat to the vastaya mentioned in Xayah's early life.,Vector,Vector,1,0.0,0.0,0.0,10,4.49
+How did the human encroachment on Ionia's magic influence Xayah's resolve to protect vastaya heritage?,Hybrid,Vector,0,0.0,0.0,0.0,9,6.31
+"Considering Xayah's Lhotlan heritage, what role did her father's stories play in her upbringing?",Hybrid,Vector,0,0.0,0.0,0.0,6,5.98
+Tell me about Xayah's older brother.,Adversarial,Vector,0,0.0,0.0,0.0,0,7.01
+Describe the treasonous acts committed by humans against the vastaya.,Adversarial,Vector,0,0.0,0.0,0.0,0,42.16
+What is Xerath's primary weapon?,Graph,Vector,0,1.0,3.0,1.5,0,6.35
+Where is Xerath originally from?,Graph,Vector,0,0.33,1.0,0.5,10,5.6
+Who was Xerath's close companion during his youth?,Graph,Vector,0,0.0,0.0,0.0,10,3.17
+What were Xerath's occupations before his ascension?,Graph,Vector,0,0.0,0.0,0.0,0,4.7
+Why did Xerath resent the Ascended Council?,Vector,Vector,1,0.0,0.0,0.0,5,9.51
+How old is Xerath in current times?,Vector,Vector,1,0.0,0.0,0.0,10,9.64
+Describe Xerath's early life.,Vector,Vector,1,0.0,0.0,0.0,1,8.86
+How did Xerath meet Prince Azir?,Vector,Vector,1,0.0,0.0,0.0,5,6.25
+How did Xerath's relationship with Azir in Shurima lead to his eventual desire for power?,Hybrid,Vector,0,0.0,0.0,0.0,8,10.17
+"What arcane energies does Xerath wield, and how did their use originate in Shurima?",Hybrid,Vector,0,0.0,0.0,0.0,5,16.1
+What did the betrayer of the Emperor do?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,5.3
+Tell me about the emperor's closest friend.,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,3.56
+What weapon does Xin Zhao wield?,Graph,Vector,0,1.0,3.0,1.5,10,4.79
+In which regions has Xin Zhao been present?,Graph,Vector,0,0.0,0.0,0.0,5,9.02
+Who are Xin Zhao's designated surrogate family members?,Graph,Vector,0,1.0,3.0,1.5,5,5.93
+List some characters related to Xin Zhao.,Graph,Vector,0,0.0,0.0,0.0,10,7.44
+Why did Xin Zhao accept Noxus's offer to join the Reckoners?,Vector,Vector,1,0.0,0.0,0.0,7,5.7
+Describe Xin Zhao's early life on the fisherman's ship.,Vector,Vector,1,0.0,0.0,0.0,8,5.67
+How did Xin Zhao and Bo Yang end up in Noxus?,Vector,Vector,1,0.0,0.0,0.0,1,6.51
+What happened to Xin Zhao after he became a host for Zaahen?,Vector,Vector,1,0.0,0.0,0.0,10,8.18
+"Considering Xin Zhao's time as a Reckoner in Noxus and his later role in Demacia, how did his experiences shape his eventual loyalty to House Lightshield?",Hybrid,Vector,0,0.0,0.0,0.0,10,19.72
+"Given Xin Zhao's surrogate brotherhood with Jarvan III and IV, and his origins in Ionia captured by Noxus, how did these disparate experiences influence his role as Seneschal of Demacia?",Hybrid,Vector,0,0.0,0.0,0.0,8,25.56
+Who is Xin Zhao's anh trai?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.34
+Who is the kẻ phản bội in Xin Zhao's lore?,Adversarial,Vector,0,0.0,0.0,0.0,0,6.55
+What are Yasuo's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,10,5.45
+List Yasuo's known family members.,Graph,Vector,0,0.0,0.0,0.0,10,6.98
+In which region did Yasuo grow up?,Graph,Vector,0,0.0,0.0,0.0,8,5.43
+Who was Yasuo's sword school master?,Graph,Vector,0,0.0,0.0,0.0,8,3.85
+Describe Yasuo's personality during his early life.,Vector,Vector,1,0.0,0.0,0.0,5,9.35
+What is implied to be the reason for Yasuo's current wandering and title 'The Unforgiven'?,Vector,Vector,1,0.0,0.0,0.0,10,11.22
+What does the maple seed symbolize in Yasuo's early life?,Vector,Vector,1,0.0,0.0,0.0,7,5.84
+What was Yasuo's role as Elder Souma's apprentice?,Vector,Vector,1,0.0,0.0,0.0,10,5.33
+How did Yasuo's early arrogance in Ionia contrast with his training under Elder Souma?,Hybrid,Vector,0,0.0,0.0,0.0,10,7.09
+What are the implications of Yasuo being 'The Unforgiven' for his life in Ionia?,Hybrid,Vector,0,0.0,0.0,0.0,5,27.52
+Tell me about Yasuo's brother.,Adversarial,Vector,0,0.0,0.0,0.0,9,12.76
+Who was the traitor that caused Yasuo's downfall?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.81
+Who is Yone's half-brother?,Graph,Vector,0,0.0,0.0,0.0,5,5.0
+What weapons does Yone wield?,Graph,Vector,0,0.0,0.0,0.0,0,5.34
+What is Yone's place of origin?,Graph,Vector,0,0.0,0.0,0.0,10,3.84
+Which characters are listed as related to Yone in his lore?,Graph,Vector,0,0.0,0.0,0.0,0,2.67
+Describe Yone's personal feelings regarding Elder Souma's death and Yasuo's disappearance.,Vector,Vector,1,0.0,0.0,0.0,10,15.25
+What historical event prompted Yone to leave his village to defend the land?,Vector,Vector,1,0.0,0.0,0.0,9,8.04
+How did Yone's personality contrast with Yasuo's during their youth?,Vector,Vector,1,0.0,0.0,0.0,10,7.39
+What was Yone's role as a mentor or guide to Yasuo?,Vector,Vector,1,0.0,0.0,0.0,5,8.79
+"Given Yone's origin in Ionia, what was his responsibility during the Noxian invasion?",Hybrid,Vector,0,0.0,0.0,0.0,8,9.11
+How did the circumstances of Elder Souma's death and Yasuo's subsequent actions affect Yone's sense of duty towards his brother?,Hybrid,Vector,0,0.0,0.0,0.0,8,11.35
+What is the name of Yone's brother?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,10,7.34
+Who did Yone believe betrayed Elder Souma?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,10,6.09
+What artifact does Yunara wield?,Graph,Vector,0,0.33,1.0,0.5,6,5.96
+In which regions does Yunara reside?,Graph,Vector,0,0.67,1.0,0.8,8,5.59
+What faction is Yunara a part of?,Graph,Vector,0,0.33,1.0,0.5,4,6.61
+Who was Yunara's mentor and what weapon did he wield?,Graph,Vector,0,0.33,0.33,0.33,2,7.39
+What does Yunara's alias 'The Unbroken Faith' imply about her?,Vector,Vector,1,0.33,0.5,0.4,10,10.76
+How did Yunara come to be raised by the Kinkou Order?,Vector,Vector,1,0.0,0.0,0.0,8,10.91
+"What event led to the death of Yunara's mentor, Master Lao?",Vector,Vector,1,0.0,0.0,0.0,10,8.91
+What was the nature of the invasion that plagued Ionia in Yunara's youth?,Vector,Vector,1,0.0,0.0,0.0,5,5.37
+How did Yunara's upbringing in Ionia prepare her to fight the Darkin invasion?,Hybrid,Vector,0,0.0,0.0,0.0,10,10.33
+"What role did the Kinkou Order play in the conflict Yunara was part of, and what was its outcome for her mentor?",Hybrid,Vector,0,0.0,0.0,0.0,8,14.94
+What historical betrayal led to the Darkin invasion of Ionia?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,6.08
+What is the significance of 'Shadow' in Yunara's occupation and aliases?,Adversarial/Trap,Vector,0,0.33,0.33,0.33,6,11.07
+Who is Yuumi's master?,Graph,Vector,0,0.0,0.0,0.0,10,5.66
+Which champions are related to Yuumi?,Graph,Vector,0,0.0,0.0,0.0,6,7.36
+What is Yuumi's place of origin?,Graph,Vector,0,0.0,0.0,0.0,10,5.64
+What is Yuumi's primary occupation besides being a familiar?,Graph,Vector,0,0.0,0.0,0.0,10,4.37
+Describe Yuumi's typical daily activities when she was younger.,Vector,Vector,1,0.0,0.0,0.0,10,8.08
+What magical abilities was Yuumi blessed with from birth?,Vector,Vector,1,0.0,0.0,0.0,9,5.57
+Why did Yuumi join Norra on her adventures?,Vector,Vector,1,0.0,0.0,0.0,5,5.68
+What kind of items did Norra collect during her travels with Yuumi?,Vector,Vector,1,0.0,0.0,0.0,10,4.47
+How does Yuumi's connection to Bandle City influence her ability to travel between realms?,Hybrid,Vector,0,0.0,0.0,0.0,8,10.18
+Explain how Yuumi's role as Norra's familiar allowed her to develop her protective magic.,Hybrid,Vector,0,0.0,0.0,0.0,1,14.17
+Did Yuumi betray her master Norra?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.93
+What is Yuumi's brother's name?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.77
+What are Zaahen's primary weapons?,Graph,Vector,0,0.33,1.0,0.5,10,6.76
+In which regions has Zaahen been known to reside or operate?,Graph,Vector,0,0.67,2.0,1.0,8,7.18
+Who are some of the Darkin Zaahen selected and directed the Ascensions of?,Graph,Vector,0,0.0,0.0,0.0,10,4.97
+What factions is Zaahen associated with?,Graph,Vector,0,0.0,0.0,0.0,6,5.85
+What was Zaahen's motivation for fighting against his corrupted brethren?,Vector,Vector,1,0.0,0.0,0.0,10,9.04
+Describe Zaahen's role in the Darkin War.,Vector,Vector,1,0.0,0.0,0.0,10,10.89
+What was Zaahen's general disposition during the Darkin War?,Vector,Vector,1,0.0,0.0,0.0,0,5.7
+When was Zaahen born and what was his original form?,Vector,Vector,1,0.0,0.0,0.0,5,7.9
+"Considering Zaahen's origins in Shurima and his role in the Darkin War, what is his significance in preventing the spread of corruption?",Hybrid,Vector,0,0.0,0.0,0.0,10,9.13
+How did Zaahen's knowledge gained from his time in Shurima influence his methods for dealing with other Darkin like Rhaast and Varus?,Hybrid,Vector,0,0.0,0.0,0.0,8,7.69
+Who was the traitor Zaahen had to fight during the Darkin War?,Adversarial,Vector,0,0.0,0.0,0.0,0,8.44
+Describe Zaahen's relationship with his brother in arms from ancient Shurima.,Adversarial,Vector,0,0.0,0.0,0.0,0,25.42
+What is Zac's primary weapon or ability?,Graph,Vector,0,0.0,0.0,0.0,8,5.05
+In which region was Zac created and where does he currently reside?,Graph,Vector,0,0.0,0.0,0.0,7,6.33
+Who was Zac's creator?,Graph,Vector,0,0.0,0.0,0.0,10,5.26
+Who are Zac's adoptive parents?,Graph,Vector,0,0.0,0.0,0.0,2,5.14
+How does Zac react to being treated well versus being harmed?,Vector,Vector,1,0.0,0.0,0.0,10,6.83
+Describe the circumstances of Zac's creation.,Vector,Vector,1,0.0,0.0,0.0,10,11.29
+What happened to Zac after he escaped from Takeda's project?,Vector,Vector,1,0.0,0.0,0.0,0,6.84
+What was the original purpose of Zac's creation?,Vector,Vector,1,0.0,0.0,0.0,9,5.68
+"How does Zac's creation in Zaun, a region known for its volatile alchemy, reflect his nature as an ooze golem?",Hybrid,Vector,0,0.0,0.0,0.0,10,16.55
+"Considering Chembaron Takeda intended Zac to be an obedient super soldier, how does the perception of Zac as a sentient being by some alchemists challenge this initial purpose?",Hybrid,Vector,0,0.0,0.0,0.0,10,12.16
+Was Zac a traitor to his creator?,Adversarial,Vector,0,0.0,0.0,0.0,0,6.17
+Describe the relationship between Zac and his sister.,Adversarial,Vector,0,0.0,0.0,0.0,0,6.0
+What weapons does Zed use?,Graph,Vector,0,0.0,0.0,0.0,10,6.64
+In which region was Zed born?,Graph,Vector,0,0.0,0.0,0.0,10,4.89
+Who are Zed's adopted family members?,Graph,Vector,0,0.0,0.0,0.0,4,11.31
+What factions is Zed a part of?,Graph,Vector,0,0.0,0.0,0.0,10,5.27
+What drives Zed's pursuit of power?,Vector,Vector,1,0.0,0.0,0.0,1,7.88
+What happened to Zed's birth father?,Vector,Vector,1,0.0,0.0,0.0,0,5.27
+Describe Zed's early life and training.,Vector,Vector,1,0.0,0.0,0.0,5,22.8
+How did Zed's relationship with Shen evolve?,Vector,Vector,1,0.0,0.0,0.0,10,10.25
+How did Zed's upbringing in Ionia shape his approach to the Kinkou Order's teachings?,Hybrid,Vector,0,0.0,0.0,0.0,4,11.36
+"What led to the estrangement between Zed and Shen, despite their shared training in Ionia?",Hybrid,Vector,0,0.0,0.0,0.0,5,6.7
+Who was the betrayer of Zed's master?,Adversarial,Vector,0,0.0,0.0,0.0,0,4.5
+Tell me about Zed's older brother.,Adversarial,Vector,0,0.0,0.0,0.0,5,7.63
+What weapons does Zeri wield?,Graph,Vector,0,0.0,0.0,0.0,10,6.81
+In which region does Zeri reside?,Graph,Vector,0,0.0,0.0,0.0,10,6.67
+Name some characters related to Zeri.,Graph,Vector,0,0.0,0.0,0.0,10,7.17
+What is Zeri's family structure?,Graph,Vector,0,0.0,0.0,0.0,0,5.61
+Describe Zeri's personality traits.,Vector,Vector,1,0.0,0.0,0.0,8,9.05
+What is Zeri's physical appearance?,Vector,Vector,1,0.0,0.0,0.0,8,8.2
+What is Zeri's occupation?,Vector,Vector,1,0.33,1.0,0.5,10,5.57
+What is Zeri's age?,Vector,Vector,1,0.0,0.0,0.0,10,3.92
+How does Zeri's rebellious spirit and Zaunite upbringing influence her vigilante actions?,Hybrid,Vector,0,0.0,0.0,0.0,5,14.41
+Describe Zeri's electric rifle and its significance to her identity as the Spark of Zaun.,Hybrid,Vector,0,0.33,0.5,0.4,10,19.85
+Who is Zeri's older sister?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,5.58
+Who is Zeri's betrayer?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,3.31
+What are Ziggs' primary explosive weapons?,Graph,Vector,0,0.0,0.0,0.0,4,5.83
+In which regions does Ziggs primarily operate?,Graph,Vector,0,0.0,0.0,0.0,4,4.79
+Who are listed as related characters to Ziggs?,Graph,Vector,0,0.0,0.0,0.0,7,3.63
+Describe Ziggs' connection to Heimerdinger.,Graph,Vector,0,0.0,0.0,0.0,10,12.13
+What drives Ziggs' passion for inventing and explosives?,Vector,Vector,1,0.0,0.0,0.0,10,7.41
+Can you summarize Ziggs' early life and his unusual nature?,Vector,Vector,1,0.0,0.0,0.0,8,5.2
+What happened during Ziggs' demonstration at the Yordle Academy in Piltover?,Vector,Vector,1,0.0,0.0,0.0,1,11.18
+How did Ziggs react after his demonstration at the Yordle Academy concluded poorly?,Vector,Vector,1,0.0,0.0,0.0,10,6.91
+How did Ziggs' unconventional approach to invention lead to his expulsion from the Yordle Academy in Piltover?,Hybrid,Vector,0,0.0,0.0,0.0,10,3.49
+What specific event caused Ziggs to be devastated and leave Piltover's Yordle Academy?,Hybrid,Vector,0,0.33,0.33,0.33,10,7.35
+Who is Ziggs' older brother in Zaun?,Adversarial,Vector,0,0.0,0.0,0.0,0,5.85
+Describe the traitor that Ziggs is fighting against in Piltover.,Adversarial,Vector,0,0.0,0.0,0.0,0,3.62
+In which regions is Zilean associated with?,Graph,Vector,0,0.0,0.0,0.0,10,7.26
+What was Zilean's occupation in ancient Icathia?,Graph,Vector,0,0.0,0.0,0.0,5,6.31
+What is Zilean's primary weapon or power?,Graph,Vector,0,0.0,0.0,0.0,10,4.76
+Describe Zilean's early life concerning his attempts to master time magic.,Vector,Vector,1,0.0,0.0,0.0,9,19.93
+What did Zilean observe about the political climate and social discontent in Icathia?,Vector,Vector,1,0.0,0.0,0.0,10,6.97
+How old is Zilean?,Vector,Vector,1,0.0,0.0,0.0,10,7.92
+What was Zilean's specific role on Icathia's governing council?,Vector,Vector,1,0.0,0.0,0.0,9,6.61
+"Considering Zilean's role as Councilor of Icathia and his awareness of Shuriman inequality, how did this shape his perspective on the empire?",Hybrid,Vector,0,0.0,0.0,0.0,10,17.58
+"Given Icathia's political tensions with Shurima and Zilean's early struggles with time magic, how might his personal magical pursuits relate to the empire's state?",Hybrid,Vector,0,0.0,0.0,0.0,3,39.85
+"Zilean knows a traitor, who is it?",Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,3.97
+Did Zilean have a brother?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,4.74
+What is Zoe's primary weapon?,Graph,Vector,0,0.33,1.0,0.5,10,5.24
+From which region does Zoe originate?,Graph,Vector,0,0.0,0.0,0.0,8,4.59
+List some characters related to Zoe.,Graph,Vector,0,0.0,0.0,0.0,0,9.37
+Who was the previous host of the Aspect of Twilight?,Graph,Vector,0,0.0,0.0,0.0,4,4.99
+Describe Zoe's personality as a child.,Vector,Vector,1,0.0,0.0,0.0,8,9.01
+When did Zoe become the Aspect of Twilight?,Vector,Vector,1,0.0,0.0,0.0,1,6.04
+What are the defining physical characteristics of Zoe?,Vector,Vector,1,0.33,1.0,0.5,10,8.37
+What is the name of Zoe's pet?,Vector,Vector,1,0.0,0.0,0.0,8,5.94
+How does Zoe's role as Targon's messenger affect her interactions with other cosmic entities?,Hybrid,Vector,0,0.67,0.67,0.67,8,25.1
+"Considering Zoe's personality, how does she typically treat powerful beings like Aurelion Sol?",Hybrid,Vector,0,0.0,0.0,0.0,0,8.61
+Tell me about Zoe's brother.,Adversarial,Vector,0,0.0,0.0,0.0,0,4.69
+Was Zoe ever accused of treason by the Rakkor tribe?,Adversarial,Vector,0,0.0,0.0,0.0,0,3.82
+What are Zyra's primary weapons?,Graph,Vector,0,0.0,0.0,0.0,10,5.54
+In which region does Zyra currently reside?,Graph,Vector,0,0.0,0.0,0.0,0,2.84
+Who are Zyra's related characters?,Graph,Vector,0,0.0,0.0,0.0,0,5.21
+What was Zyra's original place of origin?,Graph,Vector,0,0.0,0.0,0.0,10,5.52
+Describe Zyra's early life experiences.,Vector,Vector,1,0.0,0.0,0.0,0,8.72
+How did the Gardens of Zyr become lifeless?,Vector,Vector,1,0.0,0.0,0.0,10,5.44
+What kind of entity did Zyra emerge as after centuries of lifelessness?,Vector,Vector,1,0.33,0.5,0.4,1,4.48
+What was Zyra's state of mind after emerging from the ground?,Vector,Vector,1,0.0,0.0,0.0,10,4.99
+What event in the Shuriman jungle led to the destruction of the Gardens of Zyr and Zyra's subsequent emergence?,Hybrid,Vector,0,0.0,0.0,0.0,5,6.9
+How did the ancient carnivorous plants in the Gardens of Zyr evolve into the entity known as Zyra?,Hybrid,Vector,0,0.67,0.67,0.67,6,18.5
+Who was the traitor responsible for the destruction of the Gardens of Zyr?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,2.62
+What is Zyra's relationship with her brother?,Adversarial/Trap,Vector,0,0.0,0.0,0.0,0,3.92
