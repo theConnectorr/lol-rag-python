@@ -10,6 +10,7 @@ from src.core.plugins import (
 from src.retrievers.postgres_vector_retriever import PostgresVectorRetriever
 from src.retrievers.neo4j_graph_retriever import Neo4jGraphRetriever
 from src.retrievers.hybrid_rrf_retriever import HybridRRFRetriever
+from src.retrievers.paradedb_keyword_retriever import ParadeDBKeywordRetriever
 from src.core.logger import setup_logger
 
 logger = setup_logger(__name__)
@@ -35,7 +36,6 @@ def initialize_engine():
     print(f"{Colors.CYAN}⏳ Starting RAG Engine (Model: {config.LLM_MODEL})...{Colors.ENDC}")
 
     try:
-        # If you have already ingested data into Postgres/Neo4j using Python, uncomment these lines:
         vector_retriever = PostgresVectorRetriever(
             config.POSTGRES_URI, 
             config.POSTGRES_COLLECTION
@@ -51,8 +51,9 @@ def initialize_engine():
             router=KeywordRouter(),
             retrievers={
                 # "Vector": vector_retriever,
-                # "Graph": graph_retriever,
-                "Hybrid": HybridRRFRetriever(vector_retriever, graph_retriever)
+                "Graph": graph_retriever,
+                # "BM25": ParadeDBKeywordRetriever(config.POSTGRES_URI),
+                # "Hybrid": HybridRRFRetriever(vector_retriever, graph_retriever)
             },
             prompt_builder=StandardPrompt(),
             generator=LocalLLMGenerator(

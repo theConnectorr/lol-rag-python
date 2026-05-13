@@ -44,8 +44,13 @@ class LocalLLMGenerator(IModelGenerator):
 # PLUGIN 3: ROUTER (Currently a Mock for flow integration)
 # ==========================================
 class KeywordRouter(IRouter):
+    def __init__(self, key):
+        self.key = key
+
     def route(self, query: str) -> str:
-        return "Hybrid"
+        return self.key
+    # def route(self, query: str) -> str:
+    #     return "Graph"
         # query_lower = query.lower()
 
         # # 1. GRAPH INTENT (Queries about entities, clear relationships, listings - Bilingual)

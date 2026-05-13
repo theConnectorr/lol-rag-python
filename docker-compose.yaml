@@ -1,7 +1,7 @@
 services:
   db:
-    image: pgvector/pgvector:pg16
-    container_name: runeterra_db
+    image: paradedb/paradedb:latest-pg16
+    container_name: lol_db
     environment:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: secretpassword

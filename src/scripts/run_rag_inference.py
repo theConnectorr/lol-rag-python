@@ -2,6 +2,7 @@ import os
 import json
 import time
 import pandas as pd
+import argparse
 from tqdm import tqdm
 from src.core.logger import setup_logger
 
@@ -17,49 +18,70 @@ from src.core.plugins import (
 from src.retrievers.postgres_vector_retriever import PostgresVectorRetriever
 from src.retrievers.neo4j_graph_retriever import Neo4jGraphRetriever
 from src.retrievers.hybrid_rrf_retriever import HybridRRFRetriever
+from src.retrievers.paradedb_keyword_retriever import ParadeDBKeywordRetriever
 
 logger = setup_logger(__name__)
 
 # ==========================================
 # 1. INITIALIZE RAG SYSTEM
 # ==========================================
-logger.info("Initializing RAG Engine...")
+def initialize_engine(config_type: str):
+    logger.info(f"Initializing RAG Engine for config: {config_type}...")
 
-# Initialize Retrievers (Adjust class names if using BM25/Milvus)
-vector_retriever = PostgresVectorRetriever(
-    connection_string=config.POSTGRES_URI,
-    collection_name=config.POSTGRES_COLLECTION
-)
-
-# graph_retriever = Neo4jGraphRetriever(
-#     uri=config.NEO4J_URI,
-#     user=config.NEO4J_USER,
-#     password=config.NEO4J_PASSWORD
-# )
-
-engine = RAGEngine(
-    router=KeywordRouter(),
-    retrievers={
-        "Vector": vector_retriever,
-        # "Graph": graph_retriever,
-        # "Hybrid": HybridRRFRetriever(
-        #     vector_retriever=vector_retriever, 
-        #     graph_retriever=graph_retriever
-        # )
-    },
-    prompt_builder=StandardPrompt(),
-    generator=LocalLLMGenerator(
-        model_name=config.LLM_MODEL, 
-        temperature=config.LLM_TEMPERATURE
+    # Shared components
+    vector_retriever = PostgresVectorRetriever(
+        connection_string=config.POSTGRES_URI,
+        collection_name=config.POSTGRES_COLLECTION
     )
-)
+    
+    graph_retriever = Neo4jGraphRetriever(
+        uri=config.NEO4J_URI,
+        user=config.NEO4J_USER,
+        password=config.NEO4J_PASSWORD
+    )
+    
+    bm25_retriever = ParadeDBKeywordRetriever(
+        connection_uri=config.POSTGRES_URI
+    )
 
-logger.info(f"RAGEngine successfully initialized with Generator: {config.LLM_MODEL}")
+    # Select retrievers based on config
+    retrievers_map = {}
+    if config_type == "Vector":
+        retrievers_map = {"Vector": vector_retriever}
+    elif config_type == "Graph":
+        retrievers_map = {"Graph": graph_retriever}
+    elif config_type == "BM25":
+        retrievers_map = {"BM25": bm25_retriever}
+    elif config_type == "Hybrid":
+        retrievers_map = {
+            "Hybrid": HybridRRFRetriever(
+                vector_retriever=vector_retriever,
+                graph_retriever=graph_retriever
+            )
+        }
+    else:
+        # Fallback to Hybrid
+        retrievers_map = {
+            "Hybrid": HybridRRFRetriever(vector_retriever, graph_retriever)
+        }
+
+    engine = RAGEngine(
+        router=KeywordRouter(config_type),
+        retrievers=retrievers_map,
+        prompt_builder=StandardPrompt(),
+        generator=LocalLLMGenerator(
+            model_name=config.LLM_MODEL, 
+            temperature=config.LLM_TEMPERATURE
+        )
+    )
+    
+    logger.info(f"RAGEngine successfully initialized with Generator: {config.LLM_MODEL}")
+    return engine
 
 # ==========================================
 # 2. INFERENCE FLOW (WITH CHECKPOINT)
 # ==========================================
-def run_inference(csv_path, output_jsonl="rag_outputs.jsonl"):
+def run_inference(engine, csv_path, output_jsonl):
     if not os.path.exists(csv_path):
         logger.error(f"Error: Benchmark file not found at {csv_path}")
         return
@@ -118,6 +140,14 @@ def run_inference(csv_path, output_jsonl="rag_outputs.jsonl"):
     logger.info(f"Inference complete! Raw data exported to: {output_jsonl}")
 
 if __name__ == "__main__":
-    csv_file = "benchmark_dataset_clean.csv" 
-        
-    run_inference(csv_file)
+    parser = argparse.ArgumentParser(description="Run RAG Inference Benchmarking")
+    parser.add_argument("--config", type=str, default="Hybrid", choices=["Vector", "Graph", "BM25", "Hybrid"], help="Retriever configuration to use")
+    parser.add_argument("--input", type=str, default="benchmark_dataset_small.csv", help="Input benchmark CSV file")
+    
+    args = parser.parse_args()
+    
+    output_file = f"results/rag_outputs_{args.config}.jsonl"
+    os.makedirs("results", exist_ok=True)
+    
+    engine = initialize_engine(args.config)
+    run_inference(engine, args.input, output_file)

@@ -3,14 +3,13 @@ import json
 import time
 import subprocess
 import pandas as pd
+import argparse
 from tqdm import tqdm
 from src.core.logger import setup_logger
 
 logger = setup_logger(__name__)
 
 # Path configuration
-INPUT_JSONL = "rag_outputs.jsonl"
-OUTPUT_CSV = "evaluation_results_final.csv"
 SKILL_FILE = ".gemini/skills/rag-evaluator/SKILL.md"
 
 # ==========================================
@@ -144,11 +143,18 @@ Score (0-10):
 # 2. MAIN EVALUATION FLOW
 # ==========================================
 def main():
-    logger.info("Starting Evaluation flow (Independent Scoring)...")
+    parser = argparse.ArgumentParser(description="Run RAG Evaluation Benchmarking")
+    parser.add_argument("--config", type=str, default="Hybrid", choices=["Vector", "Graph", "BM25", "Hybrid"], help="Configuration name to evaluate")
+    args = parser.parse_args()
 
-    if not os.path.exists(INPUT_JSONL):
-        logger.error(f"Inference data file not found: {INPUT_JSONL}")
-        logger.info("Please run run_rag_inference.py first!")
+    input_jsonl = f"results/rag_outputs_{args.config}.jsonl"
+    output_csv = f"results/evaluation_results_{args.config}.csv"
+
+    logger.info(f"Starting Evaluation flow for config: {args.config}...")
+
+    if not os.path.exists(input_jsonl):
+        logger.error(f"Inference data file not found: {input_jsonl}")
+        logger.info(f"Please run run_rag_inference.py --config {args.config} first!")
         return
 
     skill_context = load_evaluator_skill()
@@ -156,11 +162,11 @@ def main():
 
     # --- LOGIC CHECKPOINT ---
     processed_queries = set()
-    file_exists = os.path.exists(OUTPUT_CSV)
+    file_exists = os.path.exists(output_csv)
 
     if file_exists:
         try:
-            existing_df = pd.read_csv(OUTPUT_CSV)
+            existing_df = pd.read_csv(output_csv)
             if 'query' in existing_df.columns:
                 processed_queries = set(existing_df['query'].tolist())
                 logger.info(f"Found {len(processed_queries)} already scored queries. Resuming remaining ones...")
@@ -169,7 +175,7 @@ def main():
 
     # Read all data from JSONL
     inference_records = []
-    with open(INPUT_JSONL, 'r', encoding='utf-8') as f:
+    with open(input_jsonl, 'r', encoding='utf-8') as f:
         for line in f:
             if line.strip():
                 inference_records.append(json.loads(line))
@@ -224,7 +230,7 @@ def main():
 
         # Save checkpoint immediately
         res_df = pd.DataFrame([row_result])
-        res_df.to_csv(OUTPUT_CSV, mode='a', header=not file_exists, index=False)
+        res_df.to_csv(output_csv, mode='a', header=not file_exists, index=False)
         file_exists = True 
 
         time.sleep(1) # Prevent Rate Limit
@@ -232,8 +238,8 @@ def main():
     # ==========================================
     # 3. FINAL REPORT SUMMARY
     # ==========================================
-    if os.path.exists(OUTPUT_CSV):
-        final_df = pd.read_csv(OUTPUT_CSV)
+    if os.path.exists(output_csv):
+        final_df = pd.read_csv(output_csv)
         report = {
             "Avg Retrieval Score": final_df['retrieval_score'].mean(),
             "Avg Groundedness Score": final_df['groundedness_score'].mean(),
@@ -242,7 +248,7 @@ def main():
         }
 
         print("\n" + "="*45)
-        print("🏆 RAG SYSTEM PERFORMANCE REPORT (FINAL)")
+        print(f"🏆 RAG SYSTEM PERFORMANCE REPORT ({args.config})")
         print("="*45)
         for metric, value in report.items():
             print(f"{metric:30}: {value:.2f}")

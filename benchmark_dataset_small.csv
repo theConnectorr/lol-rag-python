@@ -1,0 +1,340 @@
+query,expected_context,ground_truth_answer
+What weapons does Aatrox wield?,Aatrox's combat abilities and equipment.,"Aatrox wields The Darkin Blade, uses Hemomancy, and can transform into World Ender Form."
+In which ancient land did Aatrox originate?,Aatrox's place of birth and historical context.,Aatrox originated in ancient Shurima.
+What are Ahri's primary weapons?,List of weapons,"Orb of Deception, Spirit Magic"
+From which region does Ahri originate?,Origin region,Ionia
+What weapons does Akali use?,Akali's armaments,"Akali uses Kama, Kunai, Shuriken, and Smoke Bombs."
+In which region is Akali primarily active?,Akali's geographical location,Akali is primarily active in Ionia.
+Explain the influence of Master Kennen on Akali's development as an assassin within Ionia.,"Akali's relationship with Kennen, her training, and her Ionian upbringing","Master Kennen, like a surrogate father, mentored Akali and taught her crucial shuriken techniques during her youth in Ionia, significantly shaping her prowess as an assassin."
+What are Akshan's primary weapons?,Listing Akshan's equipment.,"Akshan wields The Absolver, a boomerang, and a grappling hook."
+Where is Akshan from?,Akshan's place of origin.,"Akshan is from Marwi, Shurima."
+What weapons does Alistar use?,Info about Alistar's weapons.,Alistar uses his horns and fists as weapons.
+In which region is Alistar originally from?,Info about Alistar's region of origin.,Alistar is originally from The Great Barrier.
+What region is Alune from?,Region of origin,Targon
+Who is Alune's twin brother?,Family relationship,Aphelios
+"Considering Aphelios's role as protector and Alune's magical gifts, what does their shared destiny as children of the lunar convergence imply for the Lunari's future?","Aphelios's role, Alune's magical gifts, lunar convergence destiny","Their shared destiny as children of the lunar convergence suggests they are divinely chosen to lead or protect the Lunari, with Aphelios's physical prowess and Alune's spiritual/magical insight working in tandem."
+What are Amumu's weapons?,List of his armaments,Amumu wields the Cursed Touch and Bandages.
+In which region did Amumu originate?,Geographical origin,Amumu originated from Shurima in ancient times.
+What weapon does Anivia use?,Weapon,Ice Magic
+What is Anivia's place of origin?,Place of origin,Freljord (The Formation)
+What is Annie's primary weapon?,List Annie's weapon.,Fire Magic
+In which region was Annie born?,State Annie's place of origin.,Ironspike Mountains
+How did Annie's mother become fused with a demon?,Explain the circumstances of Annie's mother's fusion with Tybaulk.,"Annie's mother, Amoline Kiosar, was experimentally fused with a demon named Tybaulk at the Black Rose's Ravenbloom Conservatory."
+What is the origin of Tybaulk?,Explain the origin of Tybaulk.,"Tybaulk is a stuffed teddy bear that Annie's mother, Amoline, crafted before Annie's birth, and it was experimentally fused with a demon named Tybaulk."
+What are the names of Aphelios's unique weapons?,Weapon list,"Moonstone Blade, Calibrum, Crescendum, Gravitum, Infernum, Severum"
+What is Ashe's primary weapon?,Weapon,True Ice Bow
+In which region does Ashe reside and rule?,Region/Place of Origin,Freljord
+Describe the nature of Ashe's childhood friendship with Sejuani.,Early Life/Lore,"Ashe and Sejuani were childhood friends who spent summers together, but their bond frayed as they grew older due to tribal politics."
+What was the reason for the severed ties between the Avarosan and Winter's Claw tribes concerning Sejuani's visits?,Early Life/Lore,"The ties were severed after Grena questioned Hejian's treatment of Sejuani, leading to a political rift."
+What is Ashlesh's primary weapon?,Infobox,Demonic Water Magic
+Where was Ashlesh originally trapped?,Lore Snippet,A shimmering lake within the seventh layer of the underworld.
+What weapon does Atakhan use?,Atakhan's weaponry.,Demonic magic
+In which region is Atakhan currently residing?,Atakhan's current region.,Noxus
+"Considering Atakhan's past affiliation with Mordekaiser, what kind of entity is Atakhan often associated with in the Noxian region?","Atakhan's entity type, historical connections, and regional association.",Atakhan is a malevolent demon often associated with violence and conflict in Noxus.
+List Aurelion Sol's weapons.,Weapon,"Stardust, Starfire Breath"
+What regions is Aurelion Sol associated with?,Region,"Runeterra, Targon"
+What weapons does Aurora wield?,Aurora's equipment from her infobox.,Aurora wields Spirit Magic and a Masterwork Wand.
+In which region does Aurora currently reside?,Aurora's current residence and geographical location.,Aurora currently resides in the Freljord with no fixed abode.
+What weapons does the Emperor of the Sands wield?,Weapons of Azir,"Azir wields the Staff of Office, uses Sand Magic and Sand Soldiers, and the Sun Disc."
+In which region does Azir currently reside?,Azir's Residence,"Azir currently resides in Shurima City, Shurima."
+How did Azir and Xerath initially form their friendship?,Azir and Xerath's Friendship Origin,Azir and Xerath became friends after Xerath helped Azir understand complex grammar from an ancient text in the library.
+"Considering Azir's ascent to Emperor of Shurima and his close bond with Xerath, what ancient text was crucial to their initial friendship?","Azir, Shurima, Xerath, Friendship, Ancient Texts",Azir's friendship with Xerath began when Xerath helped Azir understand complex grammar from an ancient text.
+What weapon does Bard use?,List Bard's weapon,Magical Horn
+What region is Bard associated with?,List Bard's region,Runeterra
+Where does Baron Nashor primarily reside?,Region,Baron Nashor primarily resides in the Void.
+What species is Baron Nashor?,Species,Baron Nashor is a Voidborn.
+What weapons does Bel'Veth wield?,Bel'Veth's armaments and offensive capabilities.,"Bel'Veth wields her Tail, Wing Tips, and her True Form in combat."
+Who are the creators of Bel'Veth?,Bel'Veth's lineage and origins.,Bel'Veth was created by the Watchers.
+List Blitzcrank's primary weapons.,Weapons,"Hextech Core, Chained Rocket Hand, Static Field"
+Who are the characters related to Blitzcrank?,Related characters,"Viktor, Ekko, Orianna, Zeri"
+What is Brand's primary weapon?,Weapon,Brand's primary weapon is Fire Magic.
+What region is Brand originally from?,Place of origin,Brand is originally from Rygann's Reach in the Freljord.
+What is the name of Braum's primary weapon?,Weapon details,Braum wields Ornn's Ram Door.
+In which region does Braum hail from?,Geographic origin,Braum hails from the Freljord.
+What weapons does Briar wield?,Weaponry,"Hemomancy, Pillory, Blood Blades"
+Who is credited as Briar's creator?,Creator/Family,Vladimir is credited as Briar's creator.
+"What was the strategic role of deploying Briar, Vladimir's creation, during Jericho Swain's coup?","Noxus politics, Vladimir, Black Rose, Swain's coup, Briar's deployment","Briar, a powerful blood magic weapon created by the Black Rose, was deployed during Jericho Swain's coup as part of the Black Rose's support for his power grab in Noxus."
+What are Caitlyn Kiramman's primary weapons?,Weapons,"Caitlyn Kiramman uses weapons such as a Hextech Rifle, a Yordle Snap Trap, and a 90 Caliber Net."
+Who is Caitlyn Kiramman's girlfriend?,Relationships,Caitlyn Kiramman's girlfriend is Vi.
+What weapons does Cassiopeia use?,Weapons,"Toxins, Twin Fang, Petrifying Gaze"
+Which region is Cassiopeia from?,Region,Noxus
+What are the weapons wielded by Cho'Gath?,Cho'Gath's offensive capabilities.,"Cho'Gath wields its teeth, spikes, and can use a Feral Scream."
+From which region does Cho'Gath originate?,Cho'Gath's homeland.,Cho'Gath originates from the Void.
+What weapons does Corki use?,Corki's arsenal,"Corki uses weapons such as the ROFL Copter, Hextech Shrapnel Shells, Phosphorus Bombs, Incendiary Bombs, Gatling Gun, and Hextech Missiles."
+Where is Corki from?,Corki's place of origin,Corki is from Bandle City.
+What weapons does Darius wield?,List weapon types associated with Darius.,Darius wields a Battleaxe and utilizes Noxian Might.
+In which region was Darius born?,Identify Darius's place of origin.,"Darius was born in Basilich, Noxus."
+List Diana's weapons.,Weaponry,"Crescent Moonblade, Relic Stone Blade, Lunar Magic"
+What region is Diana associated with?,Geography,Targon
+What weapons does Dr. Mundo use?,List weapons,"Dr. Mundo uses a Bonesaw, Electric Implants, and a 'Medical' bag."
+What region is Dr. Mundo from?,List regions,Dr. Mundo is from Zaun.
+What weapon does Draven use?,List weapons,Spinning Axes
+Where does Draven primarily reside?,List current residence,"Noxus Prime, Noxus"
+List Ekko's known weapons.,Information about Ekko's armaments and tools.,"Piltover Clock Hand, Zero-Drive, Timewinder, Smoke Grenade, Crystal Grenade, Aeroglider, Metal Pipe"
+What region is Ekko's home city located in?,Geographical origin of Ekko.,Zaun
+What is the Elder Dragon's weapon?,Weapon listing,8 Primordial Roar
+In which region does the Elder Dragon reside?,Region listing,Runeterra
+What weapons does Evelynn wield?,List of weapons,Evelynn wields Lashers and uses Shadow Magic.
+In which region did Evelynn originate?,Place of origin,Evelynn originated in Runeterra (Ancient Times).
+What weapon does Ezreal use?,Weapon,Left Gauntlet of Ne'Zuk Arcane Magic
+Where is Ezreal from?,Place of origin,Piltover
+What are Fiddlesticks' primary weapons?,Fiddlesticks' arsenal and abilities,"Fiddlesticks wields a Scythe and utilizes Life Drain Magic, in addition to its scarecrow effigy and body."
+In which regions has Fiddlesticks been observed in its physical form?,Fiddlesticks' geographical manifestations,"Fiddlesticks has been observed in the Rocky Highlands and Demacia, with its origin stated as the Spirit Realm."
+What weapons does Fiora use?,Weapons,Fiora uses two rapiers.
+In which region does Fiora reside?,Region,Fiora resides in Demacia.
+What weapon does Fizz wield?,Champion Abilities,The Seastone Trident.
+What region is Fizz associated with?,Champion Lore,Fizz is associated with Bilgewater.
+What are Galio's primary defensive tools?,Infobox 'Weapon' field.,"Petricite Body, Anti-Magic Bulwark, Shield of Durand."
+In which region of Runeterra does Galio primarily protect?,Infobox 'Region' and 'Place of origin' fields.,Demacia.
+List Gangplank's known weapons.,Weapon,"Gangplank's known weapons include the Bilgewater Cutlass, Hand Cannon, Dead Man's Plate, The 'Leviathan', The 'Dead Pool', and Death's Daughter."
+What are the primary regions associated with Gangplank?,Region,Gangplank is primarily associated with Bilgewater and the Serpent Isles.
+What weapons does Garen use?,List of weapons,"Garen uses the Silver Broadsword ""Judgment"", Anti-Magic Armor, and Demacian Justice."
+In which region does Garen reside?,Place of origin and residence,Garen resides in Demacia.
+What weapons does Gnar use?,General information about Gnar's arsenal.,"Gnar uses his Rage Gene, a Boomerang (as Mini Gnar), and a Boulder (as Mega Gnar)."
+In which regions has Gnar resided?,Information on Gnar's geographical locations.,"Gnar has resided in Bandle City and Ramshara, Freljord."
+"Considering Gnar's occupation as a hunter and his tendency to bond with larger creatures in the Freljord, how might his relationship with beings like Willump be characterized?","Synthesis of Gnar's role as a hunter, his Freljord origins, and his affinity for large creatures.","As a hunter in the Freljord who felt kinship with larger creatures, Gnar likely forms bonds with beings like Willump based on companionship and shared wilderness, rather than typical yordle social structures."
+What are Gragas's primary weapons?,Gragas's tools and equipment,Gragas uses a Cask and Graggy Ice.
+In which region does Gragas currently reside?,Gragas's current location,Gragas currently resides in the Freljord.
+What are the names of the weapons Graves uses?,Weapon List,"New Destiny, Smoke Canisters, Explosive Shells, Destiny, Relic Stone Shotgun"
+In which region did Malcolm Graves grow up?,Region of Origin,Bilgewater
+Tell me about the card game where Graves first met Twisted Fate.,Meeting Twisted Fate,"Graves met Twisted Fate across the table of a high-stakes, illegal card game in Mudtown, where they recognized a similar reckless passion in each other."
+What weapons does Gwen use?,Weapons,"Gwen uses Scissors, Needles & Thread, and the Hallowed Mist."
+What regions is Gwen associated with?,Regions,Gwen is associated with the Shadow Isles and Camavor.
+How did Viego's actions affect Gwen's existence?,History/Ruination,"Viego's attempt to revive Isolde unleashed ruination, leading to the crumble of Camavor and Gwen's subsequent abandonment and forgetting."
+What weapons does Hecarim wield?,Weapons,Hecarim wields a Glaive and The Black Spear.
+Which regions are associated with Hecarim?,Regions,Hecarim is associated with the Shadow Isles and the Kingdom of Camavor.
+What weapons does Heimerdinger use?,List weapons,"Heimerdinger uses a Wrench, D.I.N.G.R., H-28G Evolution Turret, and Z-Drive."
+What regions is Heimerdinger associated with?,List regions,Heimerdinger is associated with Piltover and Bandle City.
+What is Hwei's primary weapon?,Weapon,"Artistic magic, Paintbrush"
+Where is Hwei originally from?,Place of origin,"Koyehn, Ionia"
+What are Illaoi's primary weapons?,List of weapons,Illaoi wields the Eye of God and Nagakabouros.
+What region is Illaoi from?,Origin region,Illaoi is from the Buhru tribe of the Serpent Isles.
+What are Irelia's primary weapons?,Listing combat tools,"Xan Crest Blades, Blade Silk Dance, Relic Stone Blades"
+What is Irelia's region of origin?,Ionian homeland,Ionia
+What regions are associated with Ivern's origins?,List places of origin,Freljord and Ionia are associated with Ivern's origins.
+Who are Ivern's offspring?,List family members,Ivern's offspring are The Dreaming Tree and Lillia.
+What are Janna's primary weapons?,List of Janna's weapons.,"Wind Magic, Staff"
+In which regions has Janna been present?,List of regions associated with Janna.,"Shurima, Zaun"
+What is Jarvan IV's primary weapon?,Weapon,Drakebane
+What is Jarvan IV's region of origin?,Place of origin,"Great City, Demacia"
+What weapons has Jax been known to wield?,Jax's weaponry,"Brazier-Stave, 'The Light of Icathia', Icathian Axe-Headed Polearm, Sword"
+Which regions are associated with Jax?,Jax's geographical affiliations,"Runeterra, Icathia, Shurima"
+What are Jayce's primary weapons?,Jayce's Arsenal,"Jayce's primary weapons include the Mercury Hammer, Mercury Cannon, Hextech Capacitor, and Acceleration Gate."
+In which region does Jayce primarily operate?,Jayce's Home Region,Jayce primarily operates in Piltover.
+List all known weapons used by Jinx.,Weapons and equipment.,"Jinx uses Pow-Pow, Fishbones, Rhinogun, Pistol, Zapper, Chompers, and Shimmer."
+What region is Jinx from?,Geographical origin.,Jinx is from Zaun.
+What weapon does K'Sante wield?,Weapon details,Ntofos
+Where is K'Sante's place of origin?,Origin details,Nazumah
+What are Kai'Sa's primary weapons?,Weapons,"Kai'Sa uses a living Void carapace, Void energy, energy blades, and Void missiles."
+Where is Kai'Sa originally from?,Place of origin,"Kai'Sa is originally from Sai, Shurima."
+"Considering Kai'Sa's father is Kassadin, how does her relationship with the Void differ from his?","Relationship (father), Void lore","While both Kai'Sa and Kassadin are deeply affected by the Void, Kai'Sa has bonded with a Void carapace and uses its power to fight the Void, whereas Kassadin appears to be more consumed by his hatred and desperate search for his daughter."
+What are Kalista's primary weapons?,Weapons,"Soul Spears, Soul Sentinels, 2 Black Spear"
+In which regions is Kalista primarily associated with?,Regions,"Camavor, Shadow Isles"
+What weapons does Karma use?,Infobox,Karma wields Spirit Magic and the Mantle of Decorum.
+Where is Karma's current residence?,Infobox,Karma's current residence is the Lasting Altar in Ionia.
+What are Karthus's primary weapons or magical abilities?,Karthus's arsenal,Karthus wields Unholy Magic and the Black Mist.
+Where does Karthus currently reside?,Karthus's current location,Karthus currently resides in the Shadow Isles.
+Who is Kassadin's daughter?,Family relations,Kassadin's daughter is Kai'Sa.
+What weapon does Kayle wield?,Weapon,"Kayle wields Ascended Wings, Celestial Fire Magic, and a sword named Virtue."
+In which region does Kayle currently reside?,Current residence,Kayle's current residence is Mount Targon.
+"What is the relationship between Kayle's mother, Mihira, being the Aspect of Justice and Kayle and Morgana being born with celestial power on Mount Targon?",Family/Origin/Power,"Mihira, as the Aspect of Justice, ascended while pregnant, passing a fraction of her celestial power to her daughters, Kayle and Morgana, at their birth on Mount Targon."
+What weapon does Kayn wield?,Kayn's signature weaponry,Kayn wields Rhaast's Scythe. He also utilizes Blood Magic and Shadow Technique.
+In which regions has Kayn operated?,Kayn's geographical operational areas,Kayn has operated in Ionia and Noxus.
+Describe the internal conflict Kayn experiences due to Rhaast.,Kayn's struggle with Darkin possession,Kayn's inner struggle involves choosing between wielding Rhaast's Darkin power and maintaining his own identity as the Shadow Assassin.
+What is the significance of Rhaast's Scythe to Kayn's identity as both a Shadow Assassin and a potential Darkin host?,"Interplay between weapon, species, and role","Rhaast's Scythe is central to Kayn's dual nature; it grants him the power of a Darkin, which he can harness to become the Shadow Reaper, or resist to maintain his own identity as a Shadow Assassin, representing a constant internal conflict."
+What weapons does Kennen wield?,List of weapons,"Thundering Shuriken, Electric Magic"
+Who are the other Voidborn creatures closely related to Kha'Zix?,Related Characters,"Cho'Gath, Kog'Maw, Vel'Koz, Bel'Veth"
+What is Kha'Zix's place of origin?,Origin,The Void
+In which regions does Kindred reside or have origins?,Regions,"Kindred's current residence is Runeterra with no fixed abode, and their origin is unknown, possibly the Spirit Realm."
+List the characters that are related to Kindred.,Related Characters,"Characters related to Kindred include Karthus, Mordekaiser, Yorick, Ambessa, Tryndamere, and Aatrox."
+What are Kled's primary weapons?,Kled's combat equipment,"Kled's primary weapons are a Long Axe, a Bear Trap on a Rope, and a Pocket Pistol."
+In which region does Kled currently reside?,Kled's current location,"Kled currently resides in the Dalamor Plain, Noxus."
+What is Kog'Maw's primary weapon?,Weapons,Caustic Spittle
+In which region was Kog'Maw created?,Region,The Void
+What is the significance of Kog'Maw being slowly drawn towards Malzahar?,Motivation,The purpose of this pull and what will happen when the two meet are both unknown.
+"Given Kog'Maw entered Runeterra through Icathia and is drawn to Malzahar, what is his current residence and what is his relationship with Malzahar?","Region, Relationships, Lore","Kog'Maw's current residence is the Shuriman Continent, likely between Icathia and Amakra. His exact relationship with Malzahar is unknown, but he is slowly being drawn towards him."
+Who are LeBlanc's known pets?,List of associated characters,Atakhan and Tybaulk
+In which region does LeBlanc currently reside?,LeBlanc's associated region,Noxus
+What was LeBlanc's perspective on Mordekaiser's character?,Lore snippet on Mordekaiser's reign,LeBlanc believed that Mordekaiser would use or sacrifice anyone if it benefited him.
+What weapon does Lee Sin use?,Weapon,Dragon Stance
+Where is Lee Sin's place of origin?,Place of origin,Ionia (Modern Times)
+What weapons does Leona use?,List weapons,"Zenith Blade, Shield of Daybreak, Solar Magic"
+In which region does Leona primarily operate?,List region,Targon
+What are Lissandra's primary weapons used in combat?,Weapons,Lissandra primarily uses Dark Ice Magic and Dream Manipulation.
+In which major region of Runeterra does Lissandra hold significant influence and reside?,Region,Lissandra's primary region of influence and residence is the Freljord.
+What are Lucian's primary weapons?,Weapon,Urias' Relic Pistol and Senna's Relic Pistol
+In which region was Lucian born and raised?,"Place of origin, Region",Lucian was born and raised in Demacia.
+What weapons does Lulu use?,List of Lulu's known armaments,Lulu uses Fae Magic and a Spiraling Staff.
+Where is Lulu originally from?,Lulu's place of origin,Lulu is originally from Bandle City.
+What regions is Malphite associated with?,Malphite's lore and origin,"Ixtal, Shurima"
+Who created Malphite?,Malphite's family and origin,Ne'Zuk
+What is Maokai's primary weapon?,General lore,Nature Magic
+Which region did Maokai guard before the Ruination?,"Blessed Isles, Ruination",Blessed Isles
+What are Master Yi's primary weapons?,List of weapons,Master Yi wields the Wuju Blade and uses the Wuju Style. He also possesses Doran's Seven Lenses of Insight.
+Where did Master Yi originate from?,Place of origin,Master Yi originated from the village of Wuju in Ionia.
+What are Milio's weapons?,Milio's equipment,Milio wields the Fire Axiom and Furnasita.
+Where does Milio currently live?,Milio's home region,"Milio currently resides in Ixaocan, Ixtal."
+What are Miss Fortune's signature weapons?,"Weaponry, equipment",Miss Fortune's signature weapons are named Shock & Awe.
+Where is Miss Fortune from?,"Origin, birthplace",Miss Fortune is from Bilgewater and the Serpent Isles.
+Who is Morgana's twin sister?,Family relationships,Kayle
+What weapons does Naafiri use?,Weapons,Naafiri uses Darkin Daggers and Hemomancy.
+Who are the characters related to Naafiri?,Related Characters,"Naafiri is related to Aatrox, Varus, Rhaast, Xolaani, Kayn, and Zaahen."
+What weapons does Nami wield?,List of Nami's weapons,Nami wields the Tidecaller Staff and uses Water Magic.
+In which region does Nami primarily reside or originate from?,Geographical origin and residence of Nami,Nami originates from the Marai Territory on the coastline of Mount Targon.
+What weapons does Nasus wield?,Weapons,Nasus wields Curator's Gatebreaker and Many Suns Spirit Fire.
+In which region does Nasus reside?,Region,Nasus's region is Shurima.
+How did Nasus's duty in Shurima potentially conflict with his relationship with his brother Renekton?,"Duty in Shurima, relationship with brother","Nasus's duty as a guardian and general in Shurima, and Renekton's descent into madness and rage, created a deep rift and tragic conflict between the brothers during Shurima's fall."
+What are Nautilus's primary weapons?,Based on provided infobox.,"Anchor, Cursed Diving Gear"
+In which region does Nautilus reside?,Based on provided infobox.,Bilgewater
+What is Neeko's primary weapon or magic source?,Derived from 'Weapon' in infobox.,Sho'ma Spirit Magic
+Which region is Neeko from?,Derived from 'Region' in infobox.,Ixtal
+"Given Neeko's connection to Nidalee and Rengar, what can be inferred about her relationship with the wild and untamed regions of Runeterra?","Linking 'Related character' (Nidalee, Rengar) with her origin and current residence (Shuriman Jungle).","Neeko's association with Nidalee and Rengar, known for their primal connections to the wild, suggests she likely shares a deep affinity for the untamed regions of Runeterra, such as the Shuriman Jungle where she currently resides."
+What weapons does Nidalee utilize?,List of weapons,"Nidalee uses a Javelin Spear, Honeyfruit Healing Salves, Pakaa Claws, and Pakaa Teeth."
+What weapon does Nilah wield?,Nilah's weaponry,Nilah wields the Urumi and Demonic Power.
+What regions is Nilah associated with?,Nilah's origins and current locations,Nilah is associated with Kathkan and Bilgewater.
+What are Nocturne's primary weapons?,Nocturne's abilities and combat tools.,Nocturne wields Umbra Blades and Shadow Magic.
+List characters related to Nocturne.,Nocturne's known associates and connections.,"Characters related to Nocturne include Evelynn, Tahm Kench, Zed, Garen, Lux, and Sylas."
+"Considering Nocturne's nature as a demon of nightmares, how does it relate to other demons like Evelynn and Tahm Kench?",Understanding Nocturne's role within the demonic hierarchy or community.,"As a demon of nightmares, Nocturne's relationship with other demons like Evelynn and Tahm Kench is likely one of shared existence in the spirit realm, though specific interactions beyond shared origin are not detailed."
+What weapons does Nunu use?,Nunu's combat and utility tools,"Svellsongur, Snowballs, and Ice Magic"
+What region is Nunu from?,Nunu's geographical origin,Freljord
+Describe Nunu's bond with Willump in the context of his nomadic Freljord life.,Nunu's relationship with Willump and his nomadic Freljord lifestyle,"Nunu, a nomadic adventurer from the Freljord's Notai tribe, likely formed a deep bond with his yeti companion, Willump, as a source of companionship and support during his travels and isolation after losing his mother."
+What are Olaf's primary weapons?,List of weapons,"Olaf's primary weapons include his True Ice Axe, Berserker Rage and Relic Stone Axes."
+In which regions does Olaf primarily reside or originate from?,"Place of origin, Region",Olaf originates from Lokfar in the Freljord and currently resides in the Freljord.
+How did Olaf's Freljord upbringing influence his decision to fight Viego's Ruination alongside the Sentinels of Light?,"Lokfar, Freljord, Sentinels of Light, Viego's Ruination",Olaf's warrior upbringing in the Freljord where battle was common likely contributed to his willingness to join the Sentinels of Light and fight Viego's Ruination after nearly losing his life.
+What is Orianna's main weapon?,General,The Ball
+In which region was Orianna originally from?,Geography,Piltover
+List all weapons Ornn is known to wield.,List weapons,"The Hammer, Primordial Flame, The Spade, The Fork, The Ram-Door."
+Who are Ornn's siblings?,List family members,"Ornn's siblings include Volibear, Anivia, Ildhaurg, and several unnamed siblings (Wildclaw, Raven, Seal Sister, Lynx, Owl)."
+"Describe the relationship between Ornn and his brother Volibear, considering their shared origin in the Freljord.",Sibling relationship and Freljord origin,Ornn and Volibear are brothers who originated from the Freljord. Their shared origin likely influences their roles as powerful spirits within the region.
+Who is the betrayer associated with Ornn's brother?,Test for entity resolution of 'betrayer' in relation to Volibear.,"The provided lore does not specify any betrayer associated with Ornn's brother, Volibear."
+What weapons does Pantheon wield?,List weapons,"Pantheon wields Celestial Magic, Skyfall of Areion, Aegis of Zeonia, Solstice of Astraea, and Nova of Atreus."
+In which regions is Pantheon primarily active?,List regions,"Pantheon is associated with Targon, including Targon Prime and Rakkor Caves on Mount Targon."
+What is the name of Poppy's primary weapon?,Champion Attributes,Hammer of Orlon
+In which region is Poppy known to be a hero?,Champion Attributes,Demacia
+What is Qiyana's signature weapon?,Weapon,"Qiyana wields the Ohmlatl, a weapon infused with elemental magic."
+In which region does Qiyana hail from?,Region,"Qiyana hails from Ixtal, specifically the region of Ixaocan."
+What weapon does Quinn use in combat?,Weapons,Quinn uses a Tuskvore Crossbow.
+Who is Quinn's twin brother?,Family,Quinn's twin brother was named Caleb.
+What weapon does Rammus use?,Rammus's equipment,Spiked Shell
+In which region does Rammus primarily roam?,Rammus's current location,Shurima
+What weapons does Rek'Sai use?,Information about Rek'Sai's offensive capabilities and physical attributes.,"Rek'Sai uses her claws, fangs, and tail as weapons."
+Who created Rek'Sai?,Details regarding the origin and creators of Rek'Sai.,Rek'Sai was created by the Watchers.
+What combat abilities does Rell utilize?,Her weapons and abilities.,"Rell utilizes Ferromancy, a Metal Lance, and her Iron Steed."
+Who is Rell's mother mentioned in her family history?,Family relationships.,Rell's mother is Lady Dahlia of House Canwell.
+List all weapons used by Renata Glasc.,List of weapons,"Renata Glasc uses the Chemtech Formula, a Handgun, a Chemtech-Augmented Prosthetic Arm, and a Chemtech Decanter."
+Which characters are related to Renata Glasc?,Related characters,"The characters related to Renata Glasc include Camille, Ekko, Samira, and Zeri."
+What weapon does Renekton primarily use?,Weapon details,Crescent Axe
+What are Rengar's primary weapons?,Weapons list,"Rengar's primary weapons include the Kirai Saber, Arm Blades, Bolas, and Relic Stone Knives."
+In which region does Rengar primarily operate?,Region,Rengar primarily operates in Ixtal.
+What region is the Rift Herald from?,Location,The Rift Herald is from the Void.
+What species is the Rift Herald?,Species,The Rift Herald is a Voidborn.
+What weapons does Riven wield?,List Riven's primary combat tools.,Riven wields the Runic Blade and a Relic Stone Sword.
+In which regions has Riven lived or served?,Identify the geographical locations associated with Riven.,Riven has lived in Trevale (Noxus) and served in Noxus and Ionia.
+What are Rumble's primary weapons or inventions?,Rumble's inventions and combat gear,"Rumble's primary weapons and inventions include his mechanized junkyard suit 'Tristy', the Flamespitter, Scrap Shield, Electro Harpoon, and The Equalizer."
+Where does Rumble currently reside?,Rumble's current domicile,Rumble currently resides in Bandle City.
+What is Ryze's primary weapon?,Champion's primary tool/weapon,Rune Magic
+In which region does Ryze operate?,Champion's geographical domain,Runeterra
+List Samira's weapons.,Weaponry,"Blaze & Thorn, Vanquish"
+What regions is Samira associated with in her lore?,Geographical Affiliations,"Shurima, Noxus"
+What weapon does Senna wield?,Weapon Information,Relic Cannon
+Where was Senna originally from?,Origin Information,An unnamed island off the coast of Demacia
+What weapon does Seraphine use?,Weapon,"Empathetic Sound Magic, Echoes of the Heart, Hexcoustic Guitar."
+In which regions does Seraphine perform?,Region,Piltover and Zaun.
+What are Shaco's primary weapons?,Weapons,"Shaco wields Poisoned Dual Shivs, Jacks in the Boxes, and uses Hallucination."
+In which region does Shaco currently reside?,Residence,Shaco has no fixed abode and his current residence is unknown.
+What are Shen's primary weapons?,General knowledge about Shen's equipment.,"Ionian Steel Saber, Spirit Blade, Vorpal Blade."
+Where does Shen primarily reside?,Shen's current dwelling.,"Temple of Koeshin, Ionia."
+What weapons does Shyvana wield?,Weapons,"Fire Magic, Dragon Form"
+In which region does Shyvana currently reside?,Region,Demacia
+What are Singed's primary alchemical weapons?,Singed's alchemical arsenal.,"Singed's primary alchemical weapons include Insanity Potion, Poison Gas, Scalpel, Syringe, and Shimmer."
+In which regions does Singed operate?,Singed's geographical presence.,Singed operates in both Zaun and Piltover.
+List all weapons Sion is known to wield.,"Information about Sion's arsenal, including weapons like the Chopper, Soul Furnace, and the use of Blood Magic.","Sion wields a chopper, the Soul Furnace, and utilizes Blood Magic."
+What is Sion's primary region of origin and current residence?,Geographical details of Sion's origin and current location.,Sion originates from Noxus (Medieval times) and currently resides in Noxus.
+List Sivir's primary weapons.,Weapons,Sivir wields the 7 Chalicar and uses Ricochet.
+Who is Sivir's ancestor mentioned in her family tree?,Family,Sivir's ancestor is Omah Azir.
+What are Skarner's primary weapons?,Weapons,"Brackern Geomancy, Stinger"
+In which region does Skarner currently reside?,Current residence,"Ixaocan, Ixtal"
+What weapon does Smolder use?,Smolder's equipment and abilities,Smolder's weapon is his Fire Breath.
+What regions is Smolder associated with?,Smolder's origin and current locations,Smolder is associated with Noxus and Camavor.
+What is the name of Sona's adoptive father?,Family and Adoption Details,Barrett Buvelle
+In which region does Sona currently reside?,Current Residence and Region,Demacia
+What are Soraka's celestial weapons?,Weapons,Soraka wields a Celestial Staff and utilizes Star Magic and Healing Magic.
+In which regions does Soraka primarily reside?,Residence and Region,"Soraka resides in the Astral Grove and Mount Targon, and is also associated with Ionia."
+What are Sylas's primary weapons?,List of equipped items or combat tools.,"Petricite Restraints, Petricite Chains, Absorption Magic, Sensory Magic"
+From which region does Sylas hail?,Geographical or political origin.,Demacia
+What are Syndra's primary weapons?,Direct lookup from infobox,"Dark Spheres, Force of Will"
+In which region of Runeterra does Syndra primarily reside?,Direct lookup from infobox,Ionia
+What weapons does Tahm Kench use?,Infobox,"Tongue, Teeth"
+What are Taliyah's main magical abilities or weapons?,Abilities/Skills,Taliyah's primary ability is Stone Magic.
+Where was Taliyah originally from?,Place of origin,"Taliyah was born in the south of Shurima, near the border of Icathia."
+What weapons does Talon use?,List of equipment,"Talon uses Arm Blades, Circular Daggers, and Double-Edged Blades."
+In which region is Talon primarily associated with?,Geographic origin and current residence,"Talon is primarily associated with Noxus, though he has also resided in Shurima."
+What are Taric's primary weapons?,Weapons,Taric wields Bravado and Bastion.
+What regions is Taric primarily associated with?,Regions,Taric is associated with Targon and Demacia.
+What weapons does Teemo wield?,List weapons,"Teemo wields a blowgun, darts, Ajunta Poison, and Poison Puffcaps."
+What region is Teemo from?,Region information,Teemo is from Bandle City.
+What weapons does Thresh wield?,Weaponry Details,Thresh wields a Scythe and a Soul Lantern.
+What are the regions associated with Thresh?,Geographical Locations,Thresh is associated with the Shadow Isles and the Blessed Isles.
+What is the name of Trundle's weapon?,Weapon,Boneshiver
+From which region does Trundle originate?,Place of Origin,Freljord
+What is Tryndamere's primary region of origin?,Region,Freljord
+Who is Tryndamere's spouse?,Relationship,Ashe
+What are the names of Twisted Fate's weapons?,List of weapons,"Loaded Dice, Blue Card, Red Card, Gold Card."
+What weapons does Twitch use?,Weapons,Twitch uses a Chemtech Crossbow and Venom Casks.
+Where does Twitch originate from and currently reside?,"Place of origin, Region",Twitch originates from and currently resides in Zaun.
+What are the different spirit forms Udyr can manifest?,List of Udyr's spirit forms.,"Udyr can manifest the Bear Spirit Form, Boar Spirit Form, Cryophoenix Spirit Form, Ram Spirit Form, Seal Spirit Form, and Wildclaw Spirit Form."
+Where does Udyr currently reside?,Udyr's current residence.,"Udyr currently resides in the Freljord, and previously lived in the Hirana Monastery in Ionia."
+What weapons does Urgot use?,List of weapons,"Urgot uses shotgun legs, Corrosive Charge, a machine gun, and a chem-drill & grinder."
+In which regions has Urgot been active?,Regions,Urgot has been active in Noxus and Zaun.
+How did Urgot end up in Zaun during Swain's uprising?,Lore snippet about Swain's uprising and capture,Urgot was sent to Zaun under the pretense of eliminating a conspiracy against the Noxian emperor as part of Swain's plan to keep him out of Noxus.
+What was the significance of Swain's uprising in Urgot's journey to Zaun?,"Swain's uprising, Urgot's relocation to Zaun","Swain's uprising was the catalyst for Urgot being sent to Zaun under false pretenses, leading to his capture and subsequent transformation in The Dredge."
+List all weapons Varus wields.,Weapons and abilities,"The Darkin Bow, Hemomancy, Corruptive Influence."
+What regions are associated with Varus's origin and current existence?,Geographical locations,"Varus originates from Shurima, and his hosts Kai and Valmar were from Ionia (Navori and Pallas)."
+What weapons does Vayne use?,Weaponry,"Vayne uses a Wristbolt Launcher, a Relic Stone Crossbow, a Heavy Crossbow, Silver Bolts, and Nightseeker Goggles."
+Which region is Vayne from?,Origin,Vayne is from Demacia.
+What are Veigar's primary weapons or sources of power?,Weapons,"Veigar wields Phenomenal Evil Power, and can use Spiritual magic, Elemental magic, Celestial magic, and Cosmic magic."
+In which regions of Runeterra has Veigar been known to reside or operate?,Regions,Veigar originates from Bandle City and has operated in Runeterra.
+What weapon does Vel'Koz utilize?,Infobox,Void Energy
+Who are Vel'Koz's creators?,"Infobox, Lore",The Watchers
+What are Vex's primary weapons?,Infobox data,Shadow and Darkness Magic
+Where does Vex currently reside?,Infobox data,Shadow Isles
+Who is Vi's younger sister?,Family relationships,Vi's younger sister is Jinx.
+What are the names of Vi's primary weapons?,Equipment/Arsenal,"Vi's primary weapons are the Atlas Gauntlets, Blast Shield, and Iron Gauntlets."
+What weapons did Viktor use in his pursuits?,List of items associated with a character.,"Viktor used the Hexcore, Hexclaw, and Herald's Staff."
+In which regions of Runeterra did Viktor primarily operate?,Geographical locations associated with a character.,"Viktor primarily operated in Zaun, and also had connections to Piltover."
+Where does Vilemaw currently reside?,Location,Shadow Isles (Twisted Treeline)
+Who is Elise related to?,Character Relationships,Vilemaw
+What is Vilemaw's place of origin?,Origin,Blessed Isles (Twisted Treeline)
+What is Vladimir's primary method of combat?,Weapon,Hemomancy
+What are Warwick's primary weapons?,Weaponry details,"Warwick wields Augmented Claws, Fangs, Chem-Tech Implants, Shimmer, Iron Gauntlets, Knuckles, and a Dagger."
+In which region does Warwick reside?,Geographical origin,Warwick resides in Zaun.
+In which region does Wukong reside?,INFOBOX,Ionia
+Who is listed as a related character to Wukong?,INFOBOX,"Master Yi, Doran, Ahri"
+What is Xayah's primary weapon?,Infobox,Magical Plumage
+What region is Xayah from?,Infobox,Ionia
+What weapon does Xin Zhao wield?,Weapon,Three Talon Spear
+In which regions has Xin Zhao been present?,Region,"Demacia, Noxus, Ionia"
+What are Yasuo's primary weapons?,Weaponry,Yasuo's primary weapons are his Wind Technique and his Steel Blade.
+List Yasuo's known family members.,Family and Relationships,"Yasuo's known family members include his unnamed father, unnamed stepfather, unnamed mother, and his half-brother Yone."
+Who is Yone's half-brother?,Family relationships,Yasuo
+What weapons does Yone wield?,Combat equipment,"Wind Technique, Steel and Azakana Blades, Spirit Magic, Dual Steel Blades"
+What artifact does Yunara wield?,Weapon,Yunara wields the Aion Er'na.
+In which regions does Yunara reside?,"Current residence, Region",Yunara resides in Ionia and the Spirit Realm.
+Who is Yuumi's master?,Character relationships,Norra
+Which champions are related to Yuumi?,List of associated characters,"Norra, Lulu, Tristana, Teemo, Rek'Sai, Braum, Alune, Gnar"
+What are Zaahen's primary weapons?,Weapon,"The Darkin Glaive, Ancient Solar Power, Hemomancy"
+In which regions has Zaahen been known to reside or operate?,Region,"Runeterra, Spirit Realm, Ionia, Shurima"
+What is Zac's primary weapon or ability?,Character Abilities,"Zac's primary weapon is his Ooze Body, which allows him to reshape and extend himself."
+In which region was Zac created and where does he currently reside?,Character Origin and Location,Zac was created in Zaun and currently resides in Zaun.
+What weapons does Zed use?,List weapons,"Dual Shadow Blades, Razor Shuriken, Forbidden Technique"
+In which region was Zed born?,Origin region,"Kéthé, Ionia"
+What weapons does Zeri wield?,List of weapons,Zeri wields Electricity Magic and an Electric Rifle.
+In which region does Zeri reside?,Region information,Zeri resides in Zaun.
+What are Ziggs' primary explosive weapons?,Weapon information,"Ziggs' weapons include the Bouncing Bomb, Satchel Charge, Hexplosive Minefield, and Mega Inferno Bomb."
+In which regions does Ziggs primarily operate?,Regional affiliations,Ziggs operates in Zaun and Piltover.
+In which regions is Zilean associated with?,Regions,"Zilean is associated with Runeterra, Icathia, and Shurima."
+What was Zilean's occupation in ancient Icathia?,Occupation/Role,Zilean was an Elemental Mage and a Councilor of Icathia.
+What is Zoe's primary weapon?,Weapon,Zoe wields Cosmic Magic.
+From which region does Zoe originate?,Region,Zoe originates from Mount Targon.
+What are Zyra's primary weapons?,List weapons,"Zyra's primary weapons include Seeds, Thorn Spitter, Vine Lasher, and Night-Blooming Zychids."
+In which region does Zyra currently reside?,List regions,Zyra currently resides in the Shuriman Jungle.
