@@ -36,8 +36,6 @@ class RAGEngine:
         # Return all metadata to serve the evaluation flow
         return {
             "query": query,
-            "intent": intent,           
-            "active_route": type(active_retriever).__name__, 
             "context": merged_context,          # Merged string (for Prompt/Debug)
             "retrieved_chunks": raw_chunks,     # Crucial for calculating Recall/Precision
             "answer": answer

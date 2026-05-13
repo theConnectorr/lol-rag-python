@@ -45,7 +45,7 @@ class LocalLLMGenerator(IModelGenerator):
 # ==========================================
 class KeywordRouter(IRouter):
     def route(self, query: str) -> str:
-        return "Vector"
+        return "Hybrid"
         # query_lower = query.lower()
 
         # # 1. GRAPH INTENT (Queries about entities, clear relationships, listings - Bilingual)

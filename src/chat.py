@@ -50,8 +50,8 @@ def initialize_engine():
         engine = RAGEngine(
             router=KeywordRouter(),
             retrievers={
-                "Vector": vector_retriever,
-                "Graph": graph_retriever,
+                # "Vector": vector_retriever,
+                # "Graph": graph_retriever,
                 "Hybrid": HybridRRFRetriever(vector_retriever, graph_retriever)
             },
             prompt_builder=StandardPrompt(),
@@ -86,7 +86,7 @@ def main():
             user_input = input(f"{Colors.GREEN}{Colors.BOLD}👤 You: {Colors.ENDC}")
 
             if user_input.lower() in ['quit', 'exit']:
-                print(f"\n{Colors.CYAN}👋 Goodbye! See you on Summoner's Rift.{Colors.ENDC}")
+                print(f"\n{Colors.CYAN}Goodbye! See you on Summoner's Rift.{Colors.ENDC}")
                 break
 
             if not user_input.strip():
@@ -94,32 +94,33 @@ def main():
 
             # 2. Process through RAGEngine
             start_time = time.time()
-            print(f"{Colors.YELLOW}🧠 System is thinking...{Colors.ENDC}")
+            print(f"{Colors.YELLOW}System is thinking...{Colors.ENDC}")
 
             result = engine.answer_question(user_input)
 
             latency = time.time() - start_time
 
             # 3. Print Metadata (Traceability)
-            print(f"{Colors.CYAN}   ↳ 🔀 Routing (Intent): {Colors.BOLD}{result['intent']}{Colors.ENDC}")
-            print(f"{Colors.CYAN}   ↳ 📚 Retriever: {result['active_route']}{Colors.ENDC}")
-            print(f"{Colors.CYAN}   ↳ ⏱️ Response Time: {latency:.2f} seconds{Colors.ENDC}")
+            # print(f"{Colors.CYAN}   ↳ 🔀 Routing (Intent): {Colors.BOLD}{result['intent']}{Colors.ENDC}")
+            # print(f"{Colors.CYAN}   ↳ Retriever: {result['active_route']}{Colors.ENDC}")
+            print(f"{Colors.CYAN}   ↳ Response Time: {latency:.2f} seconds{Colors.ENDC}")
 
             # Extract first 150 characters of Context for debug
-            context_preview = result['context'].replace('\n', ' ')[:150] + "..."
-            print(f"{Colors.CYAN}   ↳ 📝 Found Context: {context_preview}{Colors.ENDC}\n")
+            # context_preview = result['context'].replace('\n', ' ')[:150] + "..."
+            context_preview = result['context'].replace('\n', ' ')
+            print(f"{Colors.CYAN}   ↳ Found Context: {context_preview}{Colors.ENDC}\n")
 
             # 4. Print final answer
-            print(f"{Colors.HEADER}{Colors.BOLD}🤖 RAG Bot: {Colors.ENDC}{result['answer']}")
+            print(f"{Colors.HEADER}{Colors.BOLD}RAG Bot: {Colors.ENDC}{result['answer']}")
             print(f"\n{Colors.BLUE}----------------------------------------------------{Colors.ENDC}\n")
 
         except KeyboardInterrupt:
             # Handle Ctrl+C
-            print(f"\n\n{Colors.CYAN}👋 Goodbye!{Colors.ENDC}")
+            print(f"\n\n{Colors.CYAN}Goodbye!{Colors.ENDC}")
             break
         except Exception as e:
             logger.error(f"Error during chat loop: {e}", exc_info=True)
-            print(f"{Colors.RED}\n❌ An error occurred: {e}{Colors.ENDC}\n")
+            print(f"{Colors.RED}\nAn error occurred: {e}{Colors.ENDC}\n")
 
 if __name__ == "__main__":
     main()

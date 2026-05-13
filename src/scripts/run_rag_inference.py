@@ -101,11 +101,8 @@ def run_inference(csv_path, output_jsonl="rag_outputs.jsonl"):
                 # Package actual data + expected data into one Record
                 record = {
                     "query": query,
-                    "expected_intent": str(row['expected_intent']),
                     "expected_context": str(row['expected_context']),
                     "ground_truth_answer": str(row['ground_truth_answer']),
-                    "actual_intent": result.get("intent", "Unknown"),
-                    "active_route": result.get("active_route", "Unknown"),
                     "retrieved_chunks": result.get("retrieved_chunks", []),
                     "actual_answer": result.get("answer", ""),
                     "latency": round(latency, 2)

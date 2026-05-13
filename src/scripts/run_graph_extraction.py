@@ -11,8 +11,6 @@ SKILL_FILE = ".gemini/skills/graph-extractor/SKILL.md"
 
 def load_skill_prompt():
     with open(SKILL_FILE, "r", encoding="utf-8") as f:
-        # Skip YAML frontmatter (between --- and ---) when injecting into prompt
-        # to let LLM focus 100% on Instructions
         content = f.read()
         if content.startswith("---"):
             parts = content.split("---", 2)
@@ -47,11 +45,10 @@ def main():
             logger.info(f"⏩ Skipping {champ_id} (Knowledge Graph already exists).")
             continue
             
-        logger.info(f"⏳ [{idx+1}/{total_champions}] Analyzing Graph for {champ_id}...")
+        logger.info(f"[{idx+1}/{total_champions}] Analyzing Graph for {champ_id}...")
         
         lore_snippet = str(champ_data.get("mainContent", ""))[:2500] 
         
-        # Explicitly mention the skill name in prompt for emphasis
         full_prompt = f"""
 {skill_context}
 
@@ -63,15 +60,20 @@ LORE TEXT:
 
 Begin JSON extraction strictly:
 """
-
         cmd = [
             "gemini", 
-            "--model", "gemini-2.5-flash", 
-            "-p", full_prompt
+            "--model", "gemini-2.5-flash-lite"
         ]
         
         try:
-            result = subprocess.run(cmd, capture_output=True, text=True, check=True, encoding="utf-8")
+            result = subprocess.run(
+                cmd, 
+                input=full_prompt,
+                capture_output=True, 
+                text=True, 
+                check=True, 
+                encoding="utf-8"
+            )
             raw_output = result.stdout
             
             clean_json_str = extract_json_from_text(raw_output)
@@ -82,12 +84,12 @@ Begin JSON extraction strictly:
             with open(filepath, "w", encoding="utf-8") as f:
                 json.dump(champ_data, f, ensure_ascii=False, indent=2)
                 
-            logger.info(f"✅ Finished {champ_id}. Extracted {len(graph_data.get('nodes', []))} nodes and {len(graph_data.get('edges', []))} edges.")
+            logger.info(f"Finished {champ_id}. Extracted {len(graph_data.get('nodes', []))} nodes and {len(graph_data.get('edges', []))} edges.")
             
         except subprocess.CalledProcessError as e:
-            logger.error(f"❌ CLI error while processing {champ_id}:\n{e.stderr}")
+            logger.error(f"CLI error while processing {champ_id}:\n{e.stderr}")
         except json.JSONDecodeError as e:
-            logger.error(f"❌ Error parsing JSON from {champ_id} results:\nRaw output: {clean_json_str}")
+            logger.error(f"Error parsing JSON from {champ_id} results:\nRaw output: {clean_json_str}")
             
         time.sleep(1)
 
